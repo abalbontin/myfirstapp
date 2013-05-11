@@ -1,2 +1,3 @@
 * El simulador que he creado tarda mucho en arrancar ¿es normal? --> AVD_for_Galaxy_Nexus / Galaxy Nexus (4.65'', 720 x 1280: hdpi)
 
+* Una vez lanzada una aplicación en mi dispositivo o el simulador ¿cómo se para?
