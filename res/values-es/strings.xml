@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Comunes -->
+    <string name="app_name">Mi Primera App</string>
+    <string name="action_settings">Ajustes</string>
+    
+    <!-- Main Activity -->
+    <string name="select_option">Selecciona una opción:</string>
+    <string name="button_send_message">Opción - Enviar mensaje</string>
+        
+    <!-- Send Message Activity -->
+    <string name="edit_message">Introduce un mensaje</string>
+    <string name="button_send">Enviar</string>
+    <string name="title_activity_send_message">Enviar Mensaje</string>
+    
+    <!-- My Message Activity -->
+    <string name="title_activity_display_message">Mi Mensaje</string>
+    
+</resources>
