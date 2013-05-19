@@ -25,6 +25,14 @@
         <activity
             android:name="com.example.myfirstapp.DisplayMessageActivity"
             android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.myfirstapp.SendMessageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.SendMessageActivity" />
+        </activity>
+        <activity
+            android:name="com.example.myfirstapp.SendMessageActivity"
+            android:label="@string/title_activity_send_message"
             android:parentActivityName="com.example.myfirstapp.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

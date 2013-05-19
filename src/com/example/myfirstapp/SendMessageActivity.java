@@ -1,6 +1,5 @@
 package com.example.myfirstapp;
 
-import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
@@ -8,30 +7,19 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.EditText;
 
-public class DisplayMessageActivity extends Activity {
+public class SendMessageActivity extends Activity {
 
-	@SuppressLint("NewApi")
+	public final static String EXTRA_MESSAGE = "com.example.myfistapp.MESSAGE";
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_display_message);
+		setContentView(R.layout.activity_send_message);
 		// Show the Up button in the action bar.
 		setupActionBar();
-	
-		// Get the message from the intent.
-		Intent intent = getIntent();
-		String message = intent.getStringExtra(SendMessageActivity.EXTRA_MESSAGE);
-		
-		// Create the text view.
-		TextView textView = new TextView(this);
-		textView.setTextSize(40);
-		textView.setText(message);
-		
-		// Set the text view as the activiyy layout.
-		setContentView(textView);
-		
 	}
 
 	/**
@@ -60,5 +48,16 @@ public class DisplayMessageActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	
+    /** Called when the user clicks the Send buton */
+    public void sendMessage(View view) {
+    	
+    	Intent intent = new Intent(this, DisplayMessageActivity.class);
+    	EditText editText = (EditText) findViewById(R.id.edit_menssage);
+    	String message = editText.getText().toString();
+    	intent.putExtra(EXTRA_MESSAGE, message);
+    	startActivity(intent);
+    	
+    }
 
 }
