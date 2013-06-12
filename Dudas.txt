@@ -1,11 +1,7 @@
-* El simulador que he creado tarda mucho en arrancar ¿es normal? --> AVD_for_Galaxy_Nexus / Galaxy Nexus (4.65'', 720 x 1280: hdpi)
+* ¿Cómo escribo log? --> Log.d("MyApp", "Esto es un mensaje de pruebas"); // Recordar hacer un filtro desde el LogCat pulsando en el +
 
-* Una vez lanzada una aplicación en mi dispositivo o el simulador ¿cómo se para?
+* ¿Cómo busco una cadena de texto en todo el código? --> Control + H.
 
-* ¿Cómo escribo log?
+* ¿Cómo se debuguea con tanta configuración en ficheros xml? --> En los XML no se debugea.
 
-* ¿Cómo busco una cadena de texto en todo el código?
-
-* ¿Cómo se debuguea con tanta configuración en ficheros xml?
-
-* ¿Cómo busco ayuda de la documentación de las clases del SDK de android? Por ejemplo, de "startActivity(intent);" al pulsar sobre startActivity.
+* ¿Cómo busco ayuda de la documentación de las clases del SDK de android? Por ejemplo, de "startActivity(intent);" al pulsar sobre startActivity. --> Selecciono la palabra y lo dejo quito.
