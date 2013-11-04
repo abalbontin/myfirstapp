@@ -4,4 +4,4 @@
 
 * ¿Cómo se debuguea con tanta configuración en ficheros xml? --> En los XML no se debugea.
 
-* ¿Cómo busco ayuda de la documentación de las clases del SDK de android? Por ejemplo, de "startActivity(intent);" al pulsar sobre startActivity. --> Selecciono la palabra y lo dejo quito.
+* ¿Cómo busco ayuda de la documentación de las clases del SDK de android? Por ejemplo, de "startActivity(intent);" al pulsar sobre startActivity. --> Selecciono la palabra y lo dejo quieto.
