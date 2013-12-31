@@ -23,6 +23,17 @@
 		57C8DAC11873285500DE6E34 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAB61873285500DE6E34 /* Icon@2x.png */; };
 		57C8DAC21873285500DE6E34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAB81873285500DE6E34 /* Localizable.strings */; };
 		57C8DAC5187328B300DE6E34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8DAC4187328B300DE6E34 /* AppDelegate.m */; };
+		57C8DACC1873300C00DE6E34 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8DACA1873300C00DE6E34 /* MainViewController.m */; };
+		57C8DACD1873300C00DE6E34 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DACB1873300C00DE6E34 /* MainViewController.xib */; };
+		57C8DAD11873330600DE6E34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C8DAD01873330600DE6E34 /* MapKit.framework */; };
+		57C8DADA187335AF00DE6E34 /* main_featured_ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD2187335AF00DE6E34 /* main_featured_ic.png */; };
+		57C8DADB187335AF00DE6E34 /* main_featured_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD3187335AF00DE6E34 /* main_featured_ic@2x.png */; };
+		57C8DADC187335AF00DE6E34 /* main_nearby_ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD4187335AF00DE6E34 /* main_nearby_ic.png */; };
+		57C8DADD187335AF00DE6E34 /* main_nearby_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD5187335AF00DE6E34 /* main_nearby_ic@2x.png */; };
+		57C8DADE187335AF00DE6E34 /* main_promotions_ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD6187335AF00DE6E34 /* main_promotions_ic.png */; };
+		57C8DADF187335AF00DE6E34 /* main_promotions_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD7187335AF00DE6E34 /* main_promotions_ic@2x.png */; };
+		57C8DAE0187335AF00DE6E34 /* main_settings_ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD8187335AF00DE6E34 /* main_settings_ic.png */; };
+		57C8DAE1187335AF00DE6E34 /* main_settings_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD9187335AF00DE6E34 /* main_settings_ic@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +77,18 @@
 		57C8DABB1873285500DE6E34 /* LocalizableConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizableConstants.h; sourceTree = "<group>"; };
 		57C8DAC3187328B300DE6E34 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57C8DAC4187328B300DE6E34 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57C8DAC91873300C00DE6E34 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		57C8DACA1873300C00DE6E34 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		57C8DACB1873300C00DE6E34 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		57C8DAD01873330600DE6E34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		57C8DAD2187335AF00DE6E34 /* main_featured_ic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_featured_ic.png; sourceTree = "<group>"; };
+		57C8DAD3187335AF00DE6E34 /* main_featured_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_featured_ic@2x.png"; sourceTree = "<group>"; };
+		57C8DAD4187335AF00DE6E34 /* main_nearby_ic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_nearby_ic.png; sourceTree = "<group>"; };
+		57C8DAD5187335AF00DE6E34 /* main_nearby_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_nearby_ic@2x.png"; sourceTree = "<group>"; };
+		57C8DAD6187335AF00DE6E34 /* main_promotions_ic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_promotions_ic.png; sourceTree = "<group>"; };
+		57C8DAD7187335AF00DE6E34 /* main_promotions_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_promotions_ic@2x.png"; sourceTree = "<group>"; };
+		57C8DAD8187335AF00DE6E34 /* main_settings_ic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_settings_ic.png; sourceTree = "<group>"; };
+		57C8DAD9187335AF00DE6E34 /* main_settings_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_settings_ic@2x.png"; sourceTree = "<group>"; };
 		8A8CA61998794140A0F68B11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C8DAD11873330600DE6E34 /* MapKit.framework in Frameworks */,
 				576CF4341873199A00B88508 /* CoreGraphics.framework in Frameworks */,
 				576CF4361873199A00B88508 /* UIKit.framework in Frameworks */,
 				576CF4321873199A00B88508 /* Foundation.framework in Frameworks */,
@@ -117,6 +141,7 @@
 		576CF4301873199A00B88508 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57C8DAD01873330600DE6E34 /* MapKit.framework */,
 				576CF4311873199A00B88508 /* Foundation.framework */,
 				576CF4331873199A00B88508 /* CoreGraphics.framework */,
 				576CF4351873199A00B88508 /* UIKit.framework */,
@@ -211,6 +236,9 @@
 		57C8DAB01873285500DE6E34 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				57C8DAC91873300C00DE6E34 /* MainViewController.h */,
+				57C8DACA1873300C00DE6E34 /* MainViewController.m */,
+				57C8DACB1873300C00DE6E34 /* MainViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +255,14 @@
 		57C8DAB31873285500DE6E34 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				57C8DAD2187335AF00DE6E34 /* main_featured_ic.png */,
+				57C8DAD3187335AF00DE6E34 /* main_featured_ic@2x.png */,
+				57C8DAD4187335AF00DE6E34 /* main_nearby_ic.png */,
+				57C8DAD5187335AF00DE6E34 /* main_nearby_ic@2x.png */,
+				57C8DAD6187335AF00DE6E34 /* main_promotions_ic.png */,
+				57C8DAD7187335AF00DE6E34 /* main_promotions_ic@2x.png */,
+				57C8DAD8187335AF00DE6E34 /* main_settings_ic.png */,
+				57C8DAD9187335AF00DE6E34 /* main_settings_ic@2x.png */,
 				57C8DAB41873285500DE6E34 /* Icons */,
 			);
 			path = Images;
@@ -300,6 +336,16 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Mobivery;
 				TargetAttributes = {
+					576CF42D1873199900B88508 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
 					576CF4661873199A00B88508 = {
 						TestTargetID = 576CF42D1873199900B88508;
 					};
@@ -329,11 +375,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C8DADD187335AF00DE6E34 /* main_nearby_ic@2x.png in Resources */,
 				57C8DAC11873285500DE6E34 /* Icon@2x.png in Resources */,
+				57C8DAE1187335AF00DE6E34 /* main_settings_ic@2x.png in Resources */,
+				57C8DACD1873300C00DE6E34 /* MainViewController.xib in Resources */,
+				57C8DADF187335AF00DE6E34 /* main_promotions_ic@2x.png in Resources */,
+				57C8DADC187335AF00DE6E34 /* main_nearby_ic.png in Resources */,
 				576CF4621873199A00B88508 /* Images.xcassets in Resources */,
+				57C8DADB187335AF00DE6E34 /* main_featured_ic@2x.png in Resources */,
 				57C8DAC21873285500DE6E34 /* Localizable.strings in Resources */,
 				576CF43C1873199A00B88508 /* InfoPlist.strings in Resources */,
+				57C8DADE187335AF00DE6E34 /* main_promotions_ic.png in Resources */,
 				57C8DAC01873285500DE6E34 /* Icon.png in Resources */,
+				57C8DADA187335AF00DE6E34 /* main_featured_ic.png in Resources */,
+				57C8DAE0187335AF00DE6E34 /* main_settings_ic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C8DAC5187328B300DE6E34 /* AppDelegate.m in Sources */,
+				57C8DACC1873300C00DE6E34 /* MainViewController.m in Sources */,
 				576CF43E1873199A00B88508 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
