@@ -10,6 +10,8 @@
 
 @interface MainViewController ()
 
+@property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
+
 @end
 
 @implementation MainViewController
@@ -27,6 +29,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    // We translucent the toolbar with the current color.
+    self.toolbar.alpha = 0.9;
+    
 }
 
 - (void)didReceiveMemoryWarning

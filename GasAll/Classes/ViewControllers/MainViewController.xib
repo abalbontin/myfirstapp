@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
+                <outlet property="toolbar" destination="2LD-RV-xsi" id="HL5-fx-WFZ"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -18,7 +19,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </mapView>
-                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2LD-RV-xsi">
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" id="2LD-RV-xsi" userLabel="toolbar">
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <items>
@@ -31,7 +32,7 @@
                         <barButtonItem image="main_settings_ic.png" id="PKy-ns-6vM" userLabel="settingsBarButtonItem - Item"/>
                     </items>
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <color key="barTintColor" red="0.45490199327468872" green="0.45490199327468872" blue="0.45490199327468872" alpha="0.70000000000000007" colorSpace="deviceRGB"/>
+                    <color key="barTintColor" red="0.45490199327468872" green="0.45490199327468872" blue="0.45490199327468872" alpha="1" colorSpace="deviceRGB"/>
                 </toolbar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
