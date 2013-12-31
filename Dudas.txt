@@ -1,7 +1,0 @@
-* ¿Cómo escribo log? --> Log.d("MyApp", "Esto es un mensaje de pruebas"); // Recordar hacer un filtro desde el LogCat pulsando en el +
-
-* ¿Cómo busco una cadena de texto en todo el código? --> Control + H.
-
-* ¿Cómo se debuguea con tanta configuración en ficheros xml? --> En los XML no se debugea.
-
-* ¿Cómo busco ayuda de la documentación de las clases del SDK de android? Por ejemplo, de "startActivity(intent);" al pulsar sobre startActivity. --> Selecciono la palabra y lo dejo quito.
