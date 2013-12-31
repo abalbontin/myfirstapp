@@ -1,0 +1,4 @@
+project_file_name: "GasAll"
+ws_definitions_file_name: "gasall"
+spreadsheet_name: "GasAll"
+package: "com.yourcompany"

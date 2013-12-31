@@ -1,0 +1,28 @@
+# Project file name without .xcodeproj extension.
+project_file_name: "GasAll"
+builds:
+  # Snapshot
+  snapshot:
+    test_targets: [ "GasAllTests" ]
+  # Nightly
+  nightly:
+    workspace: "GasAll"
+    scheme: "GasAll"
+    default_version: "NIGHT"
+    receivers: ["team/mobivery/enterprise"]
+    hockeyapp:
+      team_token: "68062c8d51604162b32dbd19ed6dc54e"
+      app_id: "fd066ea8458680b138d045a7d540aae9"
+      distribution_tags:
+        "team/mobivery/enterprise": [ "mobivery" ]
+  # Release (demo)
+  release:
+    workspace: "GasAll"
+    scheme: "GasAll"  	
+    receivers: ["team/mobivery/enterprise", "clients/..."]
+    hockeyapp:
+      team_token: "68062c8d51604162b32dbd19ed6dc54e"
+      app_id: "fd066ea8458680b138d045a7d540aae9"
+      distribution_tags:
+        "team/mobivery/enterprise": [ "mobivery" ]
+        "clients/...": [ "client" ]

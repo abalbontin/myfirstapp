@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3037C3ED2B984A2BA4CAC4C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CA61998794140A0F68B11 /* libPods.a */; };
+		576CF4321873199A00B88508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4311873199A00B88508 /* Foundation.framework */; };
+		576CF4341873199A00B88508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4331873199A00B88508 /* CoreGraphics.framework */; };
+		576CF4361873199A00B88508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4351873199A00B88508 /* UIKit.framework */; };
+		576CF43C1873199A00B88508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 576CF43A1873199A00B88508 /* InfoPlist.strings */; };
+		576CF43E1873199A00B88508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 576CF43D1873199A00B88508 /* main.m */; };
+		576CF4621873199A00B88508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576CF4611873199A00B88508 /* Images.xcassets */; };
+		576CF4691873199A00B88508 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4681873199A00B88508 /* XCTest.framework */; };
+		576CF46A1873199A00B88508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4311873199A00B88508 /* Foundation.framework */; };
+		576CF46B1873199A00B88508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4351873199A00B88508 /* UIKit.framework */; };
+		576CF4731873199A00B88508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 576CF4711873199A00B88508 /* InfoPlist.strings */; };
+		576CF4751873199A00B88508 /* GasAllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576CF4741873199A00B88508 /* GasAllTests.m */; };
+		57C8DAC01873285500DE6E34 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAB51873285500DE6E34 /* Icon.png */; };
+		57C8DAC11873285500DE6E34 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAB61873285500DE6E34 /* Icon@2x.png */; };
+		57C8DAC21873285500DE6E34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAB81873285500DE6E34 /* Localizable.strings */; };
+		57C8DAC5187328B300DE6E34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8DAC4187328B300DE6E34 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		576CF46C1873199A00B88508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576CF4251873199900B88508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576CF42D1873199900B88508;
+			remoteInfo = GasAll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CE1620C84E9456C85C3C288 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		576CF42E1873199900B88508 /* GasAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		576CF4311873199A00B88508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		576CF4331873199A00B88508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		576CF4351873199A00B88508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		576CF4391873199A00B88508 /* GasAll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GasAll-Info.plist"; sourceTree = "<group>"; };
+		576CF43B1873199A00B88508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		576CF43D1873199A00B88508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		576CF43F1873199A00B88508 /* GasAll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GasAll-Prefix.pch"; sourceTree = "<group>"; };
+		576CF4441873199A00B88508 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		576CF4471873199A00B88508 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		576CF4481873199A00B88508 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Rakefile; path = ../Rakefile; sourceTree = "<group>"; };
+		576CF4491873199A00B88508 /* generate.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = generate.yml; path = ../generate.yml; sourceTree = "<group>"; };
+		576CF44A1873199A00B88508 /* build.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = build.yml; path = ../build.yml; sourceTree = "<group>"; };
+		576CF44B1873199A00B88508 /* Locfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Locfile; path = ../Locfile; sourceTree = "<group>"; };
+		576CF4611873199A00B88508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		576CF4671873199A00B88508 /* GasAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		576CF4681873199A00B88508 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		576CF4701873199A00B88508 /* GasAllTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GasAllTests-Info.plist"; sourceTree = "<group>"; };
+		576CF4721873199A00B88508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		576CF4741873199A00B88508 /* GasAllTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GasAllTests.m; sourceTree = "<group>"; };
+		57C8DAA71873283E00DE6E34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		57C8DAAF1873285500DE6E34 /* MVYDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVYDefines.h; sourceTree = "<group>"; };
+		57C8DAB51873285500DE6E34 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		57C8DAB61873285500DE6E34 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		57C8DAB91873285500DE6E34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		57C8DABA1873285500DE6E34 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		57C8DABB1873285500DE6E34 /* LocalizableConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizableConstants.h; sourceTree = "<group>"; };
+		57C8DAC3187328B300DE6E34 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57C8DAC4187328B300DE6E34 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A8CA61998794140A0F68B11 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		576CF42A1873199900B88508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576CF4341873199A00B88508 /* CoreGraphics.framework in Frameworks */,
+				576CF4361873199A00B88508 /* UIKit.framework in Frameworks */,
+				576CF4321873199A00B88508 /* Foundation.framework in Frameworks */,
+				3037C3ED2B984A2BA4CAC4C8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576CF4641873199A00B88508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576CF4691873199A00B88508 /* XCTest.framework in Frameworks */,
+				576CF46B1873199A00B88508 /* UIKit.framework in Frameworks */,
+				576CF46A1873199A00B88508 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		576CF4241873199900B88508 = {
+			isa = PBXGroup;
+			children = (
+				576CF4371873199A00B88508 /* GasAll */,
+				576CF46E1873199A00B88508 /* GasAllTests */,
+				576CF4301873199A00B88508 /* Frameworks */,
+				576CF42F1873199900B88508 /* Products */,
+				4CE1620C84E9456C85C3C288 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		576CF42F1873199900B88508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				576CF42E1873199900B88508 /* GasAll.app */,
+				576CF4671873199A00B88508 /* GasAllTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		576CF4301873199A00B88508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576CF4311873199A00B88508 /* Foundation.framework */,
+				576CF4331873199A00B88508 /* CoreGraphics.framework */,
+				576CF4351873199A00B88508 /* UIKit.framework */,
+				576CF4681873199A00B88508 /* XCTest.framework */,
+				8A8CA61998794140A0F68B11 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		576CF4371873199A00B88508 /* GasAll */ = {
+			isa = PBXGroup;
+			children = (
+				57C8DAA81873285500DE6E34 /* Classes */,
+				576CF4611873199A00B88508 /* Images.xcassets */,
+				57C8DAB21873285500DE6E34 /* Resources */,
+				576CF4381873199A00B88508 /* Supporting Files */,
+			);
+			path = GasAll;
+			sourceTree = "<group>";
+		};
+		576CF4381873199A00B88508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C8DAA71873283E00DE6E34 /* .gitignore */,
+				576CF44A1873199A00B88508 /* build.yml */,
+				576CF4391873199A00B88508 /* GasAll-Info.plist */,
+				576CF43F1873199A00B88508 /* GasAll-Prefix.pch */,
+				576CF4491873199A00B88508 /* generate.yml */,
+				576CF43A1873199A00B88508 /* InfoPlist.strings */,
+				576CF44B1873199A00B88508 /* Locfile */,
+				576CF43D1873199A00B88508 /* main.m */,
+				576CF4441873199A00B88508 /* Podfile */,
+				576CF4481873199A00B88508 /* Rakefile */,
+				576CF4471873199A00B88508 /* README.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		576CF46E1873199A00B88508 /* GasAllTests */ = {
+			isa = PBXGroup;
+			children = (
+				576CF4741873199A00B88508 /* GasAllTests.m */,
+				576CF46F1873199A00B88508 /* Supporting Files */,
+			);
+			path = GasAllTests;
+			sourceTree = "<group>";
+		};
+		576CF46F1873199A00B88508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				576CF4701873199A00B88508 /* GasAllTests-Info.plist */,
+				576CF4711873199A00B88508 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C8DAA81873285500DE6E34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57C8DAC3187328B300DE6E34 /* AppDelegate.h */,
+				57C8DAC4187328B300DE6E34 /* AppDelegate.m */,
+				57C8DAA91873285500DE6E34 /* Categories */,
+				57C8DAAB1873285500DE6E34 /* gen */,
+				57C8DAAD1873285500DE6E34 /* Helpers */,
+				57C8DAAF1873285500DE6E34 /* MVYDefines.h */,
+				57C8DAB01873285500DE6E34 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		57C8DAA91873285500DE6E34 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		57C8DAAB1873285500DE6E34 /* gen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = gen;
+			sourceTree = "<group>";
+		};
+		57C8DAAD1873285500DE6E34 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		57C8DAB01873285500DE6E34 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57C8DAB21873285500DE6E34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57C8DAB31873285500DE6E34 /* Images */,
+				57C8DAB71873285500DE6E34 /* Localizables */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57C8DAB31873285500DE6E34 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				57C8DAB41873285500DE6E34 /* Icons */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		57C8DAB41873285500DE6E34 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				57C8DAB51873285500DE6E34 /* Icon.png */,
+				57C8DAB61873285500DE6E34 /* Icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		57C8DAB71873285500DE6E34 /* Localizables */ = {
+			isa = PBXGroup;
+			children = (
+				57C8DAB81873285500DE6E34 /* Localizable.strings */,
+				57C8DABB1873285500DE6E34 /* LocalizableConstants.h */,
+			);
+			path = Localizables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		576CF42D1873199900B88508 /* GasAll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576CF4781873199A00B88508 /* Build configuration list for PBXNativeTarget "GasAll" */;
+			buildPhases = (
+				A239D27E58754295B809B13B /* Check Pods Manifest.lock */,
+				576CF4291873199900B88508 /* Sources */,
+				576CF42A1873199900B88508 /* Frameworks */,
+				576CF42B1873199900B88508 /* Resources */,
+				576CF42C1873199900B88508 /* ShellScript */,
+				597F1E9B647B4956A0589007 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasAll;
+			productName = GasAll;
+			productReference = 576CF42E1873199900B88508 /* GasAll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		576CF4661873199A00B88508 /* GasAllTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576CF47B1873199A00B88508 /* Build configuration list for PBXNativeTarget "GasAllTests" */;
+			buildPhases = (
+				576CF4631873199A00B88508 /* Sources */,
+				576CF4641873199A00B88508 /* Frameworks */,
+				576CF4651873199A00B88508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576CF46D1873199A00B88508 /* PBXTargetDependency */,
+			);
+			name = GasAllTests;
+			productName = GasAllTests;
+			productReference = 576CF4671873199A00B88508 /* GasAllTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		576CF4251873199900B88508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Mobivery;
+				TargetAttributes = {
+					576CF4661873199A00B88508 = {
+						TestTargetID = 576CF42D1873199900B88508;
+					};
+				};
+			};
+			buildConfigurationList = 576CF4281873199900B88508 /* Build configuration list for PBXProject "GasAll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 576CF4241873199900B88508;
+			productRefGroup = 576CF42F1873199900B88508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				576CF42D1873199900B88508 /* GasAll */,
+				576CF4661873199A00B88508 /* GasAllTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		576CF42B1873199900B88508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8DAC11873285500DE6E34 /* Icon@2x.png in Resources */,
+				576CF4621873199A00B88508 /* Images.xcassets in Resources */,
+				57C8DAC21873285500DE6E34 /* Localizable.strings in Resources */,
+				576CF43C1873199A00B88508 /* InfoPlist.strings in Resources */,
+				57C8DAC01873285500DE6E34 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576CF4651873199A00B88508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576CF4731873199A00B88508 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		576CF42C1873199900B88508 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"";
+		};
+		597F1E9B647B4956A0589007 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A239D27E58754295B809B13B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		576CF4291873199900B88508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8DAC5187328B300DE6E34 /* AppDelegate.m in Sources */,
+				576CF43E1873199A00B88508 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576CF4631873199A00B88508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576CF4751873199A00B88508 /* GasAllTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		576CF46D1873199A00B88508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 576CF42D1873199900B88508 /* GasAll */;
+			targetProxy = 576CF46C1873199A00B88508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		576CF43A1873199A00B88508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576CF43B1873199A00B88508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		576CF4711873199A00B88508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576CF4721873199A00B88508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57C8DAB81873285500DE6E34 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8DAB91873285500DE6E34 /* en */,
+				57C8DABA1873285500DE6E34 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		576CF4761873199A00B88508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		576CF4771873199A00B88508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		576CF4791873199A00B88508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE1620C84E9456C85C3C288 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GasAll/GasAll-Prefix.pch";
+				INFOPLIST_FILE = "GasAll/GasAll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		576CF47A1873199A00B88508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE1620C84E9456C85C3C288 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GasAll/GasAll-Prefix.pch";
+				INFOPLIST_FILE = "GasAll/GasAll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		576CF47C1873199A00B88508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GasAll.app/GasAll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GasAll/GasAll-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GasAllTests/GasAllTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		576CF47D1873199A00B88508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GasAll.app/GasAll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GasAll/GasAll-Prefix.pch";
+				INFOPLIST_FILE = "GasAllTests/GasAllTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		57C8DAC6187328DD00DE6E34 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		57C8DAC7187328DD00DE6E34 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE1620C84E9456C85C3C288 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GasAll/GasAll-Prefix.pch";
+				INFOPLIST_FILE = "GasAll/GasAll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		57C8DAC8187328DD00DE6E34 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GasAll.app/GasAll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GasAll/GasAll-Prefix.pch";
+				INFOPLIST_FILE = "GasAllTests/GasAllTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		576CF4281873199900B88508 /* Build configuration list for PBXProject "GasAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576CF4761873199A00B88508 /* Debug */,
+				576CF4771873199A00B88508 /* Release */,
+				57C8DAC6187328DD00DE6E34 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576CF4781873199A00B88508 /* Build configuration list for PBXNativeTarget "GasAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576CF4791873199A00B88508 /* Debug */,
+				576CF47A1873199A00B88508 /* Release */,
+				57C8DAC7187328DD00DE6E34 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576CF47B1873199A00B88508 /* Build configuration list for PBXNativeTarget "GasAllTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576CF47C1873199A00B88508 /* Debug */,
+				576CF47D1873199A00B88508 /* Release */,
+				57C8DAC8187328DD00DE6E34 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 576CF4251873199900B88508 /* Project object */;
+}

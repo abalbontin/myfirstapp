@@ -1,0 +1,1 @@
+../../Malcom/Libraries/source/lib/MCMLib/src/MCMCampaigns/DTO/MCMCampaignDTO.h

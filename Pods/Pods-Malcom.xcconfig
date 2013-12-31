@@ -1,0 +1,2 @@
+PODS_MALCOM_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Malcom"/**
+PODS_MALCOM_OTHER_LDFLAGS = -ObjC -all_load -lz -framework AVFoundation -framework AdSupport -framework AudioToolbox -framework CFNetwork -framework CoreGraphics -framework CoreLocation -framework CoreTelephony -framework ImageIO -framework MediaPlayer -framework MessageUI -framework MobileCoreServices -framework QuartzCore -framework Security -framework StoreKit -framework SystemConfiguration

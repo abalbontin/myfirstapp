@@ -1,0 +1,1 @@
+../../Malcom/Libraries/source/lib/Addons/Feeds/Libraries/MVYFeeds/parsers/MVYFeedParserDelegateRSS.h

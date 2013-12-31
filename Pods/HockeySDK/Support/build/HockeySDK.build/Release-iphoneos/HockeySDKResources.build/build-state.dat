@@ -1,0 +1,717 @@
+THockeySDKResources
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/Info.plist /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png
+cCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings
+cCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings
+cTouch /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist
+c0000000052C2E36D00000000000003D2
+t1388503917
+s978
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle
+t1388503946
+s1258
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png
+t1388503946
+s3063
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png
+t1388503946
+s4089
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/Info.plist
+t1388503946
+s948
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png
+t1388503946
+s2652
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png
+t1388503946
+s4561
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png
+t1388503946
+s2809
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png
+t1388503946
+s5133
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png
+t1388503946
+s1253
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png
+t1388503946
+s1061
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png
+t1388503946
+s1119
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png
+t1388503946
+s3323
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png
+t1388503946
+s3881
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png
+t1388503946
+s3428
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png
+t1388503946
+s4404
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png
+t1388503946
+s3391
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png
+t1388503946
+s3980
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png
+t1388503946
+s3661
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png
+t1388503946
+s4838
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings
+t1388503946
+s4488
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings
+t1388503946
+s3562
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings
+t1388503946
+s4496
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png
+t1388503946
+s2346
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png
+t1388503946
+s1661
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png
+t1388503946
+s1537
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png
+t1388503946
+s2220
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings
+t1388503946
+s4787
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings
+t1388503946
+s4436
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings
+t1388503946
+s4928
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings
+t1388503946
+s4141
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings
+t1388503946
+s3630
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings
+t1388503946
+s4668
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings
+t1388503946
+s4496
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings
+t1388503946
+s4655
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings
+t1388503946
+s4730
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings
+t1388503946
+s3266
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png
+c0000000052C2E36D0000000000000AE6
+t1388503917
+s2790
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png
+c0000000052C2E36D0000000000000E2C
+t1388503917
+s3628
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png
+c0000000052C2E36D0000000000000924
+t1388503917
+s2340
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png
+c0000000052C2E36D0000000000001120
+t1388503917
+s4384
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png
+c0000000052C2E36D0000000000000990
+t1388503917
+s2448
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png
+c0000000052C2E36D00000000000012B9
+t1388503917
+s4793
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png
+c0000000052C2E36D0000000000000628
+t1388503917
+s1576
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png
+c0000000052C2E36D00000000000003FD
+t1388503917
+s1021
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png
+c0000000052C2E36D000000000000044D
+t1388503917
+s1101
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png
+c0000000052C2E36D0000000000000D58
+t1388503917
+s3416
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png
+c0000000052C2E36D000000000000104B
+t1388503917
+s4171
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png
+c0000000052C2E36D0000000000000DD2
+t1388503917
+s3538
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png
+c0000000052C2E36D000000000000125B
+t1388503917
+s4699
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png
+c0000000052C2E36D0000000000000D1B
+t1388503917
+s3355
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png
+c0000000052C2E36D000000000000100C
+t1388503917
+s4108
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png
+c0000000052C2E36D0000000000000E15
+t1388503917
+s3605
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png
+c0000000052C2E36D000000000000126D
+t1388503917
+s4717
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings
+c0000000052C2E36D00000000000017FF
+t1388503917
+s6143
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings
+c0000000052C2E36D00000000000016E4
+t1388503917
+s5860
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings
+c0000000052C2E36D00000000000017BB
+t1388503917
+s6075
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png
+c0000000052C2E36D00000000000009CE
+t1388503917
+s2510
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png
+c0000000052C2E36D00000000000006C4
+t1388503917
+s1732
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png
+c0000000052C2E36D000000000000064E
+t1388503917
+s1614
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png
+c0000000052C2E36D0000000000000932
+t1388503917
+s2354
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings
+c0000000052C2E36D000000000000180D
+t1388503917
+s6157
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings
+c0000000052C2E36D000000000000174E
+t1388503917
+s5966
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings
+c0000000052C2E36D0000000000001806
+t1388503917
+s6150
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings
+c0000000052C2E36D00000000000017B5
+t1388503917
+s6069
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings
+c0000000052C2E36D000000000000192F
+t1388503917
+s6447
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings
+c0000000052C2E36D00000000000017BB
+t1388503917
+s6075
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings
+c0000000052C2E36D00000000000017A5
+t1388503917
+s6053
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings
+c0000000052C2E36D0000000000001754
+t1388503917
+s5972
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings
+c0000000052C2E36D0000000000001AE1
+t1388503917
+s6881
+
+N/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings
+c0000000052C2E36D00000000000016FC
+t1388503917
+s5884
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies87bfcafa2873b841^33a6d8fa2873b841^---0#1#1#--18"Check dependencies36"5E3607C3-224E-463D-8E19-573080F72BDB-
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png
+s410196746.610750
+e410196746.656015
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection241"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png241"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png4a7a9c0a1b73b841^de39a80a1b73b841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png0000000000000000^1034"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient.png36"8467496B-EBCD-4FAF-9AF2-490B9CA34B66-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png
+s410196746.630350
+e410196746.675775
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection247"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png247"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png077da10a1b73b841^cc40ad0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png0000000000000000^1046"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/IconGradient@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/IconGradient@2x.png36"AF5F7793-D904-46AB-95D5-1F23FA3D3B5A-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png
+s410196746.163583
+e410196746.490841
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection249"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png249"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png0c072a0a1b73b841^0dc57d0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png0000000000000000^1050"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied.png36"580A14D3-0B81-491C-BAE9-642ACB3CD4BE-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png
+s410196746.164576
+e410196746.499290
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection255"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png255"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.pngf73d2a0a1b73b841^dee87f0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png0000000000000000^1062"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_denied@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_denied@2x.png36"0F26781F-4070-489D-885D-A17178C8023D-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png
+s410196746.492235
+e410196746.541663
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection251"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png251"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.pnga31e7e0a1b73b841^bde58a0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png0000000000000000^1054"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request.png36"ADD0F9ED-BF6B-4C49-9DE3-AFF9096F803D-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png
+s410196746.500548
+e410196746.565893
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection257"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png257"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png813f800a1b73b841^e220910a1b73b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png0000000000000000^1066"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/authorize_request@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/authorize_request@2x.png36"C0CD8832-B3E0-4AF5-93D3-45C486F72D77-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png
+s410196746.542938
+e410196746.586459
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png221"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png1d218b0a1b73b841^7231960a1b73b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png0000000000000000^994"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/bg.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/bg.png36"5FFD2727-B091-40B6-8E74-A1C2FA8FD79B-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png
+s410196746.567180
+e410196746.609436
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection247"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png247"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png6e4e910a1b73b841^9a229c0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png0000000000000000^1046"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight.png36"4BA25CF2-1226-4623-8526-697238C39C57-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png
+s410196746.587852
+e410196746.629068
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection253"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png253"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png3598960a1b73b841^af43a10a1b73b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png0000000000000000^1058"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonHighlight@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonHighlight@2x.png36"3608AD1E-D604-4F35-9531-61BEFAE12743-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png
+s410196746.757510
+e410196746.797180
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection255"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png255"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png0708c20a1b73b841^187acc0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png0000000000000000^1062"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete.png36"341BC4A1-1FBE-4998-B864-80A9E1310A60-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png
+s410196746.774979
+e410196746.819721
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection261"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png261"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.pngcb81c60a1b73b841^13f2d10a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png0000000000000000^1074"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDelete@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png36"F6B1AA8A-9BD3-42AA-9AE4-87372C304354-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png
+s410196746.799002
+e410196746.840706
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection277"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png277"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.pngb4abcc0a1b73b841^e350d70a1b73b841^---0#0#1#-19%DVTDocumentLocation2@135"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png0000000000000000^1106"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png36"D927ACD8-891D-4BF1-AF2E-420F2E24C3BA-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png
+s410196746.821008
+e410196746.867876
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection283"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png283"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.pngd848d20a1b73b841^e944de0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@138"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png0000000000000000^1118"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedDeleteHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png36"E33DB308-4EE1-465B-A91A-15BF756C106A-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png
+s410196746.841975
+e410196746.880693
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection257"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png257"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png9baad70a1b73b841^e8bde10a1b73b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png0000000000000000^1066"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular.png36"7330D764-64C2-4BE4-B131-2FB9291124F5-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png
+s410196746.869102
+e410196746.911352
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection263"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png263"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png629dde0a1b73b841^1572e90a1b73b841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png0000000000000000^1078"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegular@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png36"04FB78C5-391D-4C58-9829-8148899FE552-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png
+s410196746.882030
+e410196746.924722
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection279"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png279"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png2de8e10a1b73b841^68d0ec0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png0000000000000000^1110"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png36"28A801D0-FB95-43E5-AE46-730A966EF21B-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png
+s410196746.912548
+e410196746.956346
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection285"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png285"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png78b8e90a1b73b841^54c5f40a1b73b841^---0#0#1#-19%DVTDocumentLocation2@139"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png0000000000000000^1122"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/buttonRoundedRegularHighlighted@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png36"74F891A2-3E19-475A-9271-F90C5D5C9027-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png
+s410196746.657403
+e410196746.712931
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection265"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png265"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.pngbe67a80a1b73b841^57b3b60a1b73b841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png0000000000000000^1082"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity@2x~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png36"3DA88A8B-8C4B-4BBC-A1A8-32A4836C4CE4-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png
+s410196746.677059
+e410196746.721701
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection259"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png259"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.pngdb6fad0a1b73b841^e2eab80a1b73b841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png0000000000000000^1070"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActivity~ipad.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png36"E2017F7B-AA0F-4EA8-9810-4B87A74A3C95-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png
+s410196746.714353
+e410196746.756227
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection247"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png247"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png3bffb60a1b73b841^ccd3c10a1b73b841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png0000000000000000^1046"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy.png36"FA5BEF2E-D115-4C86-9E8C-1B5D6612FBAD-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png
+s410196746.723059
+e410196746.773719
+r1
+xCopyPNGFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection253"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png253"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png8f37b90a1b73b841^5d36c60a1b73b841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png0000000000000000^1058"CopyPNGFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/feedbackActiviy@2x.png /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png36"DF6EDF8A-8549-46C4-B80A-E3C53C2DC9AA-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings
+s410196746.925977
+e410196746.931249
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.stringsa52eed0a1b73b841^ee79ee0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/de.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/de.lproj/HockeySDK.strings36"49C509A6-CFF0-4A27-B42F-DE6EA235D59D-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings
+s410196746.965277
+e410196746.971619
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings2636f70a1b73b841^8cbcf80a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/en.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/en.lproj/HockeySDK.strings36"849EBC79-A1C1-4E98-99EB-CE2E70354CEE-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings
+s410196746.932632
+e410196746.936633
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings8bddee0a1b73b841^66d9ef0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/es.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/es.lproj/HockeySDK.strings36"AC3CDD72-10B1-4783-B829-65CB6400B13D-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings
+s410196746.937876
+e410196746.941626
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings6133f00a1b73b841^1920f10a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/fr.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/fr.lproj/HockeySDK.strings36"28F576F5-8251-4C0F-B372-02034BC88767-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings
+s410196746.959685
+e410196746.963989
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.stringsbdc7f50a1b73b841^c1c9f60a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hr.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hr.lproj/HockeySDK.strings36"7A654807-252C-41E9-B0B1-2AAB3441546D-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings
+s410196746.979353
+e410196746.983111
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.stringscdcefa0a1b73b841^f3adfb0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/hu.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/hu.lproj/HockeySDK.strings36"97C56326-9142-4EE8-8241-9E4A995FE870-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings
+s410196746.942855
+e410196746.947391
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings6c79f10a1b73b841^25aff20a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/it.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/it.lproj/HockeySDK.strings36"C362B56B-5DC9-49BF-96B5-37D556067562-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings
+s410196746.948625
+e410196746.952167
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings12f5f20a1b73b841^8bc1f30a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ja.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ja.lproj/HockeySDK.strings36"646D4620-9DD2-4D93-BC0B-52ACBEC10475-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings
+s410196746.964298
+e410196746.971064
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings271"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings56f5f60a1b73b841^7aa5f80a1b73b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings0000000000000000^1054"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt-PT.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt-PT.lproj/HockeySDK.strings36"9E3CC0CB-471A-48B9-AA05-BFB41E450594-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings
+s410196746.953478
+e410196746.958424
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings7b31f40a1b73b841^1c5df50a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/pt.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/pt.lproj/HockeySDK.strings36"DA093799-75D6-472D-8E93-EC28DBCA8AA8-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings
+s410196746.972871
+e410196746.980152
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.stringsfb22f90a1b73b841^dffcfa0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ro.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ro.lproj/HockeySDK.strings36"174C6213-250A-4F15-BD1E-BFA7B4ED69CE-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings
+s410196746.957679
+e410196746.962790
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings265"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings6e6df50a1b73b841^f088f60a1b73b841^---0#0#1#-19%DVTDocumentLocation2@127"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings0000000000000000^1042"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/ru.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/ru.lproj/HockeySDK.strings36"DB1FECF8-DF07-408A-8C4C-63192059798D-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CCopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings
+s410196746.972320
+e410196746.978121
+r1
+xCopyStringsFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Copy /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings275"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings1805f90a1b73b841^8e74fa0a1b73b841^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings0000000000000000^1062"CopyStringsFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/zh-Hans.lproj -- /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/zh-Hans.lproj/HockeySDK.strings36"C532E7CB-E0BA-4CF2-8C30-9D0AB970A663-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CProcessInfoPlistFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/Info.plist /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist
+s410196746.098833
+e410196746.155125
+r1
+xProcessInfoPlistFile
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/Info.plist
+x/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Process /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist248"ProcessInfoPlistFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/Info.plist /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist0d17210a1b73b841^e0bd270a1b73b841^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist0000000000000000^1015"ProcessInfoPlistFile /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/Info.plist /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist    cd /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/Balbon/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/Balbon/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDK-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Resources/HockeySDKResources.bundle/Info.plist36"13843E37-BC45-45B9-AA21-07B0E4EB879F-
+b3F20491C-B0DB-4EA6-B6CB-D9530FEC8E9B
+
+CTouch /Users/Balbon/Documents/Desarrollo/workspace_adt/myfirstapp/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle
+r0
+
