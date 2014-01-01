@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3037C3ED2B984A2BA4CAC4C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CA61998794140A0F68B11 /* libPods.a */; };
+		571CED361874270B004599C5 /* map_but_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CED341874270B004599C5 /* map_but_location.png */; };
+		571CED371874270B004599C5 /* map_but_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CED351874270B004599C5 /* map_but_location@2x.png */; };
 		576CF4321873199A00B88508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4311873199A00B88508 /* Foundation.framework */; };
 		576CF4341873199A00B88508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4331873199A00B88508 /* CoreGraphics.framework */; };
 		576CF4361873199A00B88508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4351873199A00B88508 /* UIKit.framework */; };
@@ -48,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		4CE1620C84E9456C85C3C288 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		571CED341874270B004599C5 /* map_but_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_but_location.png; sourceTree = "<group>"; };
+		571CED351874270B004599C5 /* map_but_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_but_location@2x.png"; sourceTree = "<group>"; };
 		576CF42E1873199900B88508 /* GasAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		576CF4311873199A00B88508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		576CF4331873199A00B88508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -255,6 +259,7 @@
 		57C8DAB31873285500DE6E34 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				57C8DAB41873285500DE6E34 /* Icons */,
 				57C8DAD2187335AF00DE6E34 /* main_featured_ic.png */,
 				57C8DAD3187335AF00DE6E34 /* main_featured_ic@2x.png */,
 				57C8DAD4187335AF00DE6E34 /* main_nearby_ic.png */,
@@ -263,7 +268,8 @@
 				57C8DAD7187335AF00DE6E34 /* main_promotions_ic@2x.png */,
 				57C8DAD8187335AF00DE6E34 /* main_settings_ic.png */,
 				57C8DAD9187335AF00DE6E34 /* main_settings_ic@2x.png */,
-				57C8DAB41873285500DE6E34 /* Icons */,
+				571CED341874270B004599C5 /* map_but_location.png */,
+				571CED351874270B004599C5 /* map_but_location@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -379,6 +385,8 @@
 				57C8DAC11873285500DE6E34 /* Icon@2x.png in Resources */,
 				57C8DAE1187335AF00DE6E34 /* main_settings_ic@2x.png in Resources */,
 				57C8DACD1873300C00DE6E34 /* MainViewController.xib in Resources */,
+				571CED371874270B004599C5 /* map_but_location@2x.png in Resources */,
+				571CED361874270B004599C5 /* map_but_location.png in Resources */,
 				57C8DADF187335AF00DE6E34 /* main_promotions_ic@2x.png in Resources */,
 				57C8DADC187335AF00DE6E34 /* main_nearby_ic.png in Resources */,
 				576CF4621873199A00B88508 /* Images.xcassets in Resources */,
