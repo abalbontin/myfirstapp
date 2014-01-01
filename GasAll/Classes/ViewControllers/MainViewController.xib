@@ -8,6 +8,7 @@
             <connections>
                 <outlet property="mapView" destination="ei5-kb-NGb" id="A3b-YE-epn"/>
                 <outlet property="toolbar" destination="2LD-RV-xsi" id="HL5-fx-WFZ"/>
+                <outlet property="userLocationButton" destination="zMa-ux-Hog" id="pI3-0j-d1U"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -19,8 +20,10 @@
                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="ei5-kb-NGb" userLabel="mapView">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <gestureRecognizers/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="Sm2-Pj-STA"/>
+                        <outletCollection property="gestureRecognizers" destination="Z8J-41-1pu" appends="YES" id="UZ7-e0-7sn"/>
                     </connections>
                 </mapView>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" id="2LD-RV-xsi" userLabel="toolbar">
@@ -53,6 +56,11 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
+        <tapGestureRecognizer id="Z8J-41-1pu">
+            <connections>
+                <action selector="handleMapTap:" destination="-1" id="yhH-lm-iaq"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
     <resources>
         <image name="main_featured_ic.png" width="21" height="22"/>

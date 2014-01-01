@@ -12,11 +12,14 @@
 @interface MainViewController () <MKMapViewDelegate>
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UIButton *userLocationButton;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
 
 @property (nonatomic) BOOL showUserLocation;
+@property (nonatomic, getter = isUserInterfaceHidden) BOOL userInterfaceHidden;
 
 - (IBAction)centerUserLocation:(id)sender;
+- (IBAction)handleMapTap:(UITapGestureRecognizer *)recognizer;
 
 - (void)setUserLocationRegion;
 
@@ -44,6 +47,8 @@
     self.showUserLocation = YES;
     self.mapView.showsUserLocation = YES;
     
+    self.userInterfaceHidden = NO;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,6 +64,40 @@
     if (self.mapView.userLocation.location.coordinate.latitude != 0.0 && self.mapView.userLocation.location.coordinate.longitude != 0.0) {
         
         [self setUserLocationRegion];
+        
+    }
+    
+}
+
+- (IBAction)handleMapTap:(UITapGestureRecognizer *)recognizer {
+    
+    CGPoint point = [recognizer locationInView:self.mapView];
+    UIView *viewSelected = [self.mapView hitTest:point withEvent:nil];
+        
+    if (![viewSelected isKindOfClass:[MKAnnotationView class]]) {
+        
+        // Shows or hides UI: Toolbar and location button.
+        [UIView animateWithDuration:0.5 animations:^{
+            
+            CGRect toolBarFrame = self.toolbar.frame;
+            if (self.isUserInterfaceHidden) {
+                
+                toolBarFrame.origin.y = toolBarFrame.origin.y - toolBarFrame.size.height;
+                
+                self.userLocationButton.transform = CGAffineTransformScale(CGAffineTransformMakeScale(10.0f, 10.0f), 0.1f, 0.1f);
+                
+            } else {
+                
+                toolBarFrame.origin.y = toolBarFrame.origin.y + toolBarFrame.size.height;
+                
+                self.userLocationButton.transform = CGAffineTransformScale(CGAffineTransformMakeScale(0.0f, 0.0f), 0.1f, 0.1f);
+                
+            }
+            self.toolbar.frame = toolBarFrame;
+            
+            self.userInterfaceHidden = !self.userInterfaceHidden;
+            
+        }];
         
     }
     
