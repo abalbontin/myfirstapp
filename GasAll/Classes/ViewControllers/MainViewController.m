@@ -14,12 +14,19 @@
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UIButton *userLocationButton;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nearbyBarButtonItem;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *featuredBarButtonItem;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *promotionsBarButtonItem;
 
 @property (nonatomic) BOOL showUserLocation;
 @property (nonatomic, getter = isUserInterfaceHidden) BOOL userInterfaceHidden;
 
 - (IBAction)centerUserLocation:(id)sender;
 - (IBAction)handleMapTap:(UITapGestureRecognizer *)recognizer;
+- (IBAction)showNearbyGasStations:(id)sender;
+- (IBAction)showFeaturedGasStations:(id)sender;
+- (IBAction)showPromotionsGasStations:(id)sender;
+- (IBAction)showSettings:(id)sender;
 
 - (void)setUserLocationRegion;
 
@@ -101,6 +108,42 @@
         
     }
     
+}
+
+- (IBAction)showNearbyGasStations:(id)sender {
+    
+    self.nearbyBarButtonItem.tintColor = [UIColor blackColor];
+    self.featuredBarButtonItem.tintColor = [UIColor whiteColor];
+    self.promotionsBarButtonItem.tintColor = [UIColor whiteColor];
+    
+    // TODO: abalbontin: Implement.
+    
+}
+
+- (IBAction)showFeaturedGasStations:(id)sender {
+
+    self.nearbyBarButtonItem.tintColor = [UIColor whiteColor];
+    self.featuredBarButtonItem.tintColor = [UIColor blackColor];
+    self.promotionsBarButtonItem.tintColor = [UIColor whiteColor];
+    
+    // TODO: abalbontin: Implement.
+
+}
+
+- (IBAction)showPromotionsGasStations:(id)sender {
+
+    self.nearbyBarButtonItem.tintColor = [UIColor whiteColor];
+    self.featuredBarButtonItem.tintColor = [UIColor whiteColor];
+    self.promotionsBarButtonItem.tintColor = [UIColor blackColor];
+    
+    // TODO: abalbontin: Implement.
+
+}
+
+- (IBAction)showSettings:(id)sender {
+
+    // TODO: abalbontin: Implement.
+
 }
 
 - (void)setUserLocationRegion {

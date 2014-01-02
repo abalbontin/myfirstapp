@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
+                <outlet property="featuredBarButtonItem" destination="aYl-Ya-j6H" id="ZdC-8H-WC3"/>
                 <outlet property="mapView" destination="ei5-kb-NGb" id="A3b-YE-epn"/>
+                <outlet property="nearbyBarButtonItem" destination="RkH-nG-EBC" id="CpC-4K-cX0"/>
+                <outlet property="promotionsBarButtonItem" destination="hpL-nu-Eeb" id="LkN-if-sLH"/>
                 <outlet property="toolbar" destination="2LD-RV-xsi" id="HL5-fx-WFZ"/>
                 <outlet property="userLocationButton" destination="zMa-ux-Hog" id="pI3-0j-d1U"/>
                 <outlet property="view" destination="1" id="3"/>
@@ -30,13 +33,30 @@
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <items>
-                        <barButtonItem image="main_nearby_ic.png" id="RkH-nG-EBC" userLabel="allBarButtonItem"/>
+                        <barButtonItem image="main_nearby_ic.png" id="RkH-nG-EBC" userLabel="nearbyBarButtonItem">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showNearbyGasStations:" destination="-1" id="8w0-51-sk8"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem width="57" style="plain" systemItem="fixedSpace" id="ptQ-WL-Fez"/>
-                        <barButtonItem image="main_featured_ic.png" id="aYl-Ya-j6H" userLabel="featuredBarButtonItem - Item"/>
+                        <barButtonItem image="main_featured_ic.png" id="aYl-Ya-j6H" userLabel="featuredBarButtonItem - Item">
+                            <connections>
+                                <action selector="showFeaturedGasStations:" destination="-1" id="QPq-uH-PBt"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem width="57" style="plain" systemItem="fixedSpace" id="A7M-Zz-gEU"/>
-                        <barButtonItem image="main_promotions_ic.png" id="hpL-nu-Eeb" userLabel="promotionsBarButtonItem - Item"/>
+                        <barButtonItem image="main_promotions_ic.png" id="hpL-nu-Eeb" userLabel="promotionsBarButtonItem - Item">
+                            <connections>
+                                <action selector="showPromotionsGasStations:" destination="-1" id="hjx-T6-tPg"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem width="57" style="plain" systemItem="fixedSpace" id="xEU-rr-xax"/>
-                        <barButtonItem image="main_settings_ic.png" id="PKy-ns-6vM" userLabel="settingsBarButtonItem - Item"/>
+                        <barButtonItem image="main_settings_ic.png" id="PKy-ns-6vM" userLabel="settingsBarButtonItem - Item">
+                            <connections>
+                                <action selector="showSettings:" destination="-1" id="2qM-ZF-DUf"/>
+                            </connections>
+                        </barButtonItem>
                     </items>
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="barTintColor" red="0.45490199327468872" green="0.45490199327468872" blue="0.45490199327468872" alpha="1" colorSpace="deviceRGB"/>

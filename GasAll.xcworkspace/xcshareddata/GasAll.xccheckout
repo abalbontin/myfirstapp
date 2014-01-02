@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F2723619-9B15-43A5-B8F8-88D3BFCA8D2A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GasAll</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AF25897-1EB9-4FE1-971B-C4FD2D66DDAA</key>
+		<string>https://github.com/abalbontin/myfirstapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GasAll.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AF25897-1EB9-4FE1-971B-C4FD2D66DDAA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/abalbontin/myfirstapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7AF25897-1EB9-4FE1-971B-C4FD2D66DDAA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AF25897-1EB9-4FE1-971B-C4FD2D66DDAA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>myfirstapp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
