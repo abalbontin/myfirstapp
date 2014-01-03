@@ -1,7 +1,36 @@
-//
-//  Localizable.strings
-//  GasAll
-//
-//  Created by Álvaro Balbontín Gutiérrez on 31/12/13.
-//  Copyright (c) 2013 Mobivery. All rights reserved.
-//
+/*
+Localizable.strings
+
+GENERATED - DO NOT MODIFY - use the localio gem instead.
+
+Created by localio on 2014-01-03 13:33:00 +0100.
+*/
+
+
+
+//  Generales
+
+"_Cancel" = "Cancelar";
+"_Accept" = "Aceptar";
+"_Done" = "Hecho";
+"_Back" = "Atrás";
+"_Save" = "Guardar";
+"_Edit" = "Editar";
+"_Yes" = "Sí";
+"_No" = "No";
+
+//  Otras
+
+"_Warning" = "Aviso";
+"_Action_invalid" = "Acción errónea";
+"_Loading" = "Cargando...";
+"_Saving" = "Guardando...";
+"_Deleting" = "Borrando...";
+"_Notification" = "Aviso";
+"_Process" = "Procesar";
+"_Yes_switch" = "SI";
+"_No_switch" = "NO";
+
+//  Main View
+
+"_Get_near_gas_stations_error" = "No ha sido posible obtener la información de las gasolineras, por favor revisa tu configuración de internet y asegurate que permites usar localización para GasAll. Vuelve a intentarlo más adelante.";

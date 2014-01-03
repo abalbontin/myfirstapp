@@ -8,6 +8,8 @@
 
 #import "MainViewController.h"
 #import <MapKit/MapKit.h>
+#import "GetNearGasStationsTask.h"
+#import "LocalizableConstants.h"
 
 @interface MainViewController () <MKMapViewDelegate>
 
@@ -18,7 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *featuredBarButtonItem;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *promotionsBarButtonItem;
 
-@property (nonatomic) BOOL showUserLocation;
+@property (nonatomic) BOOL firstUserLocation;
 @property (nonatomic, getter = isUserInterfaceHidden) BOOL userInterfaceHidden;
 
 - (IBAction)centerUserLocation:(id)sender;
@@ -50,8 +52,8 @@
     
     // We translucent the toolbar with the current color.
     self.toolbar.alpha = 0.9;
-        
-    self.showUserLocation = YES;
+    
+    self.firstUserLocation = YES;
     self.mapView.showsUserLocation = YES;
     
     self.userInterfaceHidden = NO;
@@ -161,13 +163,35 @@
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
-    if (self.showUserLocation) {
+    if (self.firstUserLocation) {
+     
+        self.firstUserLocation = NO;
         
-        self.showUserLocation = NO;
+        NearGasStationsRequestDTO *nearGasStationsRequestDTO = [[NearGasStationsRequestDTO alloc] init];
+        nearGasStationsRequestDTO.latitude = [NSNumber numberWithDouble:mapView.userLocation.coordinate.latitude];
+        nearGasStationsRequestDTO.longitude = [NSNumber numberWithDouble:mapView.userLocation.coordinate.longitude];
+        [GetNearGasStationsTask getNearGasStationsTaskForRequest:nearGasStationsRequestDTO
+                                                       completed:^(NSInteger statusCode, NearGasStationsResponseDTO *response) {
+                                                           
+                                                           // TODO: abalbontin: Implement.
+                                                           
+                                                       } error:^(NSError *error) {
+        
+                                                           self.firstUserLocation = YES;
+                                                           
+                                                           UIAlertView *alert = [[UIAlertView alloc] initWithTitle:kLocaleWarning
+                                                                                                           message:kLocaleGetNearGasStationsError
+                                                                                                          delegate:self
+                                                                                                 cancelButtonTitle:kLocaleAccept
+                                                                                                 otherButtonTitles:nil];
+                                                           [alert show];
+                                                           
+                                                       }];
         
         [self setUserLocationRegion];
         
     }
+    
 }
 
 @end
