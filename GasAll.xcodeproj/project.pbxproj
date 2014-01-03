@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3037C3ED2B984A2BA4CAC4C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CA61998794140A0F68B11 /* libPods.a */; };
+		54A8E9DF1876DB2800E6B77B /* BaseGasStationsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9C81876DB2800E6B77B /* BaseGasStationsLogic.m */; };
+		54A8E9E01876DB2800E6B77B /* GasAllHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9CA1876DB2800E6B77B /* GasAllHelper.m */; };
+		54A8E9E11876DB2800E6B77B /* GasStationsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9CC1876DB2800E6B77B /* GasStationsLogic.m */; };
+		54A8E9E21876DB2800E6B77B /* GetNearGasStationsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9CF1876DB2800E6B77B /* GetNearGasStationsTask.m */; };
+		54A8E9E31876DB2800E6B77B /* GasStationDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9D31876DB2800E6B77B /* GasStationDAO.m */; };
+		54A8E9E41876DB2800E6B77B /* NearGasStationsRequestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9D51876DB2800E6B77B /* NearGasStationsRequestDAO.m */; };
+		54A8E9E51876DB2800E6B77B /* NearGasStationsResponseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9D71876DB2800E6B77B /* NearGasStationsResponseDAO.m */; };
+		54A8E9E61876DB2800E6B77B /* GasStationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9DA1876DB2800E6B77B /* GasStationDTO.m */; };
+		54A8E9E71876DB2800E6B77B /* NearGasStationsRequestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9DC1876DB2800E6B77B /* NearGasStationsRequestDTO.m */; };
+		54A8E9E81876DB2800E6B77B /* NearGasStationsResponseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9DE1876DB2800E6B77B /* NearGasStationsResponseDTO.m */; };
 		571CED361874270B004599C5 /* map_but_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CED341874270B004599C5 /* map_but_location.png */; };
 		571CED371874270B004599C5 /* map_but_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CED351874270B004599C5 /* map_but_location@2x.png */; };
 		576CF4321873199A00B88508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4311873199A00B88508 /* Foundation.framework */; };
@@ -50,6 +60,26 @@
 
 /* Begin PBXFileReference section */
 		4CE1620C84E9456C85C3C288 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		54A8E9C71876DB2800E6B77B /* BaseGasStationsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGasStationsLogic.h; sourceTree = "<group>"; };
+		54A8E9C81876DB2800E6B77B /* BaseGasStationsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGasStationsLogic.m; sourceTree = "<group>"; };
+		54A8E9C91876DB2800E6B77B /* GasAllHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasAllHelper.h; sourceTree = "<group>"; };
+		54A8E9CA1876DB2800E6B77B /* GasAllHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasAllHelper.m; sourceTree = "<group>"; };
+		54A8E9CB1876DB2800E6B77B /* GasStationsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationsLogic.h; sourceTree = "<group>"; };
+		54A8E9CC1876DB2800E6B77B /* GasStationsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationsLogic.m; sourceTree = "<group>"; };
+		54A8E9CE1876DB2800E6B77B /* GetNearGasStationsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNearGasStationsTask.h; sourceTree = "<group>"; };
+		54A8E9CF1876DB2800E6B77B /* GetNearGasStationsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNearGasStationsTask.m; sourceTree = "<group>"; };
+		54A8E9D21876DB2800E6B77B /* GasStationDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationDAO.h; sourceTree = "<group>"; };
+		54A8E9D31876DB2800E6B77B /* GasStationDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationDAO.m; sourceTree = "<group>"; };
+		54A8E9D41876DB2800E6B77B /* NearGasStationsRequestDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsRequestDAO.h; sourceTree = "<group>"; };
+		54A8E9D51876DB2800E6B77B /* NearGasStationsRequestDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsRequestDAO.m; sourceTree = "<group>"; };
+		54A8E9D61876DB2800E6B77B /* NearGasStationsResponseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsResponseDAO.h; sourceTree = "<group>"; };
+		54A8E9D71876DB2800E6B77B /* NearGasStationsResponseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsResponseDAO.m; sourceTree = "<group>"; };
+		54A8E9D91876DB2800E6B77B /* GasStationDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationDTO.h; sourceTree = "<group>"; };
+		54A8E9DA1876DB2800E6B77B /* GasStationDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationDTO.m; sourceTree = "<group>"; };
+		54A8E9DB1876DB2800E6B77B /* NearGasStationsRequestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsRequestDTO.h; sourceTree = "<group>"; };
+		54A8E9DC1876DB2800E6B77B /* NearGasStationsRequestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsRequestDTO.m; sourceTree = "<group>"; };
+		54A8E9DD1876DB2800E6B77B /* NearGasStationsResponseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsResponseDTO.h; sourceTree = "<group>"; };
+		54A8E9DE1876DB2800E6B77B /* NearGasStationsResponseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsResponseDTO.m; sourceTree = "<group>"; };
 		571CED341874270B004599C5 /* map_but_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_but_location.png; sourceTree = "<group>"; };
 		571CED351874270B004599C5 /* map_but_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_but_location@2x.png"; sourceTree = "<group>"; };
 		576CF42E1873199900B88508 /* GasAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +152,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54A8E9C51876DB2800E6B77B /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				54A8E9C61876DB2800E6B77B /* Base */,
+				54A8E9C91876DB2800E6B77B /* GasAllHelper.h */,
+				54A8E9CA1876DB2800E6B77B /* GasAllHelper.m */,
+				54A8E9CB1876DB2800E6B77B /* GasStationsLogic.h */,
+				54A8E9CC1876DB2800E6B77B /* GasStationsLogic.m */,
+				54A8E9CD1876DB2800E6B77B /* Tasks */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		54A8E9C61876DB2800E6B77B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				54A8E9C71876DB2800E6B77B /* BaseGasStationsLogic.h */,
+				54A8E9C81876DB2800E6B77B /* BaseGasStationsLogic.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		54A8E9CD1876DB2800E6B77B /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				54A8E9CE1876DB2800E6B77B /* GetNearGasStationsTask.h */,
+				54A8E9CF1876DB2800E6B77B /* GetNearGasStationsTask.m */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		54A8E9D01876DB2800E6B77B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54A8E9D11876DB2800E6B77B /* DAO */,
+				54A8E9D81876DB2800E6B77B /* DTO */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54A8E9D11876DB2800E6B77B /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				54A8E9D21876DB2800E6B77B /* GasStationDAO.h */,
+				54A8E9D31876DB2800E6B77B /* GasStationDAO.m */,
+				54A8E9D41876DB2800E6B77B /* NearGasStationsRequestDAO.h */,
+				54A8E9D51876DB2800E6B77B /* NearGasStationsRequestDAO.m */,
+				54A8E9D61876DB2800E6B77B /* NearGasStationsResponseDAO.h */,
+				54A8E9D71876DB2800E6B77B /* NearGasStationsResponseDAO.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		54A8E9D81876DB2800E6B77B /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				54A8E9D91876DB2800E6B77B /* GasStationDTO.h */,
+				54A8E9DA1876DB2800E6B77B /* GasStationDTO.m */,
+				54A8E9DB1876DB2800E6B77B /* NearGasStationsRequestDTO.h */,
+				54A8E9DC1876DB2800E6B77B /* NearGasStationsRequestDTO.m */,
+				54A8E9DD1876DB2800E6B77B /* NearGasStationsResponseDTO.h */,
+				54A8E9DE1876DB2800E6B77B /* NearGasStationsResponseDTO.m */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 		576CF4241873199900B88508 = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +322,8 @@
 		57C8DAAB1873285500DE6E34 /* gen */ = {
 			isa = PBXGroup;
 			children = (
+				54A8E9C51876DB2800E6B77B /* Logic */,
+				54A8E9D01876DB2800E6B77B /* Model */,
 			);
 			path = gen;
 			sourceTree = "<group>";
@@ -461,8 +559,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A8E9E51876DB2800E6B77B /* NearGasStationsResponseDAO.m in Sources */,
+				54A8E9E81876DB2800E6B77B /* NearGasStationsResponseDTO.m in Sources */,
+				54A8E9E01876DB2800E6B77B /* GasAllHelper.m in Sources */,
+				54A8E9E11876DB2800E6B77B /* GasStationsLogic.m in Sources */,
+				54A8E9E41876DB2800E6B77B /* NearGasStationsRequestDAO.m in Sources */,
 				57C8DAC5187328B300DE6E34 /* AppDelegate.m in Sources */,
+				54A8E9E31876DB2800E6B77B /* GasStationDAO.m in Sources */,
 				57C8DACC1873300C00DE6E34 /* MainViewController.m in Sources */,
+				54A8E9E21876DB2800E6B77B /* GetNearGasStationsTask.m in Sources */,
+				54A8E9E71876DB2800E6B77B /* NearGasStationsRequestDTO.m in Sources */,
+				54A8E9E61876DB2800E6B77B /* GasStationDTO.m in Sources */,
+				54A8E9DF1876DB2800E6B77B /* BaseGasStationsLogic.m in Sources */,
 				576CF43E1873199A00B88508 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
