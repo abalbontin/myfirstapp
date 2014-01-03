@@ -10,6 +10,7 @@
 #import <MapKit/MapKit.h>
 #import "GetNearGasStationsTask.h"
 #import "LocalizableConstants.h"
+#import "GasStationAnnotation.h"
 
 @interface MainViewController () <MKMapViewDelegate>
 
@@ -22,6 +23,8 @@
 
 @property (nonatomic) BOOL firstUserLocation;
 @property (nonatomic, getter = isUserInterfaceHidden) BOOL userInterfaceHidden;
+@property (strong, nonatomic) NSArray *gasStations;
+@property (nonatomic, strong) NSMutableArray *currentAnnotations;
 
 - (IBAction)centerUserLocation:(id)sender;
 - (IBAction)handleMapTap:(UITapGestureRecognizer *)recognizer;
@@ -31,6 +34,7 @@
 - (IBAction)showSettings:(id)sender;
 
 - (void)setUserLocationRegion;
+- (void)loadPOIsNearGasStations;
 
 @end
 
@@ -40,7 +44,10 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        
         // Custom initialization
+        _currentAnnotations = [NSMutableArray array];
+        
     }
     return self;
 }
@@ -148,6 +155,28 @@
 
 }
 
+- (void)loadPOIsNearGasStations {
+    
+    [self.mapView removeAnnotations:self.currentAnnotations];
+    
+    [self.currentAnnotations removeAllObjects];
+    for (GasStationDTO *gasStationDTO in self.gasStations) {
+        
+        if (gasStationDTO.latitude != nil && gasStationDTO.longitude != nil &&
+            ([gasStationDTO.latitude doubleValue] != 0.0 && [gasStationDTO.longitude doubleValue] != 0.0)) {
+            
+            GasStationAnnotation *annotation = [[GasStationAnnotation alloc] init];
+            annotation.gasStationDTO = gasStationDTO;
+            [self.currentAnnotations addObject:annotation];
+            
+        }
+        
+    }
+    
+    [self.mapView addAnnotations:self.currentAnnotations];
+    
+}
+
 - (void)setUserLocationRegion {
     
     MKCoordinateRegion mapRegion;
@@ -173,7 +202,9 @@
         [GetNearGasStationsTask getNearGasStationsTaskForRequest:nearGasStationsRequestDTO
                                                        completed:^(NSInteger statusCode, NearGasStationsResponseDTO *response) {
                                                            
-                                                           // TODO: abalbontin: Implement.
+                                                           self.gasStations = response.gasStations;
+                                                           
+                                                           [self loadPOIsNearGasStations];
                                                            
                                                        } error:^(NSError *error) {
         
