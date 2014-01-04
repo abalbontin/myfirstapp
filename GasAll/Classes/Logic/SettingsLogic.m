@@ -26,6 +26,17 @@
     
     if(self) {
         
+        NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+        
+        NSDictionary *gasolineDictionary = [userDefaults objectForKey:@"userGasolineSelected"];
+        if (gasolineDictionary != nil) {
+        
+            _userGasolineSelected = [[GasolineDTO alloc] init];
+            _userGasolineSelected.gasID = [gasolineDictionary objectForKey:@"gasID"];
+            _userGasolineSelected.name = [gasolineDictionary objectForKey:@"name"];
+            
+        }
+        
     }
     
     return self;
@@ -38,6 +49,18 @@
     NSDictionary *settings = [NSDictionary dictionaryWithContentsOfFile:settingsPath];
     
     return [settings objectForKey:@"gasolines"];
+    
+}
+
+- (void)setUserGasolineSelected:(GasolineDTO *)gasolineDTO {
+    
+    _userGasolineSelected = gasolineDTO;
+    
+    NSDictionary *gasolineDictionary = @{@"gasID": gasolineDTO.gasID, @"name": gasolineDTO.name};
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:gasolineDictionary forKey:@"userGasolineSelected"];
+    [userDefaults synchronize];
     
 }
 

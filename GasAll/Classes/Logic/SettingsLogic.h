@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GasolineDTO.h"
 
 @interface SettingsLogic : NSObject
+
+@property (strong, nonatomic) GasolineDTO *userGasolineSelected;
 
 // Get the shared instance and create it if necessary.
 + (SettingsLogic *)sharedInstance;
