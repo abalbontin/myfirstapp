@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gasolines</key>
+	<array>
+		<dict>
+			<key>gasID</key>
+			<string>G95</string>
+			<key>name</key>
+			<string>Gasolina 95</string>
+		</dict>
+		<dict>
+			<key>gasID</key>
+			<string>G98</string>
+			<key>name</key>
+			<string>Gasolina 98</string>
+		</dict>
+		<dict>
+			<key>gasID</key>
+			<string>GOA</string>
+			<key>name</key>
+			<string>Gasóleo Automoción</string>
+		</dict>
+		<dict>
+			<key>gasID</key>
+			<string>NGO</string>
+			<key>name</key>
+			<string>Nuevo Gasóleo A	</string>
+		</dict>
+		<dict>
+			<key>gasID</key>
+			<string>BIOD</string>
+			<key>name</key>
+			<string>Biodiésel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
