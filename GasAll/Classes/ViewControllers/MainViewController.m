@@ -11,6 +11,7 @@
 #import "GetNearGasStationsTask.h"
 #import "LocalizableConstants.h"
 #import "GasStationAnnotation.h"
+#import "SettingsLogic.h"
 
 @interface MainViewController () <MKMapViewDelegate>
 
@@ -59,6 +60,12 @@
     
     // We translucent the toolbar with the current color.
     self.toolbar.alpha = 0.9;
+    
+    if ([[SettingsLogic sharedInstance] userGasolineSelected] == nil) {
+        
+        // TODO: abalbontin: show gasolines options.
+        
+    }
     
     self.firstUserLocation = YES;
     self.mapView.showsUserLocation = YES;
