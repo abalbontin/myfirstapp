@@ -32,6 +32,7 @@
 @property (nonatomic) BOOL firstUserLocation;
 @property (nonatomic, getter = isUserInterfaceHidden) BOOL userInterfaceHidden;
 @property (strong, nonatomic) NSArray *gasStations;
+@property (strong, nonatomic) NSArray *gasolines;
 @property (nonatomic, strong) NSMutableArray *currentAnnotations;
 
 - (IBAction)centerUserLocation:(id)sender;
@@ -42,10 +43,10 @@
 - (IBAction)showsSettings:(id)sender;
 - (IBAction)dismissGasolinesView:(id)sender;
 
+- (void)showsGasolinesView;
 - (void)searchGasolinesNearUser;
 - (void)setUserLocationRegion;
 - (void)loadPOIsNearGasStations;
-- (void)showsGasolinesView;
 
 @end
 
@@ -74,6 +75,7 @@
     
     // We translucent the toolbar with the current color.
     self.toolbar.alpha = 0.9;
+    self.gasolinesPickerView.layer.cornerRadius = 14.0;
     if (!IS_IPHONE_5) {
         
         CGSize viewSize = [[UIScreen mainScreen] bounds].size;
@@ -93,6 +95,8 @@
         [self searchGasolinesNearUser];
         
     }
+    
+    self.userInterfaceHidden = NO;
     
 }
 
@@ -186,9 +190,24 @@
 
 - (IBAction)dismissGasolinesView:(id)sender {
     
+    NSInteger index = [self.gasolinesPicker selectedRowInComponent:0];
+    NSDictionary *gasoline = [self.gasolines objectAtIndex:index];
+    GasolineDTO *gasolineDTO = [[GasolineDTO alloc] init];
+    gasolineDTO.gasID = [gasoline objectForKey:@"gasID"];
+    gasolineDTO.name = [gasoline objectForKey:@"name"];
+    [[SettingsLogic sharedInstance] setUserGasolineSelected:gasolineDTO];
+ 
     [self.gasolinesView removeFromSuperview];
     
     [self searchGasolinesNearUser];
+    
+}
+
+- (void)showsGasolinesView {
+    
+    self.gasolines = [[SettingsLogic sharedInstance] gasolines];
+    
+    [self.view addSubview:self.gasolinesView];
     
 }
 
@@ -196,8 +215,6 @@
     
     self.firstUserLocation = YES;
     self.mapView.showsUserLocation = YES;
-    
-    self.userInterfaceHidden = NO;
     
 }
 
@@ -231,12 +248,6 @@
     }
     
     [self.mapView addAnnotations:self.currentAnnotations];
-    
-}
-
-- (void)showsGasolinesView {
-    
-    [self.view addSubview:self.gasolinesView];
     
 }
 
@@ -287,13 +298,13 @@
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
     
-    return [[[SettingsLogic sharedInstance] gasolines] count];
+    return self.gasolines.count;
     
 }
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     
-    return [[[[SettingsLogic sharedInstance] gasolines] objectAtIndex:row] objectForKey:@"name"];
+    return [[self.gasolines objectAtIndex:row] objectForKey:@"name"];
     
 }
 
