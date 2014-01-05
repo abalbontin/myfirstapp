@@ -29,10 +29,10 @@
 
 - (IBAction)centerUserLocation:(id)sender;
 - (IBAction)handleMapTap:(UITapGestureRecognizer *)recognizer;
-- (IBAction)showNearbyGasStations:(id)sender;
-- (IBAction)showFeaturedGasStations:(id)sender;
-- (IBAction)showPromotionsGasStations:(id)sender;
-- (IBAction)showSettings:(id)sender;
+- (IBAction)showsNearbyGasStations:(id)sender;
+- (IBAction)showsFeaturedGasStations:(id)sender;
+- (IBAction)showsPromotionsGasStations:(id)sender;
+- (IBAction)showsSettings:(id)sender;
 
 - (void)setUserLocationRegion;
 - (void)loadPOIsNearGasStations;
@@ -62,7 +62,7 @@
     self.toolbar.alpha = 0.9;
     
     if ([[SettingsLogic sharedInstance] userGasolineSelected] == nil) {
-        
+                
         // TODO: abalbontin: show gasolines options.
         
     }
@@ -126,7 +126,7 @@
     
 }
 
-- (IBAction)showNearbyGasStations:(id)sender {
+- (IBAction)showsNearbyGasStations:(id)sender {
     
     self.nearbyBarButtonItem.tintColor = [UIColor blackColor];
     self.featuredBarButtonItem.tintColor = [UIColor whiteColor];
@@ -136,7 +136,7 @@
     
 }
 
-- (IBAction)showFeaturedGasStations:(id)sender {
+- (IBAction)showsFeaturedGasStations:(id)sender {
 
     self.nearbyBarButtonItem.tintColor = [UIColor whiteColor];
     self.featuredBarButtonItem.tintColor = [UIColor blackColor];
@@ -146,7 +146,7 @@
 
 }
 
-- (IBAction)showPromotionsGasStations:(id)sender {
+- (IBAction)showsPromotionsGasStations:(id)sender {
 
     self.nearbyBarButtonItem.tintColor = [UIColor whiteColor];
     self.featuredBarButtonItem.tintColor = [UIColor whiteColor];
@@ -156,7 +156,7 @@
 
 }
 
-- (IBAction)showSettings:(id)sender {
+- (IBAction)showsSettings:(id)sender {
 
     // TODO: abalbontin: Implement.
 

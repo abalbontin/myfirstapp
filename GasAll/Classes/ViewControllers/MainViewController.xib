@@ -36,25 +36,25 @@
                         <barButtonItem image="main_nearby_ic.png" id="RkH-nG-EBC" userLabel="nearbyBarButtonItem">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
-                                <action selector="showNearbyGasStations:" destination="-1" id="8w0-51-sk8"/>
+                                <action selector="showsNearbyGasStations:" destination="-1" id="A76-x9-afC"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem width="57" style="plain" systemItem="fixedSpace" id="ptQ-WL-Fez"/>
                         <barButtonItem image="main_featured_ic.png" id="aYl-Ya-j6H" userLabel="featuredBarButtonItem - Item">
                             <connections>
-                                <action selector="showFeaturedGasStations:" destination="-1" id="QPq-uH-PBt"/>
+                                <action selector="showsFeaturedGasStations:" destination="-1" id="rVH-7S-LFR"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem width="57" style="plain" systemItem="fixedSpace" id="A7M-Zz-gEU"/>
                         <barButtonItem image="main_promotions_ic.png" id="hpL-nu-Eeb" userLabel="promotionsBarButtonItem - Item">
                             <connections>
-                                <action selector="showPromotionsGasStations:" destination="-1" id="hjx-T6-tPg"/>
+                                <action selector="showsPromotionsGasStations:" destination="-1" id="kvn-9F-t7h"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem width="57" style="plain" systemItem="fixedSpace" id="xEU-rr-xax"/>
                         <barButtonItem image="main_settings_ic.png" id="PKy-ns-6vM" userLabel="settingsBarButtonItem - Item">
                             <connections>
-                                <action selector="showSettings:" destination="-1" id="2qM-ZF-DUf"/>
+                                <action selector="showsSettings:" destination="-1" id="vck-Wz-OFf"/>
                             </connections>
                         </barButtonItem>
                     </items>
