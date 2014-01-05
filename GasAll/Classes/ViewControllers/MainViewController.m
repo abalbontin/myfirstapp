@@ -14,7 +14,7 @@
 #import "SettingsLogic.h"
 #import "MVYDefines.h"
 
-@interface MainViewController () <MKMapViewDelegate>
+@interface MainViewController () <MKMapViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UIButton *userLocationButton;
@@ -27,6 +27,7 @@
 @property (weak, nonatomic) IBOutlet UIView *gasolinesPickerView;
 @property (weak, nonatomic) IBOutlet UILabel *selectGasolineLabel;
 @property (weak, nonatomic) IBOutlet UIPickerView *gasolinesPicker;
+@property (weak, nonatomic) IBOutlet UIButton *selectButton;
 
 @property (nonatomic) BOOL firstUserLocation;
 @property (nonatomic, getter = isUserInterfaceHidden) BOOL userInterfaceHidden;
@@ -39,6 +40,7 @@
 - (IBAction)showsFeaturedGasStations:(id)sender;
 - (IBAction)showsPromotionsGasStations:(id)sender;
 - (IBAction)showsSettings:(id)sender;
+- (IBAction)dismissGasolinesView:(id)sender;
 
 - (void)searchGasolinesNearUser;
 - (void)setUserLocationRegion;
@@ -68,6 +70,7 @@
     
     // Localized texts.
     self.selectGasolineLabel.text = kLocaleSelectYourGasoline;
+    [self.selectButton setTitle:kLocaleSelect forState:UIControlStateNormal];
     
     // We translucent the toolbar with the current color.
     self.toolbar.alpha = 0.9;
@@ -181,6 +184,14 @@
 
 }
 
+- (IBAction)dismissGasolinesView:(id)sender {
+    
+    [self.gasolinesView removeFromSuperview];
+    
+    [self searchGasolinesNearUser];
+    
+}
+
 - (void)searchGasolinesNearUser {
     
     self.firstUserLocation = YES;
@@ -229,7 +240,7 @@
     
 }
 
-#pragma mark - Protocol MKMapViewDelegate methods
+#pragma mark - MKMapViewDelegate methods
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
@@ -263,6 +274,26 @@
         [self setUserLocationRegion];
         
     }
+    
+}
+
+#pragma mark - UIPickerViewDataSource and UIPickerViewDelegate methods
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    
+    return 1;
+    
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    
+    return [[[SettingsLogic sharedInstance] gasolines] count];
+    
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    
+    return [[[[SettingsLogic sharedInstance] gasolines] objectAtIndex:row] objectForKey:@"name"];
     
 }
 

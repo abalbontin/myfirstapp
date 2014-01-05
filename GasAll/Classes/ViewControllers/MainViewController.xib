@@ -13,6 +13,7 @@
                 <outlet property="mapView" destination="ei5-kb-NGb" id="A3b-YE-epn"/>
                 <outlet property="nearbyBarButtonItem" destination="RkH-nG-EBC" id="CpC-4K-cX0"/>
                 <outlet property="promotionsBarButtonItem" destination="hpL-nu-Eeb" id="LkN-if-sLH"/>
+                <outlet property="selectButton" destination="FV1-mf-AyE" id="eGJ-j6-ugt"/>
                 <outlet property="selectGasolineLabel" destination="ka3-yA-C6G" id="8wQ-UD-hnW"/>
                 <outlet property="toolbar" destination="2LD-RV-xsi" id="HL5-fx-WFZ"/>
                 <outlet property="userLocationButton" destination="zMa-ux-Hog" id="pI3-0j-d1U"/>
@@ -90,7 +91,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" id="4zQ-Kb-XpG" userLabel="gasolinesPickerView">
-                    <rect key="frame" x="20" y="182" width="280" height="203"/>
+                    <rect key="frame" x="20" y="167" width="280" height="233"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_Selecciona tu gasolina" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ka3-yA-C6G" userLabel="selectGasolineLabel - _Selecciona tu gasolina">
@@ -103,7 +104,21 @@
                         <pickerView contentMode="scaleToFill" id="UBN-NU-OwD" userLabel="gasolinesPicker">
                             <rect key="frame" x="0.0" y="36" width="280" height="162"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="5kl-jM-oAL"/>
+                                <outlet property="delegate" destination="-1" id="CRi-bK-M28"/>
+                            </connections>
                         </pickerView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FV1-mf-AyE" userLabel="selectButton - Button">
+                            <rect key="frame" x="20" y="198" width="240" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="_Seleccionar">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="dismissGasolinesView:" destination="-1" eventType="touchUpInside" id="08n-yC-JNJ"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
