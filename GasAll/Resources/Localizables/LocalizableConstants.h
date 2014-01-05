@@ -3,7 +3,7 @@ LocalizableConstants.h
 
 GENERATED - DO NOT MODIFY - use localio instead.
 
-Created by localio on 2014-01-03 13:33:00 +0100.
+Created by localio on 2014-01-05 20:08:49 +0100.
 */
 
 
@@ -25,3 +25,4 @@ Created by localio on 2014-01-03 13:33:00 +0100.
 #define		kLocaleYesSwitch		NSLocalizedString(@"_Yes_switch",nil)
 #define		kLocaleNoSwitch		NSLocalizedString(@"_No_switch",nil)
 #define		kLocaleGetNearGasStationsError		NSLocalizedString(@"_Get_near_gas_stations_error",nil)
+#define		kLocaleSelectYourGasoline		NSLocalizedString(@"_Select_your_gasoline",nil)

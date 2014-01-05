@@ -12,4 +12,6 @@
 
 #define kHockeyAppBetaIdentifier @"fd066ea8458680b138d045a7d540aae9"
 #define kHockeyAppBetaLiveIdentifier @""
-						
+
+// Macro to know if we're on an iPhone with screen 4".
+#define IS_IPHONE_5 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)568) < DBL_EPSILON)

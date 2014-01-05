@@ -12,6 +12,7 @@
 #import "LocalizableConstants.h"
 #import "GasStationAnnotation.h"
 #import "SettingsLogic.h"
+#import "MVYDefines.h"
 
 @interface MainViewController () <MKMapViewDelegate>
 
@@ -21,6 +22,11 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *nearbyBarButtonItem;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *featuredBarButtonItem;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *promotionsBarButtonItem;
+
+@property (weak, nonatomic) IBOutlet UIView *gasolinesView;
+@property (weak, nonatomic) IBOutlet UIView *gasolinesPickerView;
+@property (weak, nonatomic) IBOutlet UILabel *selectGasolineLabel;
+@property (weak, nonatomic) IBOutlet UIPickerView *gasolinesPicker;
 
 @property (nonatomic) BOOL firstUserLocation;
 @property (nonatomic, getter = isUserInterfaceHidden) BOOL userInterfaceHidden;
@@ -34,8 +40,10 @@
 - (IBAction)showsPromotionsGasStations:(id)sender;
 - (IBAction)showsSettings:(id)sender;
 
+- (void)searchGasolinesNearUser;
 - (void)setUserLocationRegion;
 - (void)loadPOIsNearGasStations;
+- (void)showsGasolinesView;
 
 @end
 
@@ -58,19 +66,30 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    // Localized texts.
+    self.selectGasolineLabel.text = kLocaleSelectYourGasoline;
+    
     // We translucent the toolbar with the current color.
     self.toolbar.alpha = 0.9;
-    
-    if ([[SettingsLogic sharedInstance] userGasolineSelected] == nil) {
-                
-        // TODO: abalbontin: show gasolines options.
+    if (!IS_IPHONE_5) {
+        
+        CGSize viewSize = [[UIScreen mainScreen] bounds].size;
+        
+        CGRect pickerViewFrame = self.gasolinesPickerView.frame;
+        pickerViewFrame.origin.y = (viewSize.height / 2.0) - (pickerViewFrame.size.height / 2.0);
+        self.gasolinesPickerView.frame = pickerViewFrame;
         
     }
     
-    self.firstUserLocation = YES;
-    self.mapView.showsUserLocation = YES;
-    
-    self.userInterfaceHidden = NO;
+    if ([[SettingsLogic sharedInstance] userGasolineSelected] == nil) {
+                
+        [self showsGasolinesView];
+        
+    } else {
+        
+        [self searchGasolinesNearUser];
+        
+    }
     
 }
 
@@ -162,6 +181,26 @@
 
 }
 
+- (void)searchGasolinesNearUser {
+    
+    self.firstUserLocation = YES;
+    self.mapView.showsUserLocation = YES;
+    
+    self.userInterfaceHidden = NO;
+    
+}
+
+- (void)setUserLocationRegion {
+    
+    MKCoordinateRegion mapRegion;
+    mapRegion.center = self.mapView.userLocation.coordinate;
+    mapRegion.span.latitudeDelta = 0.05;
+    mapRegion.span.longitudeDelta = 0.05;
+    
+    [self.mapView setRegion:mapRegion animated: YES];
+    
+}
+
 - (void)loadPOIsNearGasStations {
     
     [self.mapView removeAnnotations:self.currentAnnotations];
@@ -184,14 +223,9 @@
     
 }
 
-- (void)setUserLocationRegion {
+- (void)showsGasolinesView {
     
-    MKCoordinateRegion mapRegion;
-    mapRegion.center = self.mapView.userLocation.coordinate;
-    mapRegion.span.latitudeDelta = 0.05;
-    mapRegion.span.longitudeDelta = 0.05;
-    
-    [self.mapView setRegion:mapRegion animated: YES];
+    [self.view addSubview:self.gasolinesView];
     
 }
 

@@ -3,7 +3,7 @@ Localizable.strings
 
 GENERATED - DO NOT MODIFY - use the localio gem instead.
 
-Created by localio on 2014-01-03 13:33:00 +0100.
+Created by localio on 2014-01-05 20:08:49 +0100.
 */
 
 
@@ -34,3 +34,4 @@ Created by localio on 2014-01-03 13:33:00 +0100.
 //  Main View
 
 "_Get_near_gas_stations_error" = "No ha sido posible obtener la información de las gasolineras, por favor revisa tu configuración de internet y asegurate que permites usar localización para GasAll. Vuelve a intentarlo más adelante.";
+"_Select_your_gasoline" = "Selecciona tu gasolina";
