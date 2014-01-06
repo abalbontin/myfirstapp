@@ -15,7 +15,7 @@
 #import "MVYDefines.h"
 #import "SettingsViewController.h"
 
-@interface MainViewController () <MKMapViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
+@interface MainViewController () <MKMapViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource, SettingsViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UIButton *userLocationButton;
@@ -76,6 +76,7 @@
     
     // We translucent the toolbar with the current color.
     self.toolbar.alpha = 0.9;
+    self.mapView.mapType = [[SettingsLogic sharedInstance] mapType];
     self.gasolinesPickerView.layer.cornerRadius = 14.0;
     if (!IS_IPHONE_5) {
         
@@ -187,6 +188,8 @@
 
     SettingsViewController *settingsViewController = [[SettingsViewController alloc] initWithNibName:@"SettingsViewController"
                                                                                               bundle:nil];
+    settingsViewController.delegate = self;
+    
     // This viewController will be visible on Modal presentation.
     self.modalPresentationStyle = UIModalPresentationCurrentContext;
     
@@ -311,6 +314,14 @@
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     
     return [[self.gasolines objectAtIndex:row] objectForKey:@"name"];
+    
+}
+
+#pragma mark - SettingsViewControllerDelegate methods
+
+- (void)updateMapType:(MKMapType)mapType {
+    
+    self.mapView.mapType = mapType;
     
 }
 

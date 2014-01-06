@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+
+@protocol SettingsViewControllerDelegate;
 
 @interface SettingsViewController : UIViewController
+
+@property (weak, nonatomic) id <SettingsViewControllerDelegate> delegate;
+
+@end
+
+@protocol SettingsViewControllerDelegate <NSObject>
+
+- (void)updateMapType:(MKMapType)mapType;
 
 @end

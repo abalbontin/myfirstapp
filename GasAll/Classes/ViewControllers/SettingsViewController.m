@@ -8,12 +8,14 @@
 
 #import "SettingsViewController.h"
 #import "LocalizableConstants.h"
+#import "SettingsLogic.h"
 
 @interface SettingsViewController ()
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *mapTypesSegmentedControl;
 @property (weak, nonatomic) IBOutlet UIButton *selectGasolineButton;
 
+- (IBAction)mapTypesSegmentedSelected:(id)sender;
 - (IBAction)showsGasolinesPicker:(id)sender;
 
 @end
@@ -40,6 +42,20 @@
     [self.mapTypesSegmentedControl setTitle:kLocaleSatellite forSegmentAtIndex:2];
     [self.selectGasolineButton setTitle:kLocaleSelectYourGasoline forState:UIControlStateNormal];
     
+    switch ([[SettingsLogic sharedInstance] mapType]) {
+        case 1:
+            [self.mapTypesSegmentedControl setSelectedSegmentIndex:2];
+            break;
+            
+        case 2:
+            [self.mapTypesSegmentedControl setSelectedSegmentIndex:1];
+            break;
+            
+        default:
+            [self.mapTypesSegmentedControl setSelectedSegmentIndex:0];
+            break;
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,6 +65,31 @@
 }
 
 #pragma mark - Class methods
+
+- (IBAction)mapTypesSegmentedSelected:(id)sender {
+    
+    MKMapType mapType;
+    switch ([(UISegmentedControl *)sender selectedSegmentIndex]) {
+        case 1:
+            mapType = MKMapTypeHybrid;
+            break;
+            
+        case 2:
+            mapType = MKMapTypeSatellite;
+            break;
+            
+        default:
+            mapType = MKMapTypeStandard;
+            break;
+    }
+    
+    [self.delegate updateMapType:mapType];
+    
+    [[SettingsLogic sharedInstance] setMapType:mapType];
+    
+    [self dismissViewControllerAnimated:YES completion:^{ }];
+    
+}
 
 - (IBAction)showsGasolinesPicker:(id)sender {
 

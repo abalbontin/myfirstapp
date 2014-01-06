@@ -37,6 +37,29 @@
             
         }
         
+        NSNumber *aMapType = [userDefaults objectForKey:@"mapType"];
+        if (aMapType != nil) {
+            
+            switch ([aMapType integerValue]) {
+                case 1:
+                    self.mapType = MKMapTypeSatellite;
+                    break;
+                    
+                case 2:
+                    self.mapType = MKMapTypeHybrid;
+                    break;
+                    
+                default:
+                    self.mapType = MKMapTypeStandard;
+                    break;
+            }
+            
+        } else {
+            
+            self.mapType = MKMapTypeStandard;
+            
+        }
+        
     }
     
     return self;
@@ -60,6 +83,16 @@
     
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     [userDefaults setObject:gasolineDictionary forKey:@"userGasolineSelected"];
+    [userDefaults synchronize];
+    
+}
+
+- (void)setMapType:(MKMapType)mapType {
+    
+    _mapType = mapType;
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:[NSNumber numberWithInteger:mapType] forKey:@"mapType"];
     [userDefaults synchronize];
     
 }

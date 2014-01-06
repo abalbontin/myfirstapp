@@ -28,6 +28,9 @@
                                 <segment title="_Híbrido"/>
                                 <segment title="_Satélite"/>
                             </segments>
+                            <connections>
+                                <action selector="mapTypesSegmentedSelected:" destination="-1" eventType="valueChanged" id="qvw-Nj-vPi"/>
+                            </connections>
                         </segmentedControl>
                         <view contentMode="scaleToFill" id="F2O-Jh-bJh" userLabel="separatorView">
                             <rect key="frame" x="0.0" y="48" width="320" height="8"/>
