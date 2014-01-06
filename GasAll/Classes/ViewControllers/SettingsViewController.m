@@ -12,6 +12,8 @@
 
 @interface SettingsViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UIView *navigationView;
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 @property (weak, nonatomic) IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *mapTypesSegmentedControl;
 @property (weak, nonatomic) IBOutlet UIButton *selectGasolineButton;
@@ -45,6 +47,7 @@
     // Do any additional setup after loading the view from its nib.
     
     // Localized texts.
+    self.navigationBar.topItem.title = kLocaleSettings;
     [self.mapTypesSegmentedControl setTitle:kLocaleStandard forSegmentAtIndex:0];
     [self.mapTypesSegmentedControl setTitle:kLocaleHybrid forSegmentAtIndex:1];
     [self.mapTypesSegmentedControl setTitle:kLocaleSatellite forSegmentAtIndex:2];
@@ -75,6 +78,7 @@
     
     [UIView animateWithDuration:0.3 animations:^{
         
+        self.navigationView.alpha = 1.0;
         self.view.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.3];
         
     }];
@@ -160,6 +164,7 @@
     
     [UIView animateWithDuration:0.2 animations:^{
 
+        self.navigationView.alpha = 0.0;
         self.view.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
         
     } completion:^(BOOL finished) {

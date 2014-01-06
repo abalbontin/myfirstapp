@@ -9,6 +9,8 @@
                 <outlet property="contentView" destination="ZOX-Nm-IoT" id="pub-tG-5dj"/>
                 <outlet property="gasolinesPicker" destination="Omq-RI-ZRL" id="WhL-97-k3H"/>
                 <outlet property="mapTypesSegmentedControl" destination="7Wg-Fz-bsj" id="4we-NC-gpg"/>
+                <outlet property="navigationBar" destination="tFz-oH-tno" id="wYb-dX-sZ6"/>
+                <outlet property="navigationView" destination="aRD-5n-Jxk" id="acz-P8-sW5"/>
                 <outlet property="selectGasolineButton" destination="yjV-VL-9ro" id="gcC-yC-ZgP"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
@@ -28,6 +30,28 @@
                         <action selector="closeView:" destination="-1" eventType="touchUpInside" id="NK2-cK-xFq"/>
                     </connections>
                 </button>
+                <view alpha="0.0" contentMode="scaleToFill" id="aRD-5n-Jxk" userLabel="navigationView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <navigationBar contentMode="scaleToFill" id="tFz-oH-tno" userLabel="navigationBar">
+                            <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <items>
+                                <navigationItem title="_Ajustes" id="r3G-Oc-h14">
+                                    <barButtonItem key="rightBarButtonItem" systemItem="done" id="5Ya-Nj-p9g">
+                                        <connections>
+                                            <action selector="closeView:" destination="-1" id="A30-TM-ikE"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
                 <view contentMode="scaleToFill" id="ZOX-Nm-IoT" userLabel="contentView">
                     <rect key="frame" x="0.0" y="462" width="320" height="106"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>

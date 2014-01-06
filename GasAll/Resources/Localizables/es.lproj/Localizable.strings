@@ -3,7 +3,7 @@ Localizable.strings
 
 GENERATED - DO NOT MODIFY - use the localio gem instead.
 
-Created by localio on 2014-01-06 09:20:53 +0100.
+Created by localio on 2014-01-06 20:42:36 +0100.
 */
 
 
@@ -39,6 +39,7 @@ Created by localio on 2014-01-06 09:20:53 +0100.
 
 //  Settings View
 
+"_Settings" = "Ajustes";
 "_Standard" = "Estándar";
 "_Hybrid" = "Híbrido";
 "_Satellite" = "Satélite";
