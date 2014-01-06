@@ -8,6 +8,8 @@
 //
 
 #import "GasStationDTO.h"
+#import "GasolinePriceDTO.h"
+#import "GasolinePriceDAO.h"
 #import "GasStationDAO.h"
 
 @implementation GasStationDAO
@@ -29,11 +31,6 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 		
 			dict[@"id"] = instance.id;
 			dict[@"name"] = instance.name;
-			dict[@"G95"] = instance.price95;
-			dict[@"G98"] = instance.price98;
-			dict[@"GOA"] = instance.priceGOA;
-			dict[@"NGO"] = instance.priceNGO;
-			dict[@"GPR"] = instance.priceGPR;
 			dict[@"latitude"] = instance.latitude;
 			dict[@"longitude"] = instance.longitude;
 			dict[@"distance"] = instance.distance;
@@ -45,6 +42,14 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 		
 	
 
+	NSMutableArray *arraygasolinePrice=[[NSMutableArray alloc]init];
+	for(GasolinePriceDTO *typeItem in instance.gasolinePrice)
+	{
+		NSDictionary *dictgasolinePrice=[[GasolinePriceDAO sharedInstance] writeToDictionary:typeItem];
+		[arraygasolinePrice addObject:dictgasolinePrice];
+	}
+	dict[@"gasolinePrice"] = arraygasolinePrice;
+
 	return dict;
 }
 
@@ -53,6 +58,7 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 	GasStationDTO *instance=[[GasStationDTO alloc]init];
 	if(![dict isKindOfClass:[NSNull class]])
 	    {
+    instance.gasolinePrice=[[NSMutableArray alloc]init];
 
     if (dict[@"id"] && ![dict[@"id"] isKindOfClass:[NSNull class]]) {
 	if([dict[@"id"] isKindOfClass:[NSString class]])
@@ -73,21 +79,6 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 	{
 		instance.name=[NSString stringWithFormat:@"%@",dict[@"name"]];
 	}
-        }
-    if (dict[@"G95"] && ![dict[@"G95"] isKindOfClass:[NSNull class]]) {
-		instance.price95 = dict[@"G95"];
-        }
-    if (dict[@"G98"] && ![dict[@"G98"] isKindOfClass:[NSNull class]]) {
-		instance.price98 = dict[@"G98"];
-        }
-    if (dict[@"GOA"] && ![dict[@"GOA"] isKindOfClass:[NSNull class]]) {
-		instance.priceGOA = dict[@"GOA"];
-        }
-    if (dict[@"NGO"] && ![dict[@"NGO"] isKindOfClass:[NSNull class]]) {
-		instance.priceNGO = dict[@"NGO"];
-        }
-    if (dict[@"GPR"] && ![dict[@"GPR"] isKindOfClass:[NSNull class]]) {
-		instance.priceGPR = dict[@"GPR"];
         }
     if (dict[@"latitude"] && ![dict[@"latitude"] isKindOfClass:[NSNull class]]) {
 		instance.latitude = dict[@"latitude"];
@@ -144,6 +135,30 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 
   
 
+	NSDictionary *gasolinePriceItem = nil;
+	if(![dict[@"gasolinePrice"] isKindOfClass:[NSNull class]])
+	{
+		gasolinePriceItem=dict[@"gasolinePrice"];
+	}
+	
+	if([gasolinePriceItem isKindOfClass:[NSArray class]])
+	{
+		NSArray *gasolinePriceArray=dict[@"gasolinePrice"];
+		NSMutableArray *gasolinePriceMutableArray=[[NSMutableArray alloc]init];
+		for(NSDictionary *data in gasolinePriceArray)
+		{
+			GasolinePriceDTO *item=[[GasolinePriceDAO sharedInstance] readFromDictionary:data];
+			[gasolinePriceMutableArray addObject:item];
+		}
+		instance.gasolinePrice=gasolinePriceMutableArray;
+	}
+	else if (gasolinePriceItem)
+	{
+		NSMutableArray *gasolinePriceMutableArray=[[NSMutableArray alloc]init];
+		GasolinePriceDTO *item=[[GasolinePriceDAO sharedInstance] readFromDictionary:gasolinePriceItem];
+		[gasolinePriceMutableArray addObject:item];
+		instance.gasolinePrice=gasolinePriceMutableArray;
+	}
 	}
 	return instance;
 }

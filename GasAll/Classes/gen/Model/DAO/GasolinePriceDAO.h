@@ -1,5 +1,5 @@
 //
-//  GasStationDAO.h
+//  GasolinePriceDAO.h
 //  GasAll
 //  Version: 3.0
 //
@@ -9,20 +9,19 @@
 
 #import <Foundation/Foundation.h>
 #import "GasolinePriceDTO.h"
-#import "GasStationDTO.h"
 
-@interface GasStationDAO : NSObject
+@interface GasolinePriceDAO : NSObject
 
 // Get the shared instance and create it if necessary.
-+ (GasStationDAO *)sharedInstance;
++ (GasolinePriceDAO *)sharedInstance;
 
 // Set DTOs values from Dictionary
--(GasStationDTO *) readFromDictionary:(NSDictionary *)dict;
+-(GasolinePriceDTO *) readFromDictionary:(NSDictionary *)dict;
 
 // Creates a DTO array from Dictionary array
 -(NSArray *) readFromDictionaryArray:(NSArray *)dictArray;
 
 // Creates a json dictionary from DTO instance
--(NSDictionary *) writeToDictionary:(GasStationDTO *)instance;
+-(NSDictionary *) writeToDictionary:(GasolinePriceDTO *)instance;
 
 @end

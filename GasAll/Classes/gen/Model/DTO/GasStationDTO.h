@@ -8,6 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GasolinePriceDTO.h"
 
 
 @interface GasStationDTO : NSObject <NSCopying, NSMutableCopying, NSCoding>
@@ -15,11 +16,7 @@
 
 @property (nonatomic, strong) NSString *id;	///<  - Field name on service:id.
 @property (nonatomic, strong) NSString *name;	///<  - Field name on service:name.
-@property (nonatomic, strong) NSNumber *price95;	///<  - Field name on service:G95.
-@property (nonatomic, strong) NSNumber *price98;	///<  - Field name on service:G98.
-@property (nonatomic, strong) NSNumber *priceGOA;	///<  - Field name on service:GOA.
-@property (nonatomic, strong) NSNumber *priceNGO;	///<  - Field name on service:NGO.
-@property (nonatomic, strong) NSNumber *priceGPR;	///<  - Field name on service:GPR.
+@property (nonatomic, strong) NSArray *gasolinePrice;	///<  - Field name on service:gasolinePrice.
 @property (nonatomic, strong) NSNumber *latitude;	///<  - Field name on service:latitude.
 @property (nonatomic, strong) NSNumber *longitude;	///<  - Field name on service:longitude.
 @property (nonatomic, strong) NSNumber *distance;	///<  - Field name on service:distance.

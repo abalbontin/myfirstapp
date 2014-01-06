@@ -8,16 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3037C3ED2B984A2BA4CAC4C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CA61998794140A0F68B11 /* libPods.a */; };
-		54A8E9DF1876DB2800E6B77B /* BaseGasStationsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9C81876DB2800E6B77B /* BaseGasStationsLogic.m */; };
-		54A8E9E01876DB2800E6B77B /* GasAllHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9CA1876DB2800E6B77B /* GasAllHelper.m */; };
-		54A8E9E11876DB2800E6B77B /* GasStationsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9CC1876DB2800E6B77B /* GasStationsLogic.m */; };
-		54A8E9E21876DB2800E6B77B /* GetNearGasStationsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9CF1876DB2800E6B77B /* GetNearGasStationsTask.m */; };
-		54A8E9E31876DB2800E6B77B /* GasStationDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9D31876DB2800E6B77B /* GasStationDAO.m */; };
-		54A8E9E41876DB2800E6B77B /* NearGasStationsRequestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9D51876DB2800E6B77B /* NearGasStationsRequestDAO.m */; };
-		54A8E9E51876DB2800E6B77B /* NearGasStationsResponseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9D71876DB2800E6B77B /* NearGasStationsResponseDAO.m */; };
-		54A8E9E61876DB2800E6B77B /* GasStationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9DA1876DB2800E6B77B /* GasStationDTO.m */; };
-		54A8E9E71876DB2800E6B77B /* NearGasStationsRequestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9DC1876DB2800E6B77B /* NearGasStationsRequestDTO.m */; };
-		54A8E9E81876DB2800E6B77B /* NearGasStationsResponseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8E9DE1876DB2800E6B77B /* NearGasStationsResponseDTO.m */; };
 		54A8E9F21876EE4700E6B77B /* mapa_red_gasolineras_generico_gsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A8E9EA1876EE4700E6B77B /* mapa_red_gasolineras_generico_gsmall.png */; };
 		54A8E9F31876EE4700E6B77B /* mapa_red_gasolineras_generico_gsmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A8E9EB1876EE4700E6B77B /* mapa_red_gasolineras_generico_gsmall@2x.png */; };
 		54A8E9F41876EE4700E6B77B /* mapa_red_gasolineras_generico_rsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 54A8E9EC1876EE4700E6B77B /* mapa_red_gasolineras_generico_rsmall.png */; };
@@ -54,6 +44,18 @@
 		57C8DAE1187335AF00DE6E34 /* main_settings_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD9187335AF00DE6E34 /* main_settings_ic@2x.png */; };
 		57E13D4F187A99DD00B0BB57 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D4D187A99DD00B0BB57 /* SettingsViewController.m */; };
 		57E13D50187A99DD00B0BB57 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D4E187A99DD00B0BB57 /* SettingsViewController.xib */; };
+		57E13D70187B678800B0BB57 /* BaseGasStationsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D55187B678800B0BB57 /* BaseGasStationsLogic.m */; };
+		57E13D71187B678800B0BB57 /* GasAllHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D57187B678800B0BB57 /* GasAllHelper.m */; };
+		57E13D72187B678800B0BB57 /* GasStationsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D59187B678800B0BB57 /* GasStationsLogic.m */; };
+		57E13D73187B678800B0BB57 /* GetNearGasStationsTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D5C187B678800B0BB57 /* GetNearGasStationsTask.m */; };
+		57E13D74187B678800B0BB57 /* GasolinePriceDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D60187B678800B0BB57 /* GasolinePriceDAO.m */; };
+		57E13D75187B678800B0BB57 /* GasStationDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D62187B678800B0BB57 /* GasStationDAO.m */; };
+		57E13D76187B678800B0BB57 /* NearGasStationsRequestDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D64187B678800B0BB57 /* NearGasStationsRequestDAO.m */; };
+		57E13D77187B678800B0BB57 /* NearGasStationsResponseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D66187B678800B0BB57 /* NearGasStationsResponseDAO.m */; };
+		57E13D78187B678800B0BB57 /* GasolinePriceDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D69187B678800B0BB57 /* GasolinePriceDTO.m */; };
+		57E13D79187B678800B0BB57 /* GasStationDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D6B187B678800B0BB57 /* GasStationDTO.m */; };
+		57E13D7A187B678800B0BB57 /* NearGasStationsRequestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D6D187B678800B0BB57 /* NearGasStationsRequestDTO.m */; };
+		57E13D7B187B678800B0BB57 /* NearGasStationsResponseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D6F187B678800B0BB57 /* NearGasStationsResponseDTO.m */; };
 		57E53A81187818DF00CE933B /* SettingsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A80187818DF00CE933B /* SettingsLogic.m */; };
 		57E53A841878190A00CE933B /* GasolineDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A831878190A00CE933B /* GasolineDTO.m */; };
 		57E53A8718781E1300CE933B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57E53A8518781E1300CE933B /* InfoPlist.strings */; };
@@ -74,26 +76,6 @@
 
 /* Begin PBXFileReference section */
 		4CE1620C84E9456C85C3C288 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		54A8E9C71876DB2800E6B77B /* BaseGasStationsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGasStationsLogic.h; sourceTree = "<group>"; };
-		54A8E9C81876DB2800E6B77B /* BaseGasStationsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGasStationsLogic.m; sourceTree = "<group>"; };
-		54A8E9C91876DB2800E6B77B /* GasAllHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasAllHelper.h; sourceTree = "<group>"; };
-		54A8E9CA1876DB2800E6B77B /* GasAllHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasAllHelper.m; sourceTree = "<group>"; };
-		54A8E9CB1876DB2800E6B77B /* GasStationsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationsLogic.h; sourceTree = "<group>"; };
-		54A8E9CC1876DB2800E6B77B /* GasStationsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationsLogic.m; sourceTree = "<group>"; };
-		54A8E9CE1876DB2800E6B77B /* GetNearGasStationsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNearGasStationsTask.h; sourceTree = "<group>"; };
-		54A8E9CF1876DB2800E6B77B /* GetNearGasStationsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNearGasStationsTask.m; sourceTree = "<group>"; };
-		54A8E9D21876DB2800E6B77B /* GasStationDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationDAO.h; sourceTree = "<group>"; };
-		54A8E9D31876DB2800E6B77B /* GasStationDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationDAO.m; sourceTree = "<group>"; };
-		54A8E9D41876DB2800E6B77B /* NearGasStationsRequestDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsRequestDAO.h; sourceTree = "<group>"; };
-		54A8E9D51876DB2800E6B77B /* NearGasStationsRequestDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsRequestDAO.m; sourceTree = "<group>"; };
-		54A8E9D61876DB2800E6B77B /* NearGasStationsResponseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsResponseDAO.h; sourceTree = "<group>"; };
-		54A8E9D71876DB2800E6B77B /* NearGasStationsResponseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsResponseDAO.m; sourceTree = "<group>"; };
-		54A8E9D91876DB2800E6B77B /* GasStationDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationDTO.h; sourceTree = "<group>"; };
-		54A8E9DA1876DB2800E6B77B /* GasStationDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationDTO.m; sourceTree = "<group>"; };
-		54A8E9DB1876DB2800E6B77B /* NearGasStationsRequestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsRequestDTO.h; sourceTree = "<group>"; };
-		54A8E9DC1876DB2800E6B77B /* NearGasStationsRequestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsRequestDTO.m; sourceTree = "<group>"; };
-		54A8E9DD1876DB2800E6B77B /* NearGasStationsResponseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsResponseDTO.h; sourceTree = "<group>"; };
-		54A8E9DE1876DB2800E6B77B /* NearGasStationsResponseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsResponseDTO.m; sourceTree = "<group>"; };
 		54A8E9EA1876EE4700E6B77B /* mapa_red_gasolineras_generico_gsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa_red_gasolineras_generico_gsmall.png; sourceTree = "<group>"; };
 		54A8E9EB1876EE4700E6B77B /* mapa_red_gasolineras_generico_gsmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapa_red_gasolineras_generico_gsmall@2x.png"; sourceTree = "<group>"; };
 		54A8E9EC1876EE4700E6B77B /* mapa_red_gasolineras_generico_rsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa_red_gasolineras_generico_rsmall.png; sourceTree = "<group>"; };
@@ -146,6 +128,30 @@
 		57E13D4C187A99DD00B0BB57 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		57E13D4D187A99DD00B0BB57 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		57E13D4E187A99DD00B0BB57 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		57E13D54187B678800B0BB57 /* BaseGasStationsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGasStationsLogic.h; sourceTree = "<group>"; };
+		57E13D55187B678800B0BB57 /* BaseGasStationsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseGasStationsLogic.m; sourceTree = "<group>"; };
+		57E13D56187B678800B0BB57 /* GasAllHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasAllHelper.h; sourceTree = "<group>"; };
+		57E13D57187B678800B0BB57 /* GasAllHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasAllHelper.m; sourceTree = "<group>"; };
+		57E13D58187B678800B0BB57 /* GasStationsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationsLogic.h; sourceTree = "<group>"; };
+		57E13D59187B678800B0BB57 /* GasStationsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationsLogic.m; sourceTree = "<group>"; };
+		57E13D5B187B678800B0BB57 /* GetNearGasStationsTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNearGasStationsTask.h; sourceTree = "<group>"; };
+		57E13D5C187B678800B0BB57 /* GetNearGasStationsTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNearGasStationsTask.m; sourceTree = "<group>"; };
+		57E13D5F187B678800B0BB57 /* GasolinePriceDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasolinePriceDAO.h; sourceTree = "<group>"; };
+		57E13D60187B678800B0BB57 /* GasolinePriceDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasolinePriceDAO.m; sourceTree = "<group>"; };
+		57E13D61187B678800B0BB57 /* GasStationDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationDAO.h; sourceTree = "<group>"; };
+		57E13D62187B678800B0BB57 /* GasStationDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationDAO.m; sourceTree = "<group>"; };
+		57E13D63187B678800B0BB57 /* NearGasStationsRequestDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsRequestDAO.h; sourceTree = "<group>"; };
+		57E13D64187B678800B0BB57 /* NearGasStationsRequestDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsRequestDAO.m; sourceTree = "<group>"; };
+		57E13D65187B678800B0BB57 /* NearGasStationsResponseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsResponseDAO.h; sourceTree = "<group>"; };
+		57E13D66187B678800B0BB57 /* NearGasStationsResponseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsResponseDAO.m; sourceTree = "<group>"; };
+		57E13D68187B678800B0BB57 /* GasolinePriceDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasolinePriceDTO.h; sourceTree = "<group>"; };
+		57E13D69187B678800B0BB57 /* GasolinePriceDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasolinePriceDTO.m; sourceTree = "<group>"; };
+		57E13D6A187B678800B0BB57 /* GasStationDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationDTO.h; sourceTree = "<group>"; };
+		57E13D6B187B678800B0BB57 /* GasStationDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationDTO.m; sourceTree = "<group>"; };
+		57E13D6C187B678800B0BB57 /* NearGasStationsRequestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsRequestDTO.h; sourceTree = "<group>"; };
+		57E13D6D187B678800B0BB57 /* NearGasStationsRequestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsRequestDTO.m; sourceTree = "<group>"; };
+		57E13D6E187B678800B0BB57 /* NearGasStationsResponseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearGasStationsResponseDTO.h; sourceTree = "<group>"; };
+		57E13D6F187B678800B0BB57 /* NearGasStationsResponseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearGasStationsResponseDTO.m; sourceTree = "<group>"; };
 		57E53A7F187818DF00CE933B /* SettingsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsLogic.h; sourceTree = "<group>"; };
 		57E53A80187818DF00CE933B /* SettingsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsLogic.m; sourceTree = "<group>"; };
 		57E53A821878190A00CE933B /* GasolineDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasolineDTO.h; sourceTree = "<group>"; };
@@ -183,72 +189,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54A8E9C51876DB2800E6B77B /* Logic */ = {
-			isa = PBXGroup;
-			children = (
-				54A8E9C61876DB2800E6B77B /* Base */,
-				54A8E9C91876DB2800E6B77B /* GasAllHelper.h */,
-				54A8E9CA1876DB2800E6B77B /* GasAllHelper.m */,
-				54A8E9CB1876DB2800E6B77B /* GasStationsLogic.h */,
-				54A8E9CC1876DB2800E6B77B /* GasStationsLogic.m */,
-				54A8E9CD1876DB2800E6B77B /* Tasks */,
-			);
-			path = Logic;
-			sourceTree = "<group>";
-		};
-		54A8E9C61876DB2800E6B77B /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				54A8E9C71876DB2800E6B77B /* BaseGasStationsLogic.h */,
-				54A8E9C81876DB2800E6B77B /* BaseGasStationsLogic.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		54A8E9CD1876DB2800E6B77B /* Tasks */ = {
-			isa = PBXGroup;
-			children = (
-				54A8E9CE1876DB2800E6B77B /* GetNearGasStationsTask.h */,
-				54A8E9CF1876DB2800E6B77B /* GetNearGasStationsTask.m */,
-			);
-			path = Tasks;
-			sourceTree = "<group>";
-		};
-		54A8E9D01876DB2800E6B77B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				54A8E9D11876DB2800E6B77B /* DAO */,
-				54A8E9D81876DB2800E6B77B /* DTO */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		54A8E9D11876DB2800E6B77B /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-				54A8E9D21876DB2800E6B77B /* GasStationDAO.h */,
-				54A8E9D31876DB2800E6B77B /* GasStationDAO.m */,
-				54A8E9D41876DB2800E6B77B /* NearGasStationsRequestDAO.h */,
-				54A8E9D51876DB2800E6B77B /* NearGasStationsRequestDAO.m */,
-				54A8E9D61876DB2800E6B77B /* NearGasStationsResponseDAO.h */,
-				54A8E9D71876DB2800E6B77B /* NearGasStationsResponseDAO.m */,
-			);
-			path = DAO;
-			sourceTree = "<group>";
-		};
-		54A8E9D81876DB2800E6B77B /* DTO */ = {
-			isa = PBXGroup;
-			children = (
-				54A8E9D91876DB2800E6B77B /* GasStationDTO.h */,
-				54A8E9DA1876DB2800E6B77B /* GasStationDTO.m */,
-				54A8E9DB1876DB2800E6B77B /* NearGasStationsRequestDTO.h */,
-				54A8E9DC1876DB2800E6B77B /* NearGasStationsRequestDTO.m */,
-				54A8E9DD1876DB2800E6B77B /* NearGasStationsResponseDTO.h */,
-				54A8E9DE1876DB2800E6B77B /* NearGasStationsResponseDTO.m */,
-			);
-			path = DTO;
-			sourceTree = "<group>";
-		};
 		54A8E9E91876EE4700E6B77B /* map_gas_stations_pois */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,7 +290,7 @@
 				57C8DAC3187328B300DE6E34 /* AppDelegate.h */,
 				57C8DAC4187328B300DE6E34 /* AppDelegate.m */,
 				57C8DAA91873285500DE6E34 /* Categories */,
-				57C8DAAB1873285500DE6E34 /* gen */,
+				57E13D51187B678800B0BB57 /* gen */,
 				57C8DAAD1873285500DE6E34 /* Helpers */,
 				57E53A7D187818AA00CE933B /* Logic */,
 				57C8DAAF1873285500DE6E34 /* MVYDefines.h */,
@@ -364,15 +304,6 @@
 			children = (
 			);
 			path = Categories;
-			sourceTree = "<group>";
-		};
-		57C8DAAB1873285500DE6E34 /* gen */ = {
-			isa = PBXGroup;
-			children = (
-				54A8E9C51876DB2800E6B77B /* Logic */,
-				54A8E9D01876DB2800E6B77B /* Model */,
-			);
-			path = gen;
 			sourceTree = "<group>";
 		};
 		57C8DAAD1873285500DE6E34 /* Helpers */ = {
@@ -442,6 +373,85 @@
 				57C8DABB1873285500DE6E34 /* LocalizableConstants.h */,
 			);
 			path = Localizables;
+			sourceTree = "<group>";
+		};
+		57E13D51187B678800B0BB57 /* gen */ = {
+			isa = PBXGroup;
+			children = (
+				57E13D52187B678800B0BB57 /* Logic */,
+				57E13D5D187B678800B0BB57 /* Model */,
+			);
+			path = gen;
+			sourceTree = "<group>";
+		};
+		57E13D52187B678800B0BB57 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				57E13D53187B678800B0BB57 /* Base */,
+				57E13D56187B678800B0BB57 /* GasAllHelper.h */,
+				57E13D57187B678800B0BB57 /* GasAllHelper.m */,
+				57E13D58187B678800B0BB57 /* GasStationsLogic.h */,
+				57E13D59187B678800B0BB57 /* GasStationsLogic.m */,
+				57E13D5A187B678800B0BB57 /* Tasks */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		57E13D53187B678800B0BB57 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				57E13D54187B678800B0BB57 /* BaseGasStationsLogic.h */,
+				57E13D55187B678800B0BB57 /* BaseGasStationsLogic.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		57E13D5A187B678800B0BB57 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				57E13D5B187B678800B0BB57 /* GetNearGasStationsTask.h */,
+				57E13D5C187B678800B0BB57 /* GetNearGasStationsTask.m */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		57E13D5D187B678800B0BB57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57E13D5E187B678800B0BB57 /* DAO */,
+				57E13D67187B678800B0BB57 /* DTO */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57E13D5E187B678800B0BB57 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				57E13D5F187B678800B0BB57 /* GasolinePriceDAO.h */,
+				57E13D60187B678800B0BB57 /* GasolinePriceDAO.m */,
+				57E13D61187B678800B0BB57 /* GasStationDAO.h */,
+				57E13D62187B678800B0BB57 /* GasStationDAO.m */,
+				57E13D63187B678800B0BB57 /* NearGasStationsRequestDAO.h */,
+				57E13D64187B678800B0BB57 /* NearGasStationsRequestDAO.m */,
+				57E13D65187B678800B0BB57 /* NearGasStationsResponseDAO.h */,
+				57E13D66187B678800B0BB57 /* NearGasStationsResponseDAO.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		57E13D67187B678800B0BB57 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				57E13D68187B678800B0BB57 /* GasolinePriceDTO.h */,
+				57E13D69187B678800B0BB57 /* GasolinePriceDTO.m */,
+				57E13D6A187B678800B0BB57 /* GasStationDTO.h */,
+				57E13D6B187B678800B0BB57 /* GasStationDTO.m */,
+				57E13D6C187B678800B0BB57 /* NearGasStationsRequestDTO.h */,
+				57E13D6D187B678800B0BB57 /* NearGasStationsRequestDTO.m */,
+				57E13D6E187B678800B0BB57 /* NearGasStationsResponseDTO.h */,
+				57E13D6F187B678800B0BB57 /* NearGasStationsResponseDTO.m */,
+			);
+			path = DTO;
 			sourceTree = "<group>";
 		};
 		57E53A79187812B900CE933B /* Model */ = {
@@ -650,23 +660,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54A8E9E51876DB2800E6B77B /* NearGasStationsResponseDAO.m in Sources */,
+				57E13D77187B678800B0BB57 /* NearGasStationsResponseDAO.m in Sources */,
+				57E13D73187B678800B0BB57 /* GetNearGasStationsTask.m in Sources */,
+				57E13D7A187B678800B0BB57 /* NearGasStationsRequestDTO.m in Sources */,
 				57E53A841878190A00CE933B /* GasolineDTO.m in Sources */,
-				54A8E9E81876DB2800E6B77B /* NearGasStationsResponseDTO.m in Sources */,
-				54A8E9E01876DB2800E6B77B /* GasAllHelper.m in Sources */,
-				54A8E9E11876DB2800E6B77B /* GasStationsLogic.m in Sources */,
-				54A8E9E41876DB2800E6B77B /* NearGasStationsRequestDAO.m in Sources */,
 				57C8DAC5187328B300DE6E34 /* AppDelegate.m in Sources */,
-				54A8E9E31876DB2800E6B77B /* GasStationDAO.m in Sources */,
+				57E13D70187B678800B0BB57 /* BaseGasStationsLogic.m in Sources */,
+				57E13D79187B678800B0BB57 /* GasStationDTO.m in Sources */,
+				57E13D71187B678800B0BB57 /* GasAllHelper.m in Sources */,
 				57C8DACC1873300C00DE6E34 /* MainViewController.m in Sources */,
+				57E13D74187B678800B0BB57 /* GasolinePriceDAO.m in Sources */,
+				57E13D75187B678800B0BB57 /* GasStationDAO.m in Sources */,
+				57E13D78187B678800B0BB57 /* GasolinePriceDTO.m in Sources */,
+				57E13D7B187B678800B0BB57 /* NearGasStationsResponseDTO.m in Sources */,
 				57E13D4F187A99DD00B0BB57 /* SettingsViewController.m in Sources */,
-				54A8E9E21876DB2800E6B77B /* GetNearGasStationsTask.m in Sources */,
-				54A8E9E71876DB2800E6B77B /* NearGasStationsRequestDTO.m in Sources */,
 				57E53A81187818DF00CE933B /* SettingsLogic.m in Sources */,
-				54A8E9E61876DB2800E6B77B /* GasStationDTO.m in Sources */,
+				57E13D72187B678800B0BB57 /* GasStationsLogic.m in Sources */,
 				54A8E9FC1876F0BD00E6B77B /* GasStationAnnotation.m in Sources */,
-				54A8E9DF1876DB2800E6B77B /* BaseGasStationsLogic.m in Sources */,
 				576CF43E1873199A00B88508 /* main.m in Sources */,
+				57E13D76187B678800B0BB57 /* NearGasStationsRequestDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

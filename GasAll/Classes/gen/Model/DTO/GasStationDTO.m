@@ -19,11 +19,7 @@
     if(copy) {
 		copy.id=[self.id copyWithZone:zone];
 		copy.name=[self.name copyWithZone:zone];
-		copy.price95=[self.price95 copyWithZone:zone];
-		copy.price98=[self.price98 copyWithZone:zone];
-		copy.priceGOA=[self.priceGOA copyWithZone:zone];
-		copy.priceNGO=[self.priceNGO copyWithZone:zone];
-		copy.priceGPR=[self.priceGPR copyWithZone:zone];
+		copy.gasolinePrice=[self.gasolinePrice copyWithZone:zone];
 		copy.latitude=[self.latitude copyWithZone:zone];
 		copy.longitude=[self.longitude copyWithZone:zone];
 		copy.distance=[self.distance copyWithZone:zone];
@@ -44,11 +40,6 @@
 	if(copy) {
 		copy.id=self.id;
 		copy.name=self.name;
-		copy.price95=self.price95;
-		copy.price98=self.price98;
-		copy.priceGOA=self.priceGOA;
-		copy.priceNGO=self.priceNGO;
-		copy.priceGPR=self.priceGPR;
 		copy.latitude=self.latitude;
 		copy.longitude=self.longitude;
 		copy.distance=self.distance;
@@ -57,6 +48,7 @@
 		copy.promotionImage=self.promotionImage;
 		copy.promotionCode=self.promotionCode;
 		copy.promotionTextExtra=self.promotionTextExtra;
+		copy.gasolinePrice=[self.gasolinePrice mutableCopyWithZone:zone];
 	}
 	return copy;
 }
@@ -71,11 +63,7 @@
 	
 	self.id = [decoder decodeObjectForKey:@"id"];
 	self.name = [decoder decodeObjectForKey:@"name"];
-	self.price95 = [decoder decodeObjectForKey:@"price95"];
-	self.price98 = [decoder decodeObjectForKey:@"price98"];
-	self.priceGOA = [decoder decodeObjectForKey:@"priceGOA"];
-	self.priceNGO = [decoder decodeObjectForKey:@"priceNGO"];
-	self.priceGPR = [decoder decodeObjectForKey:@"priceGPR"];
+	self.gasolinePrice = [decoder decodeObjectForKey:@"gasolinePrice"];
 	self.latitude = [decoder decodeObjectForKey:@"latitude"];
 	self.longitude = [decoder decodeObjectForKey:@"longitude"];
 	self.distance = [decoder decodeObjectForKey:@"distance"];
@@ -92,11 +80,7 @@
 	
 	[encoder encodeObject:self.id forKey:@"id"];
 	[encoder encodeObject:self.name forKey:@"name"];
-	[encoder encodeObject:self.price95 forKey:@"price95"];
-	[encoder encodeObject:self.price98 forKey:@"price98"];
-	[encoder encodeObject:self.priceGOA forKey:@"priceGOA"];
-	[encoder encodeObject:self.priceNGO forKey:@"priceNGO"];
-	[encoder encodeObject:self.priceGPR forKey:@"priceGPR"];
+	[encoder encodeObject:self.gasolinePrice forKey:@"gasolinePrice"];
 	[encoder encodeObject:self.latitude forKey:@"latitude"];
 	[encoder encodeObject:self.longitude forKey:@"longitude"];
 	[encoder encodeObject:self.distance forKey:@"distance"];
