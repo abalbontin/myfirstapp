@@ -56,6 +56,42 @@
 		57E13D8B187B693900B0BB57 /* map_annotation_generic_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D83187B693900B0BB57 /* map_annotation_generic_yellow.png */; };
 		57E13D8C187B693900B0BB57 /* map_annotation_generic_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D84187B693900B0BB57 /* map_annotation_generic_yellow@2x.png */; };
 		57E13D90187B6A7F00B0BB57 /* GasStationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D8F187B6A7F00B0BB57 /* GasStationAnnotation.m */; };
+		57E13DB5187B75F000B0BB57 /* map_annotation_alcampo_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D91187B75F000B0BB57 /* map_annotation_alcampo_green.png */; };
+		57E13DB6187B75F000B0BB57 /* map_annotation_alcampo_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D92187B75F000B0BB57 /* map_annotation_alcampo_green@2x.png */; };
+		57E13DB7187B75F000B0BB57 /* map_annotation_alcampo_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D93187B75F000B0BB57 /* map_annotation_alcampo_red.png */; };
+		57E13DB8187B75F000B0BB57 /* map_annotation_alcampo_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D94187B75F000B0BB57 /* map_annotation_alcampo_red@2x.png */; };
+		57E13DB9187B75F000B0BB57 /* map_annotation_alcampo_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D95187B75F000B0BB57 /* map_annotation_alcampo_yellow.png */; };
+		57E13DBA187B75F000B0BB57 /* map_annotation_alcampo_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D96187B75F000B0BB57 /* map_annotation_alcampo_yellow@2x.png */; };
+		57E13DBB187B75F000B0BB57 /* map_annotation_bp_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D97187B75F000B0BB57 /* map_annotation_bp_green.png */; };
+		57E13DBC187B75F000B0BB57 /* map_annotation_bp_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D98187B75F000B0BB57 /* map_annotation_bp_green@2x.png */; };
+		57E13DBD187B75F000B0BB57 /* map_annotation_bp_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D99187B75F000B0BB57 /* map_annotation_bp_red.png */; };
+		57E13DBE187B75F000B0BB57 /* map_annotation_bp_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D9A187B75F000B0BB57 /* map_annotation_bp_red@2x.png */; };
+		57E13DBF187B75F000B0BB57 /* map_annotation_bp_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D9B187B75F000B0BB57 /* map_annotation_bp_yellow.png */; };
+		57E13DC0187B75F000B0BB57 /* map_annotation_bp_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D9C187B75F000B0BB57 /* map_annotation_bp_yellow@2x.png */; };
+		57E13DC1187B75F000B0BB57 /* map_annotation_campsa_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D9D187B75F000B0BB57 /* map_annotation_campsa_green.png */; };
+		57E13DC2187B75F000B0BB57 /* map_annotation_campsa_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D9E187B75F000B0BB57 /* map_annotation_campsa_green@2x.png */; };
+		57E13DC3187B75F000B0BB57 /* map_annotation_campsa_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D9F187B75F000B0BB57 /* map_annotation_campsa_red.png */; };
+		57E13DC4187B75F000B0BB57 /* map_annotation_campsa_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA0187B75F000B0BB57 /* map_annotation_campsa_red@2x.png */; };
+		57E13DC5187B75F000B0BB57 /* map_annotation_campsa_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA1187B75F000B0BB57 /* map_annotation_campsa_yellow.png */; };
+		57E13DC6187B75F000B0BB57 /* map_annotation_campsa_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA2187B75F000B0BB57 /* map_annotation_campsa_yellow@2x.png */; };
+		57E13DC7187B75F000B0BB57 /* map_annotation_carrefour_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA3187B75F000B0BB57 /* map_annotation_carrefour_green.png */; };
+		57E13DC8187B75F000B0BB57 /* map_annotation_carrefour_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA4187B75F000B0BB57 /* map_annotation_carrefour_green@2x.png */; };
+		57E13DC9187B75F000B0BB57 /* map_annotation_carrefour_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA5187B75F000B0BB57 /* map_annotation_carrefour_red.png */; };
+		57E13DCA187B75F000B0BB57 /* map_annotation_carrefour_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA6187B75F000B0BB57 /* map_annotation_carrefour_red@2x.png */; };
+		57E13DCB187B75F000B0BB57 /* map_annotation_carrefour_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA7187B75F000B0BB57 /* map_annotation_carrefour_yellow.png */; };
+		57E13DCC187B75F000B0BB57 /* map_annotation_carrefour_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA8187B75F000B0BB57 /* map_annotation_carrefour_yellow@2x.png */; };
+		57E13DCD187B75F000B0BB57 /* map_annotation_cepsa_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DA9187B75F000B0BB57 /* map_annotation_cepsa_green.png */; };
+		57E13DCE187B75F000B0BB57 /* map_annotation_cepsa_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DAA187B75F000B0BB57 /* map_annotation_cepsa_green@2x.png */; };
+		57E13DCF187B75F000B0BB57 /* map_annotation_cepsa_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DAB187B75F000B0BB57 /* map_annotation_cepsa_red.png */; };
+		57E13DD0187B75F000B0BB57 /* map_annotation_cepsa_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DAC187B75F000B0BB57 /* map_annotation_cepsa_red@2x.png */; };
+		57E13DD1187B75F000B0BB57 /* map_annotation_cepsa_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DAD187B75F000B0BB57 /* map_annotation_cepsa_yellow.png */; };
+		57E13DD2187B75F000B0BB57 /* map_annotation_cepsa_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DAE187B75F000B0BB57 /* map_annotation_cepsa_yellow@2x.png */; };
+		57E13DD3187B75F000B0BB57 /* map_annotation_repsol_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DAF187B75F000B0BB57 /* map_annotation_repsol_green.png */; };
+		57E13DD4187B75F000B0BB57 /* map_annotation_repsol_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB0187B75F000B0BB57 /* map_annotation_repsol_green@2x.png */; };
+		57E13DD5187B75F000B0BB57 /* map_annotation_repsol_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB1187B75F000B0BB57 /* map_annotation_repsol_red.png */; };
+		57E13DD6187B75F000B0BB57 /* map_annotation_repsol_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB2187B75F000B0BB57 /* map_annotation_repsol_red@2x.png */; };
+		57E13DD7187B75F000B0BB57 /* map_annotation_repsol_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB3187B75F000B0BB57 /* map_annotation_repsol_yellow.png */; };
+		57E13DD8187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB4187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png */; };
 		57E53A81187818DF00CE933B /* SettingsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A80187818DF00CE933B /* SettingsLogic.m */; };
 		57E53A841878190A00CE933B /* GasolineDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A831878190A00CE933B /* GasolineDTO.m */; };
 		57E53A8718781E1300CE933B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57E53A8518781E1300CE933B /* InfoPlist.strings */; };
@@ -152,6 +188,42 @@
 		57E13D84187B693900B0BB57 /* map_annotation_generic_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_generic_yellow@2x.png"; sourceTree = "<group>"; };
 		57E13D8E187B6A7F00B0BB57 /* GasStationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationAnnotation.h; sourceTree = "<group>"; };
 		57E13D8F187B6A7F00B0BB57 /* GasStationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationAnnotation.m; sourceTree = "<group>"; };
+		57E13D91187B75F000B0BB57 /* map_annotation_alcampo_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_alcampo_green.png; sourceTree = "<group>"; };
+		57E13D92187B75F000B0BB57 /* map_annotation_alcampo_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_alcampo_green@2x.png"; sourceTree = "<group>"; };
+		57E13D93187B75F000B0BB57 /* map_annotation_alcampo_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_alcampo_red.png; sourceTree = "<group>"; };
+		57E13D94187B75F000B0BB57 /* map_annotation_alcampo_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_alcampo_red@2x.png"; sourceTree = "<group>"; };
+		57E13D95187B75F000B0BB57 /* map_annotation_alcampo_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_alcampo_yellow.png; sourceTree = "<group>"; };
+		57E13D96187B75F000B0BB57 /* map_annotation_alcampo_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_alcampo_yellow@2x.png"; sourceTree = "<group>"; };
+		57E13D97187B75F000B0BB57 /* map_annotation_bp_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_bp_green.png; sourceTree = "<group>"; };
+		57E13D98187B75F000B0BB57 /* map_annotation_bp_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_bp_green@2x.png"; sourceTree = "<group>"; };
+		57E13D99187B75F000B0BB57 /* map_annotation_bp_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_bp_red.png; sourceTree = "<group>"; };
+		57E13D9A187B75F000B0BB57 /* map_annotation_bp_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_bp_red@2x.png"; sourceTree = "<group>"; };
+		57E13D9B187B75F000B0BB57 /* map_annotation_bp_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_bp_yellow.png; sourceTree = "<group>"; };
+		57E13D9C187B75F000B0BB57 /* map_annotation_bp_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_bp_yellow@2x.png"; sourceTree = "<group>"; };
+		57E13D9D187B75F000B0BB57 /* map_annotation_campsa_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_campsa_green.png; sourceTree = "<group>"; };
+		57E13D9E187B75F000B0BB57 /* map_annotation_campsa_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_campsa_green@2x.png"; sourceTree = "<group>"; };
+		57E13D9F187B75F000B0BB57 /* map_annotation_campsa_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_campsa_red.png; sourceTree = "<group>"; };
+		57E13DA0187B75F000B0BB57 /* map_annotation_campsa_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_campsa_red@2x.png"; sourceTree = "<group>"; };
+		57E13DA1187B75F000B0BB57 /* map_annotation_campsa_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_campsa_yellow.png; sourceTree = "<group>"; };
+		57E13DA2187B75F000B0BB57 /* map_annotation_campsa_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_campsa_yellow@2x.png"; sourceTree = "<group>"; };
+		57E13DA3187B75F000B0BB57 /* map_annotation_carrefour_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_carrefour_green.png; sourceTree = "<group>"; };
+		57E13DA4187B75F000B0BB57 /* map_annotation_carrefour_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_carrefour_green@2x.png"; sourceTree = "<group>"; };
+		57E13DA5187B75F000B0BB57 /* map_annotation_carrefour_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_carrefour_red.png; sourceTree = "<group>"; };
+		57E13DA6187B75F000B0BB57 /* map_annotation_carrefour_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_carrefour_red@2x.png"; sourceTree = "<group>"; };
+		57E13DA7187B75F000B0BB57 /* map_annotation_carrefour_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_carrefour_yellow.png; sourceTree = "<group>"; };
+		57E13DA8187B75F000B0BB57 /* map_annotation_carrefour_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_carrefour_yellow@2x.png"; sourceTree = "<group>"; };
+		57E13DA9187B75F000B0BB57 /* map_annotation_cepsa_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_cepsa_green.png; sourceTree = "<group>"; };
+		57E13DAA187B75F000B0BB57 /* map_annotation_cepsa_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_cepsa_green@2x.png"; sourceTree = "<group>"; };
+		57E13DAB187B75F000B0BB57 /* map_annotation_cepsa_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_cepsa_red.png; sourceTree = "<group>"; };
+		57E13DAC187B75F000B0BB57 /* map_annotation_cepsa_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_cepsa_red@2x.png"; sourceTree = "<group>"; };
+		57E13DAD187B75F000B0BB57 /* map_annotation_cepsa_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_cepsa_yellow.png; sourceTree = "<group>"; };
+		57E13DAE187B75F000B0BB57 /* map_annotation_cepsa_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_cepsa_yellow@2x.png"; sourceTree = "<group>"; };
+		57E13DAF187B75F000B0BB57 /* map_annotation_repsol_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_repsol_green.png; sourceTree = "<group>"; };
+		57E13DB0187B75F000B0BB57 /* map_annotation_repsol_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_repsol_green@2x.png"; sourceTree = "<group>"; };
+		57E13DB1187B75F000B0BB57 /* map_annotation_repsol_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_repsol_red.png; sourceTree = "<group>"; };
+		57E13DB2187B75F000B0BB57 /* map_annotation_repsol_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_repsol_red@2x.png"; sourceTree = "<group>"; };
+		57E13DB3187B75F000B0BB57 /* map_annotation_repsol_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_repsol_yellow.png; sourceTree = "<group>"; };
+		57E13DB4187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_repsol_yellow@2x.png"; sourceTree = "<group>"; };
 		57E53A7F187818DF00CE933B /* SettingsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsLogic.h; sourceTree = "<group>"; };
 		57E53A80187818DF00CE933B /* SettingsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsLogic.m; sourceTree = "<group>"; };
 		57E53A821878190A00CE933B /* GasolineDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasolineDTO.h; sourceTree = "<group>"; };
@@ -441,6 +513,36 @@
 		57E13D7C187B693900B0BB57 /* map_annotations */ = {
 			isa = PBXGroup;
 			children = (
+				57E13D91187B75F000B0BB57 /* map_annotation_alcampo_green.png */,
+				57E13D92187B75F000B0BB57 /* map_annotation_alcampo_green@2x.png */,
+				57E13D93187B75F000B0BB57 /* map_annotation_alcampo_red.png */,
+				57E13D94187B75F000B0BB57 /* map_annotation_alcampo_red@2x.png */,
+				57E13D95187B75F000B0BB57 /* map_annotation_alcampo_yellow.png */,
+				57E13D96187B75F000B0BB57 /* map_annotation_alcampo_yellow@2x.png */,
+				57E13D97187B75F000B0BB57 /* map_annotation_bp_green.png */,
+				57E13D98187B75F000B0BB57 /* map_annotation_bp_green@2x.png */,
+				57E13D99187B75F000B0BB57 /* map_annotation_bp_red.png */,
+				57E13D9A187B75F000B0BB57 /* map_annotation_bp_red@2x.png */,
+				57E13D9B187B75F000B0BB57 /* map_annotation_bp_yellow.png */,
+				57E13D9C187B75F000B0BB57 /* map_annotation_bp_yellow@2x.png */,
+				57E13D9D187B75F000B0BB57 /* map_annotation_campsa_green.png */,
+				57E13D9E187B75F000B0BB57 /* map_annotation_campsa_green@2x.png */,
+				57E13D9F187B75F000B0BB57 /* map_annotation_campsa_red.png */,
+				57E13DA0187B75F000B0BB57 /* map_annotation_campsa_red@2x.png */,
+				57E13DA1187B75F000B0BB57 /* map_annotation_campsa_yellow.png */,
+				57E13DA2187B75F000B0BB57 /* map_annotation_campsa_yellow@2x.png */,
+				57E13DA3187B75F000B0BB57 /* map_annotation_carrefour_green.png */,
+				57E13DA4187B75F000B0BB57 /* map_annotation_carrefour_green@2x.png */,
+				57E13DA5187B75F000B0BB57 /* map_annotation_carrefour_red.png */,
+				57E13DA6187B75F000B0BB57 /* map_annotation_carrefour_red@2x.png */,
+				57E13DA7187B75F000B0BB57 /* map_annotation_carrefour_yellow.png */,
+				57E13DA8187B75F000B0BB57 /* map_annotation_carrefour_yellow@2x.png */,
+				57E13DA9187B75F000B0BB57 /* map_annotation_cepsa_green.png */,
+				57E13DAA187B75F000B0BB57 /* map_annotation_cepsa_green@2x.png */,
+				57E13DAB187B75F000B0BB57 /* map_annotation_cepsa_red.png */,
+				57E13DAC187B75F000B0BB57 /* map_annotation_cepsa_red@2x.png */,
+				57E13DAD187B75F000B0BB57 /* map_annotation_cepsa_yellow.png */,
+				57E13DAE187B75F000B0BB57 /* map_annotation_cepsa_yellow@2x.png */,
 				57E13D7D187B693900B0BB57 /* map_annotation_generic.png */,
 				57E13D7E187B693900B0BB57 /* map_annotation_generic@2x.png */,
 				57E13D7F187B693900B0BB57 /* map_annotation_generic_green.png */,
@@ -449,6 +551,12 @@
 				57E13D82187B693900B0BB57 /* map_annotation_generic_red@2x.png */,
 				57E13D83187B693900B0BB57 /* map_annotation_generic_yellow.png */,
 				57E13D84187B693900B0BB57 /* map_annotation_generic_yellow@2x.png */,
+				57E13DAF187B75F000B0BB57 /* map_annotation_repsol_green.png */,
+				57E13DB0187B75F000B0BB57 /* map_annotation_repsol_green@2x.png */,
+				57E13DB1187B75F000B0BB57 /* map_annotation_repsol_red.png */,
+				57E13DB2187B75F000B0BB57 /* map_annotation_repsol_red@2x.png */,
+				57E13DB3187B75F000B0BB57 /* map_annotation_repsol_yellow.png */,
+				57E13DB4187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png */,
 			);
 			path = map_annotations;
 			sourceTree = "<group>";
@@ -580,29 +688,65 @@
 			files = (
 				57C8DADD187335AF00DE6E34 /* main_nearby_ic@2x.png in Resources */,
 				57E13D85187B693900B0BB57 /* map_annotation_generic.png in Resources */,
+				57E13DC4187B75F000B0BB57 /* map_annotation_campsa_red@2x.png in Resources */,
+				57E13DB8187B75F000B0BB57 /* map_annotation_alcampo_red@2x.png in Resources */,
 				57C8DAC11873285500DE6E34 /* Icon@2x.png in Resources */,
+				57E13DC0187B75F000B0BB57 /* map_annotation_bp_yellow@2x.png in Resources */,
 				57C8DAE1187335AF00DE6E34 /* main_settings_ic@2x.png in Resources */,
+				57E13DC7187B75F000B0BB57 /* map_annotation_carrefour_green.png in Resources */,
+				57E13DB6187B75F000B0BB57 /* map_annotation_alcampo_green@2x.png in Resources */,
+				57E13DC2187B75F000B0BB57 /* map_annotation_campsa_green@2x.png in Resources */,
+				57E13DCA187B75F000B0BB57 /* map_annotation_carrefour_red@2x.png in Resources */,
+				57E13DD5187B75F000B0BB57 /* map_annotation_repsol_red.png in Resources */,
+				57E13DCB187B75F000B0BB57 /* map_annotation_carrefour_yellow.png in Resources */,
 				57C8DACD1873300C00DE6E34 /* MainViewController.xib in Resources */,
+				57E13DD7187B75F000B0BB57 /* map_annotation_repsol_yellow.png in Resources */,
 				571CED371874270B004599C5 /* map_but_location@2x.png in Resources */,
 				571CED361874270B004599C5 /* map_but_location.png in Resources */,
+				57E13DD0187B75F000B0BB57 /* map_annotation_cepsa_red@2x.png in Resources */,
 				57E53A911878266000CE933B /* Settings.plist in Resources */,
+				57E13DBD187B75F000B0BB57 /* map_annotation_bp_red.png in Resources */,
 				57E53A8D18781E7F00CE933B /* Localizable.strings in Resources */,
+				57E13DD1187B75F000B0BB57 /* map_annotation_cepsa_yellow.png in Resources */,
+				57E13DC6187B75F000B0BB57 /* map_annotation_campsa_yellow@2x.png in Resources */,
+				57E13DBE187B75F000B0BB57 /* map_annotation_bp_red@2x.png in Resources */,
 				57C8DADF187335AF00DE6E34 /* main_promotions_ic@2x.png in Resources */,
+				57E13DD8187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png in Resources */,
+				57E13DB5187B75F000B0BB57 /* map_annotation_alcampo_green.png in Resources */,
 				57E13D88187B693900B0BB57 /* map_annotation_generic_green@2x.png in Resources */,
+				57E13DD2187B75F000B0BB57 /* map_annotation_cepsa_yellow@2x.png in Resources */,
+				57E13DBC187B75F000B0BB57 /* map_annotation_bp_green@2x.png in Resources */,
+				57E13DBB187B75F000B0BB57 /* map_annotation_bp_green.png in Resources */,
+				57E13DCD187B75F000B0BB57 /* map_annotation_cepsa_green.png in Resources */,
+				57E13DC9187B75F000B0BB57 /* map_annotation_carrefour_red.png in Resources */,
+				57E13DC3187B75F000B0BB57 /* map_annotation_campsa_red.png in Resources */,
 				57C8DADC187335AF00DE6E34 /* main_nearby_ic.png in Resources */,
 				57E13D8A187B693900B0BB57 /* map_annotation_generic_red@2x.png in Resources */,
+				57E13DD6187B75F000B0BB57 /* map_annotation_repsol_red@2x.png in Resources */,
+				57E13DBA187B75F000B0BB57 /* map_annotation_alcampo_yellow@2x.png in Resources */,
+				57E13DD3187B75F000B0BB57 /* map_annotation_repsol_green.png in Resources */,
 				57E13D50187A99DD00B0BB57 /* SettingsViewController.xib in Resources */,
 				57E13D8C187B693900B0BB57 /* map_annotation_generic_yellow@2x.png in Resources */,
+				57E13DB9187B75F000B0BB57 /* map_annotation_alcampo_yellow.png in Resources */,
 				57E13D8B187B693900B0BB57 /* map_annotation_generic_yellow.png in Resources */,
+				57E13DBF187B75F000B0BB57 /* map_annotation_bp_yellow.png in Resources */,
 				576CF4621873199A00B88508 /* Images.xcassets in Resources */,
 				57C8DADB187335AF00DE6E34 /* main_featured_ic@2x.png in Resources */,
 				57E13D86187B693900B0BB57 /* map_annotation_generic@2x.png in Resources */,
+				57E13DB7187B75F000B0BB57 /* map_annotation_alcampo_red.png in Resources */,
 				57C8DADE187335AF00DE6E34 /* main_promotions_ic.png in Resources */,
+				57E13DD4187B75F000B0BB57 /* map_annotation_repsol_green@2x.png in Resources */,
+				57E13DC5187B75F000B0BB57 /* map_annotation_campsa_yellow.png in Resources */,
 				57E53A8A18781E3500CE933B /* InfoPlist.strings in Resources */,
+				57E13DCE187B75F000B0BB57 /* map_annotation_cepsa_green@2x.png in Resources */,
 				57C8DAC01873285500DE6E34 /* Icon.png in Resources */,
+				57E13DC8187B75F000B0BB57 /* map_annotation_carrefour_green@2x.png in Resources */,
+				57E13DC1187B75F000B0BB57 /* map_annotation_campsa_green.png in Resources */,
 				57E13D87187B693900B0BB57 /* map_annotation_generic_green.png in Resources */,
+				57E13DCF187B75F000B0BB57 /* map_annotation_cepsa_red.png in Resources */,
 				57E13D89187B693900B0BB57 /* map_annotation_generic_red.png in Resources */,
 				57C8DADA187335AF00DE6E34 /* main_featured_ic.png in Resources */,
+				57E13DCC187B75F000B0BB57 /* map_annotation_carrefour_yellow@2x.png in Resources */,
 				57C8DAE0187335AF00DE6E34 /* main_settings_ic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
