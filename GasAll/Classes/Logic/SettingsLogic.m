@@ -71,7 +71,18 @@
     NSString *settingsPath = [[NSBundle mainBundle] pathForResource:@"Settings" ofType:@".plist"];
     NSDictionary *settings = [NSDictionary dictionaryWithContentsOfFile:settingsPath];
     
-    return [settings objectForKey:@"gasolines"];
+    NSMutableArray *gasolines = [NSMutableArray array];
+    for (NSDictionary *gasoline in [settings objectForKey:@"gasolines"]) {
+        
+        GasolineDTO *gasolineDTO = [[GasolineDTO alloc] init];
+        gasolineDTO.gasID = [gasoline objectForKey:@"gasID"];
+        gasolineDTO.name = [gasoline objectForKey:@"name"];
+        
+        [gasolines addObject:gasolineDTO];
+        
+    }
+    
+    return [NSArray arrayWithArray:gasolines];
     
 }
 

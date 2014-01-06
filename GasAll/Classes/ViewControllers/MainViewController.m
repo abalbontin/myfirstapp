@@ -200,11 +200,7 @@
 - (IBAction)dismissGasolinesView:(id)sender {
     
     NSInteger index = [self.gasolinesPicker selectedRowInComponent:0];
-    NSDictionary *gasoline = [self.gasolines objectAtIndex:index];
-    GasolineDTO *gasolineDTO = [[GasolineDTO alloc] init];
-    gasolineDTO.gasID = [gasoline objectForKey:@"gasID"];
-    gasolineDTO.name = [gasoline objectForKey:@"name"];
-    [[SettingsLogic sharedInstance] setUserGasolineSelected:gasolineDTO];
+    [[SettingsLogic sharedInstance] setUserGasolineSelected:[self.gasolines objectAtIndex:index]];
  
     [self.gasolinesView removeFromSuperview];
     
@@ -313,7 +309,7 @@
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
     
-    return [[self.gasolines objectAtIndex:row] objectForKey:@"name"];
+    return [[self.gasolines objectAtIndex:row] name];
     
 }
 
@@ -322,6 +318,13 @@
 - (void)updateMapType:(MKMapType)mapType {
     
     self.mapView.mapType = mapType;
+    
+}
+
+- (void)updateGasoline:(GasolineDTO *)gasolineDTO {
+    
+    // TODO: abalbontin: Con las gasolineras que ya tenemos, recalcular las mejores segun precio, colores de POIs, etc y actualziar el mapa.
+    NSLog(@"TEST Gasoline: %@", gasolineDTO.gasID);
     
 }
 

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import "GasolineDTO.h"
 
 @protocol SettingsViewControllerDelegate;
 
@@ -20,5 +21,6 @@
 @protocol SettingsViewControllerDelegate <NSObject>
 
 - (void)updateMapType:(MKMapType)mapType;
+- (void)updateGasoline:(GasolineDTO *)gasolineDTO;
 
 @end

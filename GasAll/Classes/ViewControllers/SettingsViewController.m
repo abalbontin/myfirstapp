@@ -10,13 +10,22 @@
 #import "LocalizableConstants.h"
 #import "SettingsLogic.h"
 
-@interface SettingsViewController ()
+@interface SettingsViewController () <UIPickerViewDelegate, UIPickerViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *mapTypesSegmentedControl;
 @property (weak, nonatomic) IBOutlet UIButton *selectGasolineButton;
+@property (weak, nonatomic) IBOutlet UIPickerView *gasolinesPicker;
+
+@property (strong, nonatomic) NSArray *gasolines;
+@property (nonatomic) NSInteger initGasloineSelected;
+@property (nonatomic) NSInteger lastGasolineSelected;
+@property (nonatomic) BOOL gasolinesPickerDidSelectRow;
 
 - (IBAction)mapTypesSegmentedSelected:(id)sender;
 - (IBAction)showsGasolinesPicker:(id)sender;
+
+- (void)closeView;
 
 @end
 
@@ -56,6 +65,9 @@
             break;
     }
     
+    self.gasolines = [[SettingsLogic sharedInstance] gasolines];
+    self.gasolinesPickerDidSelectRow = NO;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -87,13 +99,82 @@
     
     [[SettingsLogic sharedInstance] setMapType:mapType];
     
-    [self dismissViewControllerAnimated:YES completion:^{ }];
+    [self closeView];
     
 }
 
 - (IBAction)showsGasolinesPicker:(id)sender {
+    
+    GasolineDTO *userGasolineDTO = [[SettingsLogic sharedInstance] userGasolineSelected];
+    for (NSInteger idx = 0; idx < self.gasolines.count; idx++) {
+        
+        GasolineDTO *gasolineDTO = [self.gasolines objectAtIndex:idx];
+        if ([gasolineDTO.gasID isEqualToString:userGasolineDTO.gasID]) {
+            
+            self.initGasloineSelected = idx;
+            
+        }
+        
+    }
+    [self.gasolinesPicker selectRow:self.initGasloineSelected inComponent:0 animated:NO];
+    
+    [UIView animateWithDuration:0.5 animations:^{
+       
+        self.selectGasolineButton.hidden = YES;
+        self.gasolinesPicker.hidden = NO;
+        
+        CGRect contentViewFrame = self.contentView.frame;
+        contentViewFrame.origin.y = contentViewFrame.origin.y - self.gasolinesPicker.frame.size.height +
+        self.selectGasolineButton.frame.size.height;
+        contentViewFrame.size.height = contentViewFrame.size.height + self.gasolinesPicker.frame.size.height -
+        self.selectGasolineButton.frame.size.height;
+        
+        self.contentView.frame = contentViewFrame;
+        
+    }];
+    
+}
 
-    // TODO: abalbontin: Implement.
+- (void)closeView {
+    
+    if (self.gasolinesPickerDidSelectRow && self.initGasloineSelected != self.lastGasolineSelected) {
+        
+        GasolineDTO *gasolineDTO = [self.gasolines objectAtIndex:self.lastGasolineSelected];
+        
+        [[SettingsLogic sharedInstance] setUserGasolineSelected:gasolineDTO];
+        
+        [self.delegate updateGasoline:gasolineDTO];
+        
+    }
+    
+    [self dismissViewControllerAnimated:YES completion:^{ }];
+    
+}
+
+#pragma mark - UIPickerViewDataSource and UIPickerViewDelegate methods
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    
+    return 1;
+    
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    
+    return self.gasolines.count;
+    
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    
+    return [[self.gasolines objectAtIndex:row] name];
+    
+}
+
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
+    
+    self.gasolinesPickerDidSelectRow = YES;
+    self.lastGasolineSelected = row;
     
 }
 
