@@ -52,6 +52,8 @@
 		57C8DADF187335AF00DE6E34 /* main_promotions_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD7187335AF00DE6E34 /* main_promotions_ic@2x.png */; };
 		57C8DAE0187335AF00DE6E34 /* main_settings_ic.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD8187335AF00DE6E34 /* main_settings_ic.png */; };
 		57C8DAE1187335AF00DE6E34 /* main_settings_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C8DAD9187335AF00DE6E34 /* main_settings_ic@2x.png */; };
+		57E13D4F187A99DD00B0BB57 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13D4D187A99DD00B0BB57 /* SettingsViewController.m */; };
+		57E13D50187A99DD00B0BB57 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E13D4E187A99DD00B0BB57 /* SettingsViewController.xib */; };
 		57E53A81187818DF00CE933B /* SettingsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A80187818DF00CE933B /* SettingsLogic.m */; };
 		57E53A841878190A00CE933B /* GasolineDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A831878190A00CE933B /* GasolineDTO.m */; };
 		57E53A8718781E1300CE933B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57E53A8518781E1300CE933B /* InfoPlist.strings */; };
@@ -141,6 +143,9 @@
 		57C8DAD7187335AF00DE6E34 /* main_promotions_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_promotions_ic@2x.png"; sourceTree = "<group>"; };
 		57C8DAD8187335AF00DE6E34 /* main_settings_ic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_settings_ic.png; sourceTree = "<group>"; };
 		57C8DAD9187335AF00DE6E34 /* main_settings_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_settings_ic@2x.png"; sourceTree = "<group>"; };
+		57E13D4C187A99DD00B0BB57 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		57E13D4D187A99DD00B0BB57 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		57E13D4E187A99DD00B0BB57 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		57E53A7F187818DF00CE933B /* SettingsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsLogic.h; sourceTree = "<group>"; };
 		57E53A80187818DF00CE933B /* SettingsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsLogic.m; sourceTree = "<group>"; };
 		57E53A821878190A00CE933B /* GasolineDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasolineDTO.h; sourceTree = "<group>"; };
@@ -385,6 +390,9 @@
 				57C8DAC91873300C00DE6E34 /* MainViewController.h */,
 				57C8DACA1873300C00DE6E34 /* MainViewController.m */,
 				57C8DACB1873300C00DE6E34 /* MainViewController.xib */,
+				57E13D4C187A99DD00B0BB57 /* SettingsViewController.h */,
+				57E13D4D187A99DD00B0BB57 /* SettingsViewController.m */,
+				57E13D4E187A99DD00B0BB57 /* SettingsViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -565,6 +573,7 @@
 				57E53A8D18781E7F00CE933B /* Localizable.strings in Resources */,
 				57C8DADF187335AF00DE6E34 /* main_promotions_ic@2x.png in Resources */,
 				57C8DADC187335AF00DE6E34 /* main_nearby_ic.png in Resources */,
+				57E13D50187A99DD00B0BB57 /* SettingsViewController.xib in Resources */,
 				576CF4621873199A00B88508 /* Images.xcassets in Resources */,
 				57C8DADB187335AF00DE6E34 /* main_featured_ic@2x.png in Resources */,
 				54A8E9F61876EE4700E6B77B /* mapa_red_gasolineras_generico_small.png in Resources */,
@@ -650,6 +659,7 @@
 				57C8DAC5187328B300DE6E34 /* AppDelegate.m in Sources */,
 				54A8E9E31876DB2800E6B77B /* GasStationDAO.m in Sources */,
 				57C8DACC1873300C00DE6E34 /* MainViewController.m in Sources */,
+				57E13D4F187A99DD00B0BB57 /* SettingsViewController.m in Sources */,
 				54A8E9E21876DB2800E6B77B /* GetNearGasStationsTask.m in Sources */,
 				54A8E9E71876DB2800E6B77B /* NearGasStationsRequestDTO.m in Sources */,
 				57E53A81187818DF00CE933B /* SettingsLogic.m in Sources */,

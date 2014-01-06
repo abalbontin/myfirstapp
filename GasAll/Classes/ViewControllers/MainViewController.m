@@ -13,6 +13,7 @@
 #import "GasStationAnnotation.h"
 #import "SettingsLogic.h"
 #import "MVYDefines.h"
+#import "SettingsViewController.h"
 
 @interface MainViewController () <MKMapViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
 
@@ -184,8 +185,13 @@
 
 - (IBAction)showsSettings:(id)sender {
 
-    // TODO: abalbontin: Implement.
-
+    SettingsViewController *settingsViewController = [[SettingsViewController alloc] initWithNibName:@"SettingsViewController"
+                                                                                              bundle:nil];
+    // This viewController will be visible on Modal presentation.
+    self.modalPresentationStyle = UIModalPresentationCurrentContext;
+    
+    [self presentViewController:settingsViewController animated:YES completion:^{ }];
+    
 }
 
 - (IBAction)dismissGasolinesView:(id)sender {
