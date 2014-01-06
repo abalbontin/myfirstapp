@@ -293,6 +293,35 @@
     
 }
 
+- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation {
+    
+	static NSString *identifier = @"GasStationAnnotation";
+	MKAnnotationView *annotationView = (MKAnnotationView *)[self.mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
+	
+	if(annotation != nil && [annotation isKindOfClass:[GasStationAnnotation class]]) {
+        
+        if(annotationView == nil) {
+            
+			annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
+            annotationView.canShowCallout = YES;
+			annotationView.image = [UIImage imageNamed:@"map_annotation_generic"];
+            
+		} else {
+            
+			annotationView.annotation = annotation;
+            
+		}
+        
+		return annotationView;
+        
+	} else {
+        
+		return nil;
+        
+	}
+    
+}
+
 #pragma mark - UIPickerViewDataSource and UIPickerViewDelegate methods
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
