@@ -24,8 +24,7 @@
 
 - (IBAction)mapTypesSegmentedSelected:(id)sender;
 - (IBAction)showsGasolinesPicker:(id)sender;
-
-- (void)closeView;
+- (IBAction)closeView:(id)sender;
 
 @end
 
@@ -70,6 +69,18 @@
     
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    
+    [super viewDidAppear:animated];
+    
+    [UIView animateWithDuration:0.3 animations:^{
+        
+        self.view.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.3];
+        
+    }];
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -99,7 +110,7 @@
     
     [[SettingsLogic sharedInstance] setMapType:mapType];
     
-    [self closeView];
+    [self closeView:nil];
     
 }
 
@@ -135,7 +146,7 @@
     
 }
 
-- (void)closeView {
+- (IBAction)closeView:(id)sender {
     
     if (self.gasolinesPickerDidSelectRow && self.initGasloineSelected != self.lastGasolineSelected) {
         
@@ -147,7 +158,15 @@
         
     }
     
-    [self dismissViewControllerAnimated:YES completion:^{ }];
+    [UIView animateWithDuration:0.2 animations:^{
+
+        self.view.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
+        
+    } completion:^(BOOL finished) {
+    
+        [self dismissViewControllerAnimated:YES completion:^{ }];
+        
+    }];
     
 }
 
