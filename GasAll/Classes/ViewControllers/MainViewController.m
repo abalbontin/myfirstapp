@@ -14,6 +14,7 @@
 #import "SettingsLogic.h"
 #import "MVYDefines.h"
 #import "SettingsViewController.h"
+#import "GasStationDetailViewController.h"
 
 @interface MainViewController () <MKMapViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource, SettingsViewControllerDelegate>
 
@@ -100,6 +101,15 @@
     }
     
     self.userInterfaceHidden = NO;
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    
+    [super viewWillAppear:animated];
+    
+    // Hide navbar.
+	self.navigationController.navigationBarHidden = YES;
     
 }
 
@@ -322,6 +332,7 @@
 			annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             annotationView.canShowCallout = YES;
 			annotationView.image = [self annotationImageForGasStation:[(GasStationAnnotation *)annotation gasStationDTO]];
+            annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             
 		} else {
             
@@ -336,6 +347,21 @@
 		return nil;
         
 	}
+    
+}
+
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
+    
+    if ([control isKindOfClass:[UIButton class]] && [(UIButton *)control buttonType] == UIButtonTypeDetailDisclosure) {
+    
+        GasStationDetailViewController *gasStationDetailViewController = [[GasStationDetailViewController alloc]
+                                                                          initWithNibName:@"GasStationDetailViewController"
+                                                                          bundle:nil];
+        gasStationDetailViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        
+        [self.navigationController pushViewController:gasStationDetailViewController animated:YES];
+        
+    }
     
 }
 

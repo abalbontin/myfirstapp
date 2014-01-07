@@ -10,6 +10,7 @@
 #import "MalcomLib.h"
 #import "HockeySDK.h"
 #import "MVYDefines.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -39,10 +40,12 @@
     	[[BITHockeyManager sharedHockeyManager] startManager];
     #endif
     
-    self.mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	self.window.rootViewController = self.mainViewController;
+	self.window.rootViewController = self.navigationController;
 	[self.window makeKeyAndVisible];
     
 	return YES;

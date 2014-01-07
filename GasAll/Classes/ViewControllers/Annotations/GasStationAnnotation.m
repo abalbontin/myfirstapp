@@ -18,7 +18,7 @@
 
 - (NSString *)title {
 
-    return self.gasStationDTO.name;
+    return [self.gasStationDTO.name capitalizedString];
     
 }
 
