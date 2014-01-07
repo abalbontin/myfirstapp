@@ -92,6 +92,8 @@
 		57E13DD6187B75F000B0BB57 /* map_annotation_repsol_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB2187B75F000B0BB57 /* map_annotation_repsol_red@2x.png */; };
 		57E13DD7187B75F000B0BB57 /* map_annotation_repsol_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB3187B75F000B0BB57 /* map_annotation_repsol_yellow.png */; };
 		57E13DD8187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DB4187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png */; };
+		57E13DDC187B78DD00B0BB57 /* GasStationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E13DDA187B78DD00B0BB57 /* GasStationDetailViewController.m */; };
+		57E13DDD187B78DD00B0BB57 /* GasStationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E13DDB187B78DD00B0BB57 /* GasStationDetailViewController.xib */; };
 		57E53A81187818DF00CE933B /* SettingsLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A80187818DF00CE933B /* SettingsLogic.m */; };
 		57E53A841878190A00CE933B /* GasolineDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E53A831878190A00CE933B /* GasolineDTO.m */; };
 		57E53A8718781E1300CE933B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57E53A8518781E1300CE933B /* InfoPlist.strings */; };
@@ -224,6 +226,9 @@
 		57E13DB2187B75F000B0BB57 /* map_annotation_repsol_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_repsol_red@2x.png"; sourceTree = "<group>"; };
 		57E13DB3187B75F000B0BB57 /* map_annotation_repsol_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_annotation_repsol_yellow.png; sourceTree = "<group>"; };
 		57E13DB4187B75F000B0BB57 /* map_annotation_repsol_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_annotation_repsol_yellow@2x.png"; sourceTree = "<group>"; };
+		57E13DD9187B78DD00B0BB57 /* GasStationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationDetailViewController.h; sourceTree = "<group>"; };
+		57E13DDA187B78DD00B0BB57 /* GasStationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationDetailViewController.m; sourceTree = "<group>"; };
+		57E13DDB187B78DD00B0BB57 /* GasStationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GasStationDetailViewController.xib; sourceTree = "<group>"; };
 		57E53A7F187818DF00CE933B /* SettingsLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsLogic.h; sourceTree = "<group>"; };
 		57E53A80187818DF00CE933B /* SettingsLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsLogic.m; sourceTree = "<group>"; };
 		57E53A821878190A00CE933B /* GasolineDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasolineDTO.h; sourceTree = "<group>"; };
@@ -374,6 +379,9 @@
 			isa = PBXGroup;
 			children = (
 				57E13D8D187B6A7F00B0BB57 /* Annotations */,
+				57E13DD9187B78DD00B0BB57 /* GasStationDetailViewController.h */,
+				57E13DDA187B78DD00B0BB57 /* GasStationDetailViewController.m */,
+				57E13DDB187B78DD00B0BB57 /* GasStationDetailViewController.xib */,
 				57C8DAC91873300C00DE6E34 /* MainViewController.h */,
 				57C8DACA1873300C00DE6E34 /* MainViewController.m */,
 				57C8DACB1873300C00DE6E34 /* MainViewController.xib */,
@@ -693,6 +701,7 @@
 				57C8DAC11873285500DE6E34 /* Icon@2x.png in Resources */,
 				57E13DC0187B75F000B0BB57 /* map_annotation_bp_yellow@2x.png in Resources */,
 				57C8DAE1187335AF00DE6E34 /* main_settings_ic@2x.png in Resources */,
+				57E13DDD187B78DD00B0BB57 /* GasStationDetailViewController.xib in Resources */,
 				57E13DC7187B75F000B0BB57 /* map_annotation_carrefour_green.png in Resources */,
 				57E13DB6187B75F000B0BB57 /* map_annotation_alcampo_green@2x.png in Resources */,
 				57E13DC2187B75F000B0BB57 /* map_annotation_campsa_green@2x.png in Resources */,
@@ -812,6 +821,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E13DDC187B78DD00B0BB57 /* GasStationDetailViewController.m in Sources */,
 				57E13D77187B678800B0BB57 /* NearGasStationsResponseDAO.m in Sources */,
 				57E13D73187B678800B0BB57 /* GetNearGasStationsTask.m in Sources */,
 				57E13D7A187B678800B0BB57 /* NearGasStationsRequestDTO.m in Sources */,
