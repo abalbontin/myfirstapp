@@ -352,7 +352,7 @@
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control {
     
-    if ([control isKindOfClass:[UIButton class]] && [(UIButton *)control buttonType] == UIButtonTypeDetailDisclosure) {
+    if (control == view.rightCalloutAccessoryView) {
     
         GasStationDetailViewController *gasStationDetailViewController = [[GasStationDetailViewController alloc]
                                                                           initWithNibName:@"GasStationDetailViewController"
