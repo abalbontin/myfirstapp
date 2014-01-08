@@ -79,8 +79,9 @@
 // por el usuario en ajustes.
 - (NSArray *)processedGasStations:(NSArray *)gasStations {
     
-    CGFloat maxPrice = 0.0;
-    CGFloat minPrice = DBL_MAX;
+    // Orgenamos las gasolineras por precio y las dividimos entre precios bajos, medios y altos con la proporcion 30%, 40% 30%, de
+    // esta forma evitamos que una gasolinera que tenga un precio muy bajo o muy alto con respecto al resto de como resultado que hay
+    // pocas de un tipo.
     NSString *userGasID = [[[SettingsLogic sharedInstance] userGasolineSelected] gasID];
     
     for (GasStationPlusDTO *gasStationPlusDTO in gasStations) {
@@ -88,22 +89,8 @@
         for (GasolinePriceDTO *gasolinePriceDTO in gasStationPlusDTO.gasolinesPrice) {
             
             if ([gasolinePriceDTO.gasID isEqualToString:userGasID]) {
-            
-                if (maxPrice < [gasolinePriceDTO.price doubleValue]) {
-                    
-                    maxPrice = [gasolinePriceDTO.price doubleValue];
-                    
-                }
-                
-                if (minPrice > [gasolinePriceDTO.price doubleValue]) {
-                    
-                    minPrice = [gasolinePriceDTO.price doubleValue];
-                    
-                }
                 
                 gasStationPlusDTO.currentGasPrice = [gasolinePriceDTO.price doubleValue];
-                
-                NSLog(@"Precio: %f", gasStationPlusDTO.currentGasPrice);
                 
             }
             
@@ -111,28 +98,46 @@
         
     }
     
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"currentGasPrice" ascending:YES];
+    gasStations = [gasStations sortedArrayUsingDescriptors:@[sortDescriptor]];
+    
+    NSUInteger idx = 0;
+    NSUInteger lowPriceLimit = gasStations.count * 0.3;
+    NSUInteger averagePriceLimit = gasStations.count * 0.7;
     for (GasStationPlusDTO *gasStationPlusDTO in gasStations) {
         
-        if (gasStationPlusDTO.currentGasPrice < minPrice + ((maxPrice - minPrice) * 1/3)) {
+        if (gasStationPlusDTO.currentGasPrice != 0.0) {
+
+            // TODO: abalbontin: Queda calcular que ocurre cuando el ultimo precio de una categoria es el mismo del primera de la siguiente
+            //                   categoria.
+            if (idx <= lowPriceLimit) {
+                
+                gasStationPlusDTO.priceType = GSPriceLow;
+                
+            } else if (idx <= averagePriceLimit) {
             
-            gasStationPlusDTO.priceType = GSPriceLow;
-            
-        } else if (gasStationPlusDTO.currentGasPrice < minPrice + ((maxPrice - minPrice) * 2/3)) {
-            
-            gasStationPlusDTO.priceType = GSPriceAverage;
-            
+                gasStationPlusDTO.priceType = GSPriceAverage;
+                
+            } else {
+                
+                gasStationPlusDTO.priceType = GSPriceHigh;
+                
+            }
+        
         } else {
             
-            gasStationPlusDTO.priceType = GSPriceHigh;
+            gasStationPlusDTO.priceType = GSPriceWithout;
             
         }
-        
+            
         gasStationPlusDTO.annotationImage = [self annotationImageForGasStation:gasStationPlusDTO];
-    
+        
+        idx++;
+        
     }
     
     // TODO: abalbontin: Test.
-    NSLog(@"MAX: %f MIN: %f. Green: %f, Yellow: %f", maxPrice, minPrice, minPrice + ((maxPrice - minPrice) * 1/3), minPrice + ((maxPrice - minPrice) * 2/3));
+//    NSLog(@"MAX: %f MIN: %f. Green: %f, Yellow: %f", maxPrice, minPrice, minPrice + ((maxPrice - minPrice) * 1/3), minPrice + ((maxPrice - minPrice) * 2/3));
     
     return gasStations;
     
@@ -140,6 +145,8 @@
 
 - (UIImage *)annotationImageForGasStation:(GasStationPlusDTO *)gasStationPlusDTO {
     
+    // TODO: abalbontin: Es necesario anyadir un tipo de imagen para cuando la gasolinera no tiene el tipo de gasolinea que el usuario
+    //                   ha indicado en ajustes.
     NSString *priceType;
     switch (gasStationPlusDTO.priceType) {
         case GSPriceLow:
