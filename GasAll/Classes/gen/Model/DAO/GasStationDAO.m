@@ -29,7 +29,7 @@
 {
 NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];	
 		
-			dict[@"id"] = instance.id;
+			dict[@"id"] = instance.gasStationID;
 			dict[@"name"] = instance.name;
 			dict[@"latitude"] = instance.latitude;
 			dict[@"longitude"] = instance.longitude;
@@ -63,11 +63,11 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
     if (dict[@"id"] && ![dict[@"id"] isKindOfClass:[NSNull class]]) {
 	if([dict[@"id"] isKindOfClass:[NSString class]])
 	{
-		instance.id=dict[@"id"];
+		instance.gasStationID=dict[@"id"];
 	}
 	else
 	{
-		instance.id=[NSString stringWithFormat:@"%@",dict[@"id"]];
+		instance.gasStationID=[NSString stringWithFormat:@"%@",dict[@"id"]];
 	}
         }
     if (dict[@"name"] && ![dict[@"name"] isKindOfClass:[NSNull class]]) {

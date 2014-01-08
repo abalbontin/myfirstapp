@@ -17,7 +17,7 @@
 
 	GasStationDTO *copy=[[[self class] alloc] init];
     if(copy) {
-		copy.id=[self.id copyWithZone:zone];
+		copy.gasStationID=[self.gasStationID copyWithZone:zone];
 		copy.name=[self.name copyWithZone:zone];
 		copy.gasolinePrice=[self.gasolinePrice copyWithZone:zone];
 		copy.latitude=[self.latitude copyWithZone:zone];
@@ -38,7 +38,7 @@
 
 	GasStationDTO *copy=[[[self class] alloc] init];
 	if(copy) {
-		copy.id=self.id;
+		copy.gasStationID=self.gasStationID;
 		copy.name=self.name;
 		copy.latitude=self.latitude;
 		copy.longitude=self.longitude;
@@ -61,7 +61,7 @@
         return nil;
     }
 	
-	self.id = [decoder decodeObjectForKey:@"id"];
+	self.gasStationID = [decoder decodeObjectForKey:@"gasStationID"];
 	self.name = [decoder decodeObjectForKey:@"name"];
 	self.gasolinePrice = [decoder decodeObjectForKey:@"gasolinePrice"];
 	self.latitude = [decoder decodeObjectForKey:@"latitude"];
@@ -78,7 +78,7 @@
 
 - (void)encodeWithCoder:(NSCoder *)encoder {
 	
-	[encoder encodeObject:self.id forKey:@"id"];
+	[encoder encodeObject:self.gasStationID forKey:@"gasStationID"];
 	[encoder encodeObject:self.name forKey:@"name"];
 	[encoder encodeObject:self.gasolinePrice forKey:@"gasolinePrice"];
 	[encoder encodeObject:self.latitude forKey:@"latitude"];
