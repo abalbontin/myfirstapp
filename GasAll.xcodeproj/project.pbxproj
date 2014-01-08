@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3037C3ED2B984A2BA4CAC4C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CA61998794140A0F68B11 /* libPods.a */; };
+		54F13976187D5C8100F3C0B2 /* GasStationPlusDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F13975187D5C8100F3C0B2 /* GasStationPlusDTO.m */; };
 		571CED361874270B004599C5 /* map_but_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CED341874270B004599C5 /* map_but_location.png */; };
 		571CED371874270B004599C5 /* map_but_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571CED351874270B004599C5 /* map_but_location@2x.png */; };
 		576CF4321873199A00B88508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576CF4311873199A00B88508 /* Foundation.framework */; };
@@ -114,6 +115,8 @@
 
 /* Begin PBXFileReference section */
 		4CE1620C84E9456C85C3C288 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		54F13974187D5C8100F3C0B2 /* GasStationPlusDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationPlusDTO.h; sourceTree = "<group>"; };
+		54F13975187D5C8100F3C0B2 /* GasStationPlusDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationPlusDTO.m; sourceTree = "<group>"; };
 		571CED341874270B004599C5 /* map_but_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_but_location.png; sourceTree = "<group>"; };
 		571CED351874270B004599C5 /* map_but_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_but_location@2x.png"; sourceTree = "<group>"; };
 		576CF42E1873199900B88508 /* GasAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -484,6 +487,8 @@
 			children = (
 				57E13D5E187B678800B0BB57 /* DAO */,
 				57E13D67187B678800B0BB57 /* DTO */,
+				54F13974187D5C8100F3C0B2 /* GasStationPlusDTO.h */,
+				54F13975187D5C8100F3C0B2 /* GasStationPlusDTO.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -831,6 +836,7 @@
 				57E13D79187B678800B0BB57 /* GasStationDTO.m in Sources */,
 				57E13D71187B678800B0BB57 /* GasAllHelper.m in Sources */,
 				57C8DACC1873300C00DE6E34 /* MainViewController.m in Sources */,
+				54F13976187D5C8100F3C0B2 /* GasStationPlusDTO.m in Sources */,
 				57E13D74187B678800B0BB57 /* GasolinePriceDAO.m in Sources */,
 				57E13D90187B6A7F00B0BB57 /* GasStationAnnotation.m in Sources */,
 				57E13D75187B678800B0BB57 /* GasStationDAO.m in Sources */,

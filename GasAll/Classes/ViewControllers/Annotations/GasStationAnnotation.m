@@ -12,20 +12,20 @@
 
 - (CLLocationCoordinate2D)coordinate {
     
-    return CLLocationCoordinate2DMake([self.gasStationDTO.latitude doubleValue], [self.gasStationDTO.longitude doubleValue]);
+    return CLLocationCoordinate2DMake([self.gasStationPlusDTO.latitude doubleValue], [self.gasStationPlusDTO.longitude doubleValue]);
     
 }
 
 - (NSString *)title {
 
-    return [self.gasStationDTO.name capitalizedString];
+    return [self.gasStationPlusDTO.name capitalizedString];
     
 }
 
 - (NSString *)subtitle {
     
     // TODO: abalbontin: Implement correct subtitle.
-    GasolinePriceDTO *gasolinePriceDTO = [self.gasStationDTO.gasolinePrice objectAtIndex:0];
+    GasolinePriceDTO *gasolinePriceDTO = [self.gasStationPlusDTO.gasolinePrice objectAtIndex:0];
     return [NSString stringWithFormat:@"Precio: %.3f", [gasolinePriceDTO.price doubleValue]];
     
 }

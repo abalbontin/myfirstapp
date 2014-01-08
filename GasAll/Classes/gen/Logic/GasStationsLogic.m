@@ -13,7 +13,7 @@
 #import "BaseGasStationsLogic.h"
 #import "NearGasStationsRequestDTO.h"
 #import "NearGasStationsResponseDTO.h"
-
+#import "GetNearGasStationsTask.h"
 
 @implementation GasStationsLogic
 
@@ -26,6 +26,44 @@
     
     dispatch_once(&onceQueue, ^{ instance = [[self alloc] init]; });
     return instance;
+}
+
+- (void)getNearGasStationsProcessedFromCoordinate:(CLLocationCoordinate2D)coordinate
+                                        completed:(void(^)(NSArray *gasStations))completedBlock
+                                            error:(void(^)(NSError *error))errorBlock {
+    
+    NearGasStationsRequestDTO *nearGasStationsRequestDTO = [[NearGasStationsRequestDTO alloc] init];
+    nearGasStationsRequestDTO.latitude = [NSNumber numberWithDouble:coordinate.latitude];
+    nearGasStationsRequestDTO.longitude = [NSNumber numberWithDouble:coordinate.longitude];
+    [GetNearGasStationsTask getNearGasStationsTaskForRequest:nearGasStationsRequestDTO
+                                                   completed:^(NSInteger statusCode, NearGasStationsResponseDTO *response) {
+                                                       
+                                                       if (completedBlock) {
+                                                           
+                                                           completedBlock([self processedGasStations:response.gasStations]);
+                                                           
+                                                       }
+                                                       
+                                                   } error:^(NSError *error) {
+                                                       
+                                                       if (errorBlock) {
+                                                           
+                                                           errorBlock(error);
+                                                           
+                                                       }
+                                                       
+                                                   }];
+    
+}
+
+// Metodo que asigna precio y color del annotation a las GasStationDTO que se le pasa como parametro.
+// Devuelve un array de GasStationPlusDTO con los nuevos valores calculados.
+- (NSArray *)processedGasStations:(NSArray *)gasStations {
+    
+    // TODO: abalbontin: Implement.
+    
+    return gasStations;
+    
 }
 
 @end

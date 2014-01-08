@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
-#import "GasStationDTO.h"
+#import "GasStationPlusDTO.h"
 
 @interface GasStationAnnotation : NSObject <MKAnnotation>
 
-@property(strong, nonatomic) GasStationDTO *gasStationDTO;
+@property(strong, nonatomic) GasStationPlusDTO *gasStationPlusDTO;
 
 @end

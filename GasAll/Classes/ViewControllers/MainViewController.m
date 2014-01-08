@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import <MapKit/MapKit.h>
-#import "GetNearGasStationsTask.h"
+#import "GasStationsLogic.h"
 #import "LocalizableConstants.h"
 #import "GasStationAnnotation.h"
 #import "SettingsLogic.h"
@@ -49,7 +49,7 @@
 - (void)searchGasolinesNearUser;
 - (void)setUserLocationRegion;
 - (void)loadPOIsNearGasStations;
-- (UIImage *)annotationImageForGasStation:(GasStationDTO *)gasStationDTO;
+- (UIImage *)annotationImageForGasStation:(GasStationPlusDTO *)gasStationPlusDTO; // TODO: abalbontin: Refactorizar con GasStationPlusDTO.
 
 @end
 
@@ -250,13 +250,13 @@
     [self.mapView removeAnnotations:self.currentAnnotations];
     
     [self.currentAnnotations removeAllObjects];
-    for (GasStationDTO *gasStationDTO in self.gasStations) {
+    for (GasStationPlusDTO *gasStationPlusDTO in self.gasStations) {
         
-        if (gasStationDTO.latitude != nil && gasStationDTO.longitude != nil &&
-            ([gasStationDTO.latitude doubleValue] != 0.0 && [gasStationDTO.longitude doubleValue] != 0.0)) {
+        if (gasStationPlusDTO.latitude != nil && gasStationPlusDTO.longitude != nil &&
+            ([gasStationPlusDTO.latitude doubleValue] != 0.0 && [gasStationPlusDTO.longitude doubleValue] != 0.0)) {
             
             GasStationAnnotation *annotation = [[GasStationAnnotation alloc] init];
-            annotation.gasStationDTO = gasStationDTO;
+            annotation.gasStationPlusDTO = gasStationPlusDTO;
             [self.currentAnnotations addObject:annotation];
             
         }
@@ -267,11 +267,11 @@
     
 }
 
-- (UIImage *)annotationImageForGasStation:(GasStationDTO *)gasStationDTO {
+- (UIImage *)annotationImageForGasStation:(GasStationPlusDTO *)gasStationPlusDTO {
     
     // TODO: abalbontin: Hay que ver cuando devolver los colores verde, amarillo o rojo. Por ahora devuelve el verde.
     UIImage *annotationImage = [UIImage imageNamed:[NSString stringWithFormat:@"map_annotation_%@_green",
-                                                    [gasStationDTO.name lowercaseString]]];
+                                                    [gasStationPlusDTO.name lowercaseString]]];
     
     if (annotationImage == nil) {
         
@@ -291,28 +291,25 @@
      
         self.firstUserLocation = NO;
         
-        NearGasStationsRequestDTO *nearGasStationsRequestDTO = [[NearGasStationsRequestDTO alloc] init];
-        nearGasStationsRequestDTO.latitude = [NSNumber numberWithDouble:mapView.userLocation.coordinate.latitude];
-        nearGasStationsRequestDTO.longitude = [NSNumber numberWithDouble:mapView.userLocation.coordinate.longitude];
-        [GetNearGasStationsTask getNearGasStationsTaskForRequest:nearGasStationsRequestDTO
-                                                       completed:^(NSInteger statusCode, NearGasStationsResponseDTO *response) {
-                                                           
-                                                           self.gasStations = response.gasStations;
-                                                           
-                                                           [self loadPOIsNearGasStations];
-                                                           
-                                                       } error:^(NSError *error) {
-        
-                                                           self.firstUserLocation = YES;
-                                                           
-                                                           UIAlertView *alert = [[UIAlertView alloc] initWithTitle:kLocaleWarning
-                                                                                                           message:kLocaleGetNearGasStationsError
-                                                                                                          delegate:self
-                                                                                                 cancelButtonTitle:kLocaleAccept
-                                                                                                 otherButtonTitles:nil];
-                                                           [alert show];
-                                                           
-                                                       }];
+        [[GasStationsLogic sharedInstance] getNearGasStationsProcessedFromCoordinate:mapView.userLocation.coordinate
+                                            completed:^(NSArray *gasStations) {
+
+                                                self.gasStations = gasStations;
+                                                
+                                                [self loadPOIsNearGasStations];
+                                                
+                                            } error:^(NSError *error) {
+                                                
+                                                self.firstUserLocation = YES;
+                                                
+                                                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:kLocaleWarning
+                                                                                                message:kLocaleGetNearGasStationsError
+                                                                                               delegate:self
+                                                                                      cancelButtonTitle:kLocaleAccept
+                                                                                      otherButtonTitles:nil];
+                                                [alert show];
+                                                
+                                            }];
         
         [self setUserLocationRegion];
         
@@ -331,7 +328,7 @@
             
 			annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             annotationView.canShowCallout = YES;
-			annotationView.image = [self annotationImageForGasStation:[(GasStationAnnotation *)annotation gasStationDTO]];
+			annotationView.image = [self annotationImageForGasStation:[(GasStationAnnotation *)annotation gasStationPlusDTO]];
             annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             
 		} else {
