@@ -110,7 +110,7 @@
             break;
     }
     
-    [self.delegate updateMapType:mapType];
+    [self.delegate settingsViewDidChangeMapType:mapType];
     
     [[SettingsLogic sharedInstance] setMapType:mapType];
     
@@ -158,7 +158,7 @@
         
         [[SettingsLogic sharedInstance] setUserGasolineSelected:gasolineDTO];
         
-        [self.delegate updateGasoline:gasolineDTO];
+        [self.delegate settingsViewDidChangeGasoline:gasolineDTO];
         
     }
     

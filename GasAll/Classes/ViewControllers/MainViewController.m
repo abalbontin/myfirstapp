@@ -367,13 +367,13 @@
 
 #pragma mark - SettingsViewControllerDelegate methods
 
-- (void)updateMapType:(MKMapType)mapType {
+- (void)settingsViewDidChangeMapType:(MKMapType)mapType {
     
     self.mapView.mapType = mapType;
     
 }
 
-- (void)updateGasoline:(GasolineDTO *)gasolineDTO {
+- (void)settingsViewDidChangeGasoline:(GasolineDTO *)gasolineDTO {
     
     // TODO: abalbontin: Con las gasolineras que ya tenemos, recalcular las mejores segun precio, colores de POIs, etc y actualziar el mapa.
     NSLog(@"TEST Gasoline: %@", gasolineDTO.gasID);

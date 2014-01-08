@@ -20,7 +20,7 @@
 
 @protocol SettingsViewControllerDelegate <NSObject>
 
-- (void)updateMapType:(MKMapType)mapType;
-- (void)updateGasoline:(GasolineDTO *)gasolineDTO;
+- (void)settingsViewDidChangeMapType:(MKMapType)mapType;
+- (void)settingsViewDidChangeGasoline:(GasolineDTO *)gasolineDTO;
 
 @end
