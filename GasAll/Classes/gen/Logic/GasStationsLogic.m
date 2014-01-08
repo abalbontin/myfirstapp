@@ -104,25 +104,25 @@
     NSUInteger idx = 0;
     NSUInteger lowPriceLimit = gasStations.count * 0.3;
     NSUInteger averagePriceLimit = gasStations.count * 0.7;
+    GSPriceType currentPriceType = GSPriceLow;
+    CGFloat lastPrice = DBL_MAX;
     for (GasStationPlusDTO *gasStationPlusDTO in gasStations) {
+        
+        // Nos aseguramos que un mismo precio siempre se mantenga en el rango que le corresponde (bajo, medio o alto) aunque esto haga
+        // que varie la proporcion 30%, 40%, 30%.
+        if (currentPriceType == GSPriceLow && idx > lowPriceLimit && lastPrice != gasStationPlusDTO.currentGasPrice) {
+            
+            currentPriceType = GSPriceAverage;
+            
+        } else if (currentPriceType == GSPriceAverage && idx > averagePriceLimit && lastPrice != gasStationPlusDTO.currentGasPrice) {
+            
+            currentPriceType = GSPriceHigh;
+            
+        }
         
         if (gasStationPlusDTO.currentGasPrice != 0.0) {
 
-            // TODO: abalbontin: Queda calcular que ocurre cuando el ultimo precio de una categoria es el mismo del primera de la siguiente
-            //                   categoria.
-            if (idx <= lowPriceLimit) {
-                
-                gasStationPlusDTO.priceType = GSPriceLow;
-                
-            } else if (idx <= averagePriceLimit) {
-            
-                gasStationPlusDTO.priceType = GSPriceAverage;
-                
-            } else {
-                
-                gasStationPlusDTO.priceType = GSPriceHigh;
-                
-            }
+            gasStationPlusDTO.priceType = currentPriceType;
         
         } else {
             
@@ -132,12 +132,10 @@
             
         gasStationPlusDTO.annotationImage = [self annotationImageForGasStation:gasStationPlusDTO];
         
+        lastPrice = gasStationPlusDTO.currentGasPrice;
         idx++;
         
     }
-    
-    // TODO: abalbontin: Test.
-//    NSLog(@"MAX: %f MIN: %f. Green: %f, Yellow: %f", maxPrice, minPrice, minPrice + ((maxPrice - minPrice) * 1/3), minPrice + ((maxPrice - minPrice) * 2/3));
     
     return gasStations;
     
