@@ -22,8 +22,8 @@
                                         completed:(void(^)(NSArray *gasStations))completedBlock
                                             error:(void(^)(NSError *error))errorBlock;
 
-// Metodo que asigna precio y color del annotation a las GasStationDTO que se le pasa como parametro.
-// Devuelve un array de GasStationPlusDTO con los nuevos valores calculados.
+// Metodo que asigna a cada GasStationPlusDTO que se pasa como parametro los valores extras correspondiente segun la gasolinea seleccionada
+// por el usuario en ajustes.
 - (NSArray *)processedGasStations:(NSArray *)gasStations;
 
 @end
