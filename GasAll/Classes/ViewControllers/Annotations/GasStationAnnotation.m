@@ -7,6 +7,8 @@
 //
 
 #import "GasStationAnnotation.h"
+#import "LocalizableConstants.h"
+#import "SettingsLogic.h"
 
 @implementation GasStationAnnotation
 
@@ -24,9 +26,16 @@
 
 - (NSString *)subtitle {
     
-    // TODO: abalbontin: Implement correct subtitle.
-    GasolinePriceDTO *gasolinePriceDTO = [self.gasStationPlusDTO.gasolinesPrice objectAtIndex:0];
-    return [NSString stringWithFormat:@"Precio: %.3f", [gasolinePriceDTO.price doubleValue]];
+    
+    if (self.gasStationPlusDTO.currentGasPrice == 0.0) {
+        
+        return [NSString stringWithFormat:@"%@ %@", kLocaleWithout, [[[SettingsLogic sharedInstance] userGasolineSelected] name]];
+        
+    } else {
+    
+        return [NSString stringWithFormat:@"%.3f %@", self.gasStationPlusDTO.currentGasPrice, kLocaleGasolineMeasuredValue];
+        
+    }
     
 }
 
