@@ -42,13 +42,13 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 		
 	
 
-	NSMutableArray *arraygasolinePrice=[[NSMutableArray alloc]init];
-	for(GasolinePriceDTO *typeItem in instance.gasolinePrice)
+	NSMutableArray *arraygasolinesPrice=[[NSMutableArray alloc]init];
+	for(GasolinePriceDTO *typeItem in instance.gasolinesPrice)
 	{
-		NSDictionary *dictgasolinePrice=[[GasolinePriceDAO sharedInstance] writeToDictionary:typeItem];
-		[arraygasolinePrice addObject:dictgasolinePrice];
+		NSDictionary *dictgasolinesPrice=[[GasolinePriceDAO sharedInstance] writeToDictionary:typeItem];
+		[arraygasolinesPrice addObject:dictgasolinesPrice];
 	}
-	dict[@"gasolinePrice"] = arraygasolinePrice;
+	dict[@"gasolinesPrice"] = arraygasolinesPrice;
 
 	return dict;
 }
@@ -58,7 +58,7 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 	GasStationDTO *instance=[[GasStationDTO alloc]init];
 	if(![dict isKindOfClass:[NSNull class]])
 	    {
-    instance.gasolinePrice=[[NSMutableArray alloc]init];
+    instance.gasolinesPrice=[[NSMutableArray alloc]init];
 
     if (dict[@"id"] && ![dict[@"id"] isKindOfClass:[NSNull class]]) {
 	if([dict[@"id"] isKindOfClass:[NSString class]])
@@ -135,29 +135,29 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 
   
 
-	NSDictionary *gasolinePriceItem = nil;
-	if(![dict[@"gasolinePrice"] isKindOfClass:[NSNull class]])
+	NSDictionary *gasolinesPriceItem = nil;
+	if(![dict[@"gasolinesPrice"] isKindOfClass:[NSNull class]])
 	{
-		gasolinePriceItem=dict[@"gasolinePrice"];
+		gasolinesPriceItem=dict[@"gasolinesPrice"];
 	}
 	
-	if([gasolinePriceItem isKindOfClass:[NSArray class]])
+	if([gasolinesPriceItem isKindOfClass:[NSArray class]])
 	{
-		NSArray *gasolinePriceArray=dict[@"gasolinePrice"];
-		NSMutableArray *gasolinePriceMutableArray=[[NSMutableArray alloc]init];
-		for(NSDictionary *data in gasolinePriceArray)
+		NSArray *gasolinesPriceArray=dict[@"gasolinesPrice"];
+		NSMutableArray *gasolinesPriceMutableArray=[[NSMutableArray alloc]init];
+		for(NSDictionary *data in gasolinesPriceArray)
 		{
 			GasolinePriceDTO *item=[[GasolinePriceDAO sharedInstance] readFromDictionary:data];
-			[gasolinePriceMutableArray addObject:item];
+			[gasolinesPriceMutableArray addObject:item];
 		}
-		instance.gasolinePrice=gasolinePriceMutableArray;
+		instance.gasolinesPrice=gasolinesPriceMutableArray;
 	}
-	else if (gasolinePriceItem)
+	else if (gasolinesPriceItem)
 	{
-		NSMutableArray *gasolinePriceMutableArray=[[NSMutableArray alloc]init];
-		GasolinePriceDTO *item=[[GasolinePriceDAO sharedInstance] readFromDictionary:gasolinePriceItem];
-		[gasolinePriceMutableArray addObject:item];
-		instance.gasolinePrice=gasolinePriceMutableArray;
+		NSMutableArray *gasolinesPriceMutableArray=[[NSMutableArray alloc]init];
+		GasolinePriceDTO *item=[[GasolinePriceDAO sharedInstance] readFromDictionary:gasolinesPriceItem];
+		[gasolinesPriceMutableArray addObject:item];
+		instance.gasolinesPrice=gasolinesPriceMutableArray;
 	}
 	}
 	return instance;

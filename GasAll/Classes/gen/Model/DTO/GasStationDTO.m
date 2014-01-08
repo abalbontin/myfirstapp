@@ -19,7 +19,7 @@
     if(copy) {
 		copy.gasStationID=[self.gasStationID copyWithZone:zone];
 		copy.name=[self.name copyWithZone:zone];
-		copy.gasolinePrice=[self.gasolinePrice copyWithZone:zone];
+		copy.gasolinesPrice=[self.gasolinesPrice copyWithZone:zone];
 		copy.latitude=[self.latitude copyWithZone:zone];
 		copy.longitude=[self.longitude copyWithZone:zone];
 		copy.distance=[self.distance copyWithZone:zone];
@@ -48,7 +48,7 @@
 		copy.promotionImage=self.promotionImage;
 		copy.promotionCode=self.promotionCode;
 		copy.promotionTextExtra=self.promotionTextExtra;
-		copy.gasolinePrice=[self.gasolinePrice mutableCopyWithZone:zone];
+		copy.gasolinesPrice=[self.gasolinesPrice mutableCopyWithZone:zone];
 	}
 	return copy;
 }
@@ -63,7 +63,7 @@
 	
 	self.gasStationID = [decoder decodeObjectForKey:@"gasStationID"];
 	self.name = [decoder decodeObjectForKey:@"name"];
-	self.gasolinePrice = [decoder decodeObjectForKey:@"gasolinePrice"];
+	self.gasolinesPrice = [decoder decodeObjectForKey:@"gasolinesPrice"];
 	self.latitude = [decoder decodeObjectForKey:@"latitude"];
 	self.longitude = [decoder decodeObjectForKey:@"longitude"];
 	self.distance = [decoder decodeObjectForKey:@"distance"];
@@ -80,7 +80,7 @@
 	
 	[encoder encodeObject:self.gasStationID forKey:@"gasStationID"];
 	[encoder encodeObject:self.name forKey:@"name"];
-	[encoder encodeObject:self.gasolinePrice forKey:@"gasolinePrice"];
+	[encoder encodeObject:self.gasolinesPrice forKey:@"gasolinesPrice"];
 	[encoder encodeObject:self.latitude forKey:@"latitude"];
 	[encoder encodeObject:self.longitude forKey:@"longitude"];
 	[encoder encodeObject:self.distance forKey:@"distance"];

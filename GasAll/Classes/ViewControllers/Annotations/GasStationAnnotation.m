@@ -25,7 +25,7 @@
 - (NSString *)subtitle {
     
     // TODO: abalbontin: Implement correct subtitle.
-    GasolinePriceDTO *gasolinePriceDTO = [self.gasStationPlusDTO.gasolinePrice objectAtIndex:0];
+    GasolinePriceDTO *gasolinePriceDTO = [self.gasStationPlusDTO.gasolinesPrice objectAtIndex:0];
     return [NSString stringWithFormat:@"Precio: %.3f", [gasolinePriceDTO.price doubleValue]];
     
 }

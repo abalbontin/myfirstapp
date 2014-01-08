@@ -16,7 +16,7 @@
 
 @property (nonatomic, strong) NSString *gasStationID;	///<  - Field name on service:id.
 @property (nonatomic, strong) NSString *name;	///<  - Field name on service:name.
-@property (nonatomic, strong) NSArray *gasolinePrice;	///<  - Field name on service:gasolinePrice.
+@property (nonatomic, strong) NSArray *gasolinesPrice;	///<  - Field name on service:gasolinesPrice.
 @property (nonatomic, strong) NSNumber *latitude;	///<  - Field name on service:latitude.
 @property (nonatomic, strong) NSNumber *longitude;	///<  - Field name on service:longitude.
 @property (nonatomic, strong) NSNumber *distance;	///<  - Field name on service:distance.
