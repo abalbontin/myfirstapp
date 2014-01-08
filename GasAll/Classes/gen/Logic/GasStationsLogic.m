@@ -17,8 +17,13 @@
 #import "SettingsLogic.h"
 #import "GasolinePriceDTO.h"
 
-@implementation GasStationsLogic
+@interface GasStationsLogic ()
 
+- (UIImage *)annotationImageForGasStation:(GasStationPlusDTO *)gasStationPlusDTO;
+
+@end
+
+@implementation GasStationsLogic
 
 // Get the shared instance and create it if necessary.
 + (GasStationsLogic *)sharedInstance {
@@ -74,8 +79,6 @@
 // por el usuario en ajustes.
 - (NSArray *)processedGasStations:(NSArray *)gasStations {
     
-    // TODO: abalbontin: Implement.
-    
     CGFloat maxPrice = 0.0;
     CGFloat minPrice = DBL_MAX;
     NSString *userGasID = [[[SettingsLogic sharedInstance] userGasolineSelected] gasID];
@@ -98,14 +101,70 @@
                     
                 }
                 
+                gasStationPlusDTO.currentGasPrice = [gasolinePriceDTO.price doubleValue];
+                
+                NSLog(@"Precio: %f", gasStationPlusDTO.currentGasPrice);
+                
             }
             
         }
+        
     }
     
-    NSLog(@"MAX: %f MIN: %f", maxPrice, minPrice);
+    for (GasStationPlusDTO *gasStationPlusDTO in gasStations) {
+        
+        if (gasStationPlusDTO.currentGasPrice < minPrice + ((maxPrice - minPrice) * 1/3)) {
+            
+            gasStationPlusDTO.priceType = GSPriceLow;
+            
+        } else if (gasStationPlusDTO.currentGasPrice < minPrice + ((maxPrice - minPrice) * 2/3)) {
+            
+            gasStationPlusDTO.priceType = GSPriceAverage;
+            
+        } else {
+            
+            gasStationPlusDTO.priceType = GSPriceHigh;
+            
+        }
+        
+        gasStationPlusDTO.annotationImage = [self annotationImageForGasStation:gasStationPlusDTO];
+    
+    }
+    
+    // TODO: abalbontin: Test.
+    NSLog(@"MAX: %f MIN: %f. Green: %f, Yellow: %f", maxPrice, minPrice, minPrice + ((maxPrice - minPrice) * 1/3), minPrice + ((maxPrice - minPrice) * 2/3));
     
     return gasStations;
+    
+}
+
+- (UIImage *)annotationImageForGasStation:(GasStationPlusDTO *)gasStationPlusDTO {
+    
+    NSString *priceType;
+    switch (gasStationPlusDTO.priceType) {
+        case GSPriceLow:
+            priceType = @"green";
+            break;
+            
+        case GSPriceAverage:
+            priceType = @"yellow";
+            break;
+            
+        default:
+            priceType = @"red";
+            break;
+    }
+    
+    UIImage *annotationImage = [UIImage imageNamed:[NSString stringWithFormat:@"map_annotation_%@_%@",
+                                                    [gasStationPlusDTO.name lowercaseString], priceType]];
+    
+    if (annotationImage == nil) {
+        
+        annotationImage = [UIImage imageNamed:[NSString stringWithFormat:@"map_annotation_generic_%@", priceType]];
+        
+    }
+    
+    return annotationImage;
     
 }
 

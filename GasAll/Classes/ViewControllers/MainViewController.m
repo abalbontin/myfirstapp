@@ -49,7 +49,6 @@
 - (void)searchGasolinesNearUser;
 - (void)setUserLocationRegion;
 - (void)loadPOIsNearGasStations;
-- (UIImage *)annotationImageForGasStation:(GasStationPlusDTO *)gasStationPlusDTO; // TODO: abalbontin: Refactorizar con GasStationPlusDTO.
 
 @end
 
@@ -267,22 +266,6 @@
     
 }
 
-- (UIImage *)annotationImageForGasStation:(GasStationPlusDTO *)gasStationPlusDTO {
-    
-    // TODO: abalbontin: Hay que ver cuando devolver los colores verde, amarillo o rojo. Por ahora devuelve el verde.
-    UIImage *annotationImage = [UIImage imageNamed:[NSString stringWithFormat:@"map_annotation_%@_green",
-                                                    [gasStationPlusDTO.name lowercaseString]]];
-    
-    if (annotationImage == nil) {
-        
-        annotationImage = [UIImage imageNamed:@"map_annotation_generic_green"];
-        
-    }
-    
-    return annotationImage;
-    
-}
-
 #pragma mark - MKMapViewDelegate methods
 
 -(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
@@ -328,7 +311,7 @@
             
 			annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
             annotationView.canShowCallout = YES;
-			annotationView.image = [self annotationImageForGasStation:[(GasStationAnnotation *)annotation gasStationPlusDTO]];
+			annotationView.image = [[(GasStationAnnotation *)annotation gasStationPlusDTO] annotationImage];
             annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
             
 		} else {

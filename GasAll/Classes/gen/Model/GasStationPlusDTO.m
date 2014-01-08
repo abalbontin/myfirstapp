@@ -29,6 +29,7 @@
         
         _priceType = GSPriceWithout;
         _annotationImage = nil;
+        _currentGasPrice = 0.0;
         
     }
     return self;

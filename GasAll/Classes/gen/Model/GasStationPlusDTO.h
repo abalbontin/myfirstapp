@@ -17,8 +17,9 @@ typedef NS_ENUM(NSUInteger, GSPriceType) {
 
 @interface GasStationPlusDTO : GasStationDTO
 
-@property (nonatomic) GSPriceType priceType;
-@property (strong, nonatomic) UIImage *annotationImage;
+@property (nonatomic) GSPriceType priceType;            // Indica si el precio es bajo, medio o alto.
+@property (strong, nonatomic) UIImage *annotationImage; // Imagen a usar para el annotation (con el logo y color del tipo de precio)
+@property (nonatomic) CGFloat currentGasPrice;          // Precio del tipo de gasolina seleccionado en ajustes. 0.0 si no tiene dicho tipo.
 
 - (id)initWithGasStationDTO:(GasStationDTO *)gasStationDTO;
 
