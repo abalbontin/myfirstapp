@@ -29,7 +29,7 @@
 {
 NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];	
 		
-			dict[@"id"] = instance.gasStationID;
+			dict[@"gasStationID"] = instance.gasStationID;
 			dict[@"name"] = instance.name;
 			dict[@"latitude"] = instance.latitude;
 			dict[@"longitude"] = instance.longitude;
@@ -60,14 +60,14 @@ NSMutableDictionary *dict=[[NSMutableDictionary alloc]init];
 	    {
     instance.gasolinesPrice=[[NSMutableArray alloc]init];
 
-    if (dict[@"id"] && ![dict[@"id"] isKindOfClass:[NSNull class]]) {
-	if([dict[@"id"] isKindOfClass:[NSString class]])
+    if (dict[@"gasStationID"] && ![dict[@"gasStationID"] isKindOfClass:[NSNull class]]) {
+	if([dict[@"gasStationID"] isKindOfClass:[NSString class]])
 	{
-		instance.gasStationID=dict[@"id"];
+		instance.gasStationID=dict[@"gasStationID"];
 	}
 	else
 	{
-		instance.gasStationID=[NSString stringWithFormat:@"%@",dict[@"id"]];
+		instance.gasStationID=[NSString stringWithFormat:@"%@",dict[@"gasStationID"]];
 	}
         }
     if (dict[@"name"] && ![dict[@"name"] isKindOfClass:[NSNull class]]) {

@@ -14,7 +14,7 @@
 @interface GasStationDTO : NSObject <NSCopying, NSMutableCopying, NSCoding>
 
 
-@property (nonatomic, strong) NSString *gasStationID;	///<  - Field name on service:id.
+@property (nonatomic, strong) NSString *gasStationID;	///<  - Field name on service:gasStationID.
 @property (nonatomic, strong) NSString *name;	///<  - Field name on service:name.
 @property (nonatomic, strong) NSArray *gasolinesPrice;	///<  - Field name on service:gasolinesPrice.
 @property (nonatomic, strong) NSNumber *latitude;	///<  - Field name on service:latitude.
