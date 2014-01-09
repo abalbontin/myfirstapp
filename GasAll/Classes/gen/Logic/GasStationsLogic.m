@@ -86,13 +86,22 @@
     
     for (GasStationPlusDTO *gasStationPlusDTO in gasStations) {
         
+        BOOL foundGasoline = NO;
+        
         for (GasolinePriceDTO *gasolinePriceDTO in gasStationPlusDTO.gasolinesPrice) {
             
             if ([gasolinePriceDTO.gasID isEqualToString:userGasID]) {
                 
                 gasStationPlusDTO.currentGasPrice = [gasolinePriceDTO.price doubleValue];
+                foundGasoline = YES;
                 
             }
+            
+        }
+        
+        if (!foundGasoline) {
+            
+            gasStationPlusDTO.currentGasPrice = 0.0;
             
         }
         
