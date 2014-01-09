@@ -201,7 +201,7 @@
     settingsViewController.delegate = self;
     
     // This viewController will be visible on Modal presentation.
-    self.modalPresentationStyle = UIModalPresentationCurrentContext;
+    self.navigationController.modalPresentationStyle = UIModalPresentationCurrentContext;
     
     [self presentViewController:settingsViewController animated:YES completion:^{ }];
     
